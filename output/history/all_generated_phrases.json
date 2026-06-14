@@ -1,0 +1,40 @@
+{
+  "phrases": [
+    {
+      "english": "Learn Vietnamese, for travel.",
+      "vietnamese": "Học tiếng Việt, để du lịch.",
+      "transliteration": "Hoc tieng Viet, de du lich.",
+      "category": "Purpose",
+      "generated_at": "2026-06-14T21:47:42.613455"
+    },
+    {
+      "english": "Speak Vietnamese, to connect.",
+      "vietnamese": "Nói tiếng Việt, để kết nối.",
+      "transliteration": "Noi tieng Viet, de ket noi.",
+      "category": "Purpose",
+      "generated_at": "2026-06-14T21:47:42.613463"
+    },
+    {
+      "english": "Understand Vietnamese, for culture.",
+      "vietnamese": "Hiểu tiếng Việt, vì văn hóa.",
+      "transliteration": "Hieu tieng Viet, vi van hoa.",
+      "category": "Purpose",
+      "generated_at": "2026-06-14T21:47:42.613465"
+    },
+    {
+      "english": "Study Vietnamese, for work.",
+      "vietnamese": "Học tiếng Việt, cho công việc.",
+      "transliteration": "Hoc tieng Viet, cho cong viec.",
+      "category": "Purpose",
+      "generated_at": "2026-06-14T21:47:42.613466"
+    },
+    {
+      "english": "Practice Vietnamese, to improve.",
+      "vietnamese": "Luyện tiếng Việt, để tiến bộ.",
+      "transliteration": "Luyen tieng Viet, de tien bo.",
+      "category": "Purpose",
+      "generated_at": "2026-06-14T21:47:42.613467"
+    }
+  ],
+  "last_updated": "2026-06-14T21:47:42.613469"
+}
