@@ -371,14 +371,14 @@ def generate_all_audio(phrases: list, output_dir: str):
         en_duration = get_audio_duration(str(english_file))
         nat_duration = get_audio_duration(str(native_file))
         pause_between = 0.5
-        total_duration = nat_duration + pause_between + en_duration
+        total_duration = en_duration + pause_between + nat_duration
 
         print(f"    Total: {total_duration:.2f}s (EN: {en_duration:.2f}s + pause: {pause_between}s + VI: {nat_duration:.2f}s)")
 
         cmd = [
             "ffmpeg", "-y",
-            "-i", str(native_file),
             "-i", str(english_file),
+            "-i", str(native_file),
             "-filter_complex", "[0:a][1:a]concat=n=2:v=0:a=1[out]",
             "-map", "[out]",
             str(combined_file)
@@ -388,8 +388,8 @@ def generate_all_audio(phrases: list, output_dir: str):
         if result.returncode != 0:
             concat_file = output_dir / f"concat_{i}.txt"
             with open(concat_file, "w", encoding="utf-8") as f:
-                f.write(f"file '{native_file.as_posix()}'\n")
                 f.write(f"file '{english_file.as_posix()}'\n")
+                f.write(f"file '{native_file.as_posix()}'\n")
             cmd = [
                 "ffmpeg", "-y",
                 "-f", "concat", "-safe", "0",
@@ -1439,29 +1439,29 @@ def generate_complete_image(phrase_data: dict, category_english: str, output_pat
 
     cy += gap_cat_nat
 
-    # Native phrase (big, prominent)
-    nat_margin = 50
-    rounded_rect(draw, (nat_margin, cy, VIDEO_WIDTH - nat_margin, cy + nat_box_h), 28,
-                 fill=(139, 0, 0, 220))
-    for i, line in enumerate(nat_lines):
-        ly = cy + nat_box_pad + i * nat_lh + nat_lh // 2
-        draw.text((VIDEO_WIDTH // 2, ly), line,
-                  fill=(255, 255, 200), font=nat_font, anchor="mm",
-                  stroke_width=3, stroke_fill=(60, 0, 0))
-
-    cy += nat_box_h + gap_nat_en
-
-    # English phrase
-    en_margin = 70
-    rounded_rect(draw, (en_margin, cy, VIDEO_WIDTH - en_margin, cy + en_box_h), 24,
+    # English phrase (top)
+    en_margin = 50
+    rounded_rect(draw, (en_margin, cy, VIDEO_WIDTH - en_margin, cy + en_box_h), 28,
                  fill=(20, 40, 100, 220))
     for i, line in enumerate(en_lines):
         ly = cy + en_box_pad + i * en_lh + en_lh // 2
         draw.text((VIDEO_WIDTH // 2, ly), line,
                   fill=(255, 255, 255), font=font_english, anchor="mm",
-                  stroke_width=2, stroke_fill=(0, 0, 40))
+                  stroke_width=3, stroke_fill=(0, 0, 40))
 
-    cy += en_box_h + gap_en_trans
+    cy += en_box_h + gap_nat_en
+
+    # Vietnamese phrase (below English)
+    nat_margin = 70
+    rounded_rect(draw, (nat_margin, cy, VIDEO_WIDTH - nat_margin, cy + nat_box_h), 24,
+                 fill=(139, 0, 0, 220))
+    for i, line in enumerate(nat_lines):
+        ly = cy + nat_box_pad + i * nat_lh + nat_lh // 2
+        draw.text((VIDEO_WIDTH // 2, ly), line,
+                  fill=(255, 255, 200), font=nat_font, anchor="mm",
+                  stroke_width=2, stroke_fill=(60, 0, 0))
+
+    cy += nat_box_h + gap_en_trans
 
     # Transliteration
     if trans_lines:
