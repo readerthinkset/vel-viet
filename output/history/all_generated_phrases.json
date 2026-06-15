@@ -174,7 +174,42 @@
       "transliteration": "Dam thu suc, dung bo cuoc.",
       "category": "Courage",
       "generated_at": "2026-06-15T20:26:53.434850"
+    },
+    {
+      "english": "How much is this, please?",
+      "vietnamese": "Cái này, bao nhiêu tiền?",
+      "transliteration": "Kai nai, bao nyew tyen?",
+      "category": "Shopping",
+      "generated_at": "2026-06-15T22:08:40.796920"
+    },
+    {
+      "english": "Can I try this, on?",
+      "vietnamese": "Tôi, có thể thử cái này không?",
+      "transliteration": "Toy, co the thoo kai nai khong?",
+      "category": "Shopping",
+      "generated_at": "2026-06-15T22:08:40.796928"
+    },
+    {
+      "english": "I'm just looking, thanks.",
+      "vietnamese": "Tôi, chỉ xem thôi, cảm ơn.",
+      "transliteration": "Toy, chi xem thoy, kam un.",
+      "category": "Shopping",
+      "generated_at": "2026-06-15T22:08:40.796930"
+    },
+    {
+      "english": "Do you have, other colors?",
+      "vietnamese": "Bạn có, màu khác không?",
+      "transliteration": "Ban co, mow kak khong?",
+      "category": "Shopping",
+      "generated_at": "2026-06-15T22:08:40.796931"
+    },
+    {
+      "english": "Where is the fitting room?",
+      "vietnamese": "Phòng thử đồ, ở đâu ạ?",
+      "transliteration": "Fong thoo doh, uh dow ah?",
+      "category": "Shopping",
+      "generated_at": "2026-06-15T22:08:40.796932"
     }
   ],
-  "last_updated": "2026-06-15T20:26:53.434852"
+  "last_updated": "2026-06-15T22:08:40.796934"
 }
