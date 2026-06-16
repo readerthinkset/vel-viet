@@ -209,7 +209,42 @@
       "transliteration": "Fong thoo doh, uh dow ah?",
       "category": "Shopping",
       "generated_at": "2026-06-15T22:08:40.796932"
+    },
+    {
+      "english": "Now, let's go.",
+      "vietnamese": "Bây giờ, đi thôi.",
+      "transliteration": "Bay zow, dee toy.",
+      "category": "Time",
+      "generated_at": "2026-06-16T04:24:12.052176"
+    },
+    {
+      "english": "Tomorrow, maybe.",
+      "vietnamese": "Ngày mai, có thể.",
+      "transliteration": "N'gai my, co tay.",
+      "category": "Time",
+      "generated_at": "2026-06-16T04:24:12.052188"
+    },
+    {
+      "english": "Later, perhaps.",
+      "vietnamese": "Lát nữa, xem sao.",
+      "transliteration": "Laht nuh, sem sow.",
+      "category": "Time",
+      "generated_at": "2026-06-16T04:24:12.052190"
+    },
+    {
+      "english": "In the morning.",
+      "vietnamese": "Vào buổi sáng.",
+      "transliteration": "Vow bwoy sang.",
+      "category": "Time",
+      "generated_at": "2026-06-16T04:24:12.052191"
+    },
+    {
+      "english": "In the evening.",
+      "vietnamese": "Vào buổi tối.",
+      "transliteration": "Vow bwoy toy.",
+      "category": "Time",
+      "generated_at": "2026-06-16T04:24:12.052193"
     }
   ],
-  "last_updated": "2026-06-15T22:08:40.796934"
+  "last_updated": "2026-06-16T04:24:12.052195"
 }
