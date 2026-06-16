@@ -244,7 +244,42 @@
       "transliteration": "Vow bwoy toy.",
       "category": "Time",
       "generated_at": "2026-06-16T04:24:12.052193"
+    },
+    {
+      "english": "Hello there, nice to meet you.",
+      "vietnamese": "Xin chào, rất vui được gặp bạn.",
+      "transliteration": "sin chow, zet vuy duoc gap ban",
+      "category": "Greetings",
+      "generated_at": "2026-06-16T17:10:36.670997"
+    },
+    {
+      "english": "Good morning, how are you?",
+      "vietnamese": "Chào buổi sáng, bạn khỏe không?",
+      "transliteration": "chow booy sang, ban kway khom?",
+      "category": "Greetings",
+      "generated_at": "2026-06-16T17:10:36.671008"
+    },
+    {
+      "english": "Hi, what's your name?",
+      "vietnamese": "Chào bạn, tên bạn là gì?",
+      "transliteration": "chow ban, ten ban la zee?",
+      "category": "Greetings",
+      "generated_at": "2026-06-16T17:10:36.671010"
+    },
+    {
+      "english": "Hello, have a good day.",
+      "vietnamese": "Xin chào, chúc một ngày tốt lành.",
+      "transliteration": "sin chow, chook mot ngai toht lahng",
+      "category": "Greetings",
+      "generated_at": "2026-06-16T17:10:36.671011"
+    },
+    {
+      "english": "Hey, see you later.",
+      "vietnamese": "Chào, hẹn gặp lại nhé.",
+      "transliteration": "chow, hen gap lai nyeh",
+      "category": "Greetings",
+      "generated_at": "2026-06-16T17:10:36.671013"
     }
   ],
-  "last_updated": "2026-06-16T04:24:12.052195"
+  "last_updated": "2026-06-16T17:10:36.671014"
 }
