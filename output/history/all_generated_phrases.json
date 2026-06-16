@@ -314,7 +314,42 @@
       "transliteration": "Dung so hai, hay thu.",
       "category": "Growth",
       "generated_at": "2026-06-16T18:28:41.020097"
+    },
+    {
+      "english": "Tomorrow is a new chance.",
+      "vietnamese": "Ngày mai, một cơ hội mới.",
+      "transliteration": "Ngai mai, mot cơ hội mới.",
+      "category": "Hope",
+      "generated_at": "2026-06-16T20:12:13.503820"
+    },
+    {
+      "english": "Keep pushing forward, gently.",
+      "vietnamese": "Tiếp tục tiến lên, nhẹ nhàng.",
+      "transliteration": "Tiếp tục tiến lên, nhẹ nhàng.",
+      "category": "Hope",
+      "generated_at": "2026-06-16T20:12:13.503829"
+    },
+    {
+      "english": "Small steps, big dreams.",
+      "vietnamese": "Bước nhỏ, ước mơ lớn.",
+      "transliteration": "Bước nhỏ, ước mơ lớn.",
+      "category": "Hope",
+      "generated_at": "2026-06-16T20:12:13.503831"
+    },
+    {
+      "english": "You can do this, I know.",
+      "vietnamese": "Bạn làm được, tôi biết.",
+      "transliteration": "Bản làm được, tôi biết.",
+      "category": "Hope",
+      "generated_at": "2026-06-16T20:12:13.503832"
+    },
+    {
+      "english": "Brighter days are coming.",
+      "vietnamese": "Ngày tươi sáng đang tới.",
+      "transliteration": "Ngai tươi sáng đang tới.",
+      "category": "Hope",
+      "generated_at": "2026-06-16T20:12:13.503834"
     }
   ],
-  "last_updated": "2026-06-16T18:28:41.020101"
+  "last_updated": "2026-06-16T20:12:13.503835"
 }
