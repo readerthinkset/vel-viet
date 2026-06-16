@@ -279,7 +279,42 @@
       "transliteration": "chow, hen gap lai nyeh",
       "category": "Greetings",
       "generated_at": "2026-06-16T17:10:36.671013"
+    },
+    {
+      "english": "Learn a little, every day.",
+      "vietnamese": "Học một chút, mỗi ngày.",
+      "transliteration": "Hoc mot chut, moi ngay.",
+      "category": "Growth",
+      "generated_at": "2026-06-16T18:28:41.020082"
+    },
+    {
+      "english": "Mistakes are teachers, too.",
+      "vietnamese": "Sai lầm cũng là thầy.",
+      "transliteration": "Sai lam cung la thay.",
+      "category": "Growth",
+      "generated_at": "2026-06-16T18:28:41.020093"
+    },
+    {
+      "english": "Speak slowly, listen well.",
+      "vietnamese": "Nói chậm thôi, nghe kỹ.",
+      "transliteration": "Noi cham thoi, nghe ky.",
+      "category": "Growth",
+      "generated_at": "2026-06-16T18:28:41.020095"
+    },
+    {
+      "english": "Practice makes progress.",
+      "vietnamese": "Luyện tập giúp tiến bộ.",
+      "transliteration": "Luyen tap giup tien bo.",
+      "category": "Growth",
+      "generated_at": "2026-06-16T18:28:41.020096"
+    },
+    {
+      "english": "Don't be afraid, try.",
+      "vietnamese": "Đừng sợ hãi, hãy thử.",
+      "transliteration": "Dung so hai, hay thu.",
+      "category": "Growth",
+      "generated_at": "2026-06-16T18:28:41.020097"
     }
   ],
-  "last_updated": "2026-06-16T17:10:36.671014"
+  "last_updated": "2026-06-16T18:28:41.020101"
 }
