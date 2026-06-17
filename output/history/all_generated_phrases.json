@@ -524,7 +524,42 @@
       "transliteration": "Nam, ngon tay, tren mot ban tay.",
       "category": "Numbers",
       "generated_at": "2026-06-17T19:22:09.273219"
+    },
+    {
+      "english": "My dad, he's very kind.",
+      "vietnamese": "Ba tôi, ông rất tốt.",
+      "transliteration": "Ba toi, ong rat tot.",
+      "category": "Family Terms",
+      "generated_at": "2026-06-17T22:17:36.653202"
+    },
+    {
+      "english": "My mom, she cooks well.",
+      "vietnamese": "Mẹ tôi, bà nấu ăn ngon.",
+      "transliteration": "Me toi, ba nau an ngon.",
+      "category": "Family Terms",
+      "generated_at": "2026-06-17T22:17:36.653212"
+    },
+    {
+      "english": "My older brother, he's helpful.",
+      "vietnamese": "Anh trai tôi, anh ấy giúp đỡ.",
+      "transliteration": "Anh trai toi, anh ay giup do.",
+      "category": "Family Terms",
+      "generated_at": "2026-06-17T22:17:36.653214"
+    },
+    {
+      "english": "My older sister, she sings nicely.",
+      "vietnamese": "Chị gái tôi, chị hát hay.",
+      "transliteration": "Chi gai toi, chi hat hay.",
+      "category": "Family Terms",
+      "generated_at": "2026-06-17T22:17:36.653216"
+    },
+    {
+      "english": "My younger brother, he is playful.",
+      "vietnamese": "Em trai tôi, em ấy nghịch ngợm.",
+      "transliteration": "Em trai toi, em ay nghich ngom.",
+      "category": "Family Terms",
+      "generated_at": "2026-06-17T22:17:36.653217"
     }
   ],
-  "last_updated": "2026-06-17T19:22:09.273221"
+  "last_updated": "2026-06-17T22:17:36.653218"
 }
