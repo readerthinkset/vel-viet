@@ -419,7 +419,42 @@
       "transliteration": "Hay vui, ngay bay gio.",
       "category": "Happiness",
       "generated_at": "2026-06-17T04:19:27.490580"
+    },
+    {
+      "english": "My heart, beats for you.",
+      "vietnamese": "Trái tim anh, đập vì em.",
+      "transliteration": "Trai tim anh, dap vi em.",
+      "category": "Love",
+      "generated_at": "2026-06-17T15:54:16.217339"
+    },
+    {
+      "english": "You are, my everything.",
+      "vietnamese": "Em là, tất cả của anh.",
+      "transliteration": "Em la, tat ca cua anh.",
+      "category": "Love",
+      "generated_at": "2026-06-17T15:54:16.217347"
+    },
+    {
+      "english": "I miss you, dearly.",
+      "vietnamese": "Anh nhớ em, nhiều lắm.",
+      "transliteration": "Anh nho em, nhieu lam.",
+      "category": "Love",
+      "generated_at": "2026-06-17T15:54:16.217349"
+    },
+    {
+      "english": "Thinking of you, always.",
+      "vietnamese": "Nghĩ về em, mãi thôi.",
+      "transliteration": "Nghi ve em, mai thoi.",
+      "category": "Love",
+      "generated_at": "2026-06-17T15:54:16.217350"
+    },
+    {
+      "english": "You make me, happy.",
+      "vietnamese": "Em làm anh, vui lắm.",
+      "transliteration": "Em lam anh, vui lam.",
+      "category": "Love",
+      "generated_at": "2026-06-17T15:54:16.217351"
     }
   ],
-  "last_updated": "2026-06-17T04:19:27.490582"
+  "last_updated": "2026-06-17T15:54:16.217353"
 }
