@@ -559,7 +559,42 @@
       "transliteration": "Em trai toi, em ay nghich ngom.",
       "category": "Family Terms",
       "generated_at": "2026-06-17T22:17:36.653217"
+    },
+    {
+      "english": "Keep going, don't stop.",
+      "vietnamese": "Tiếp tục nào, đừng dừng lại.",
+      "transliteration": "Tiep tuc nao, dung dung lai.",
+      "category": "Perseverance",
+      "generated_at": "2026-06-18T04:11:47.857549"
+    },
+    {
+      "english": "Try again, you can do it.",
+      "vietnamese": "Thử lại đi, bạn làm được.",
+      "transliteration": "Thu lai di, ban lam duoc.",
+      "category": "Perseverance",
+      "generated_at": "2026-06-18T04:11:47.857555"
+    },
+    {
+      "english": "Small steps, big progress.",
+      "vietnamese": "Bước nhỏ, tiến lớn.",
+      "transliteration": "Buoc nho, tien lon.",
+      "category": "Perseverance",
+      "generated_at": "2026-06-18T04:11:47.857556"
+    },
+    {
+      "english": "Learn from mistakes, grow stronger.",
+      "vietnamese": "Học từ lỗi sai, mạnh mẽ hơn.",
+      "transliteration": "Hoc tu loi sai, manh me hon.",
+      "category": "Perseverance",
+      "generated_at": "2026-06-18T04:11:47.857558"
+    },
+    {
+      "english": "One day at a time.",
+      "vietnamese": "Từng ngày một thôi.",
+      "transliteration": "Tung ngay mot thoi.",
+      "category": "Perseverance",
+      "generated_at": "2026-06-18T04:11:47.857559"
     }
   ],
-  "last_updated": "2026-06-17T22:17:36.653218"
+  "last_updated": "2026-06-18T04:11:47.857560"
 }
