@@ -769,7 +769,42 @@
       "transliteration": "Dung so sai, hay hoc hoi.",
       "category": "Confidence",
       "generated_at": "2026-06-19T15:35:54.266151"
+    },
+    {
+      "english": "Work hard, rest well.",
+      "vietnamese": "Làm việc chăm chỉ, nghỉ ngơi tốt.",
+      "transliteration": "Lam viec cham chi, nghi ngoi tot.",
+      "category": "Balance",
+      "generated_at": "2026-06-19T16:32:50.120152"
+    },
+    {
+      "english": "Listen more, speak less.",
+      "vietnamese": "Nghe nhiều hơn, nói ít đi.",
+      "transliteration": "Nghe nhieu hon, noi it di.",
+      "category": "Balance",
+      "generated_at": "2026-06-19T16:32:50.120162"
+    },
+    {
+      "english": "Give kindness, receive joy.",
+      "vietnamese": "Cho đi sự tử tế, nhận lại niềm vui.",
+      "transliteration": "Cho di su tu te, nhan lai niem vui.",
+      "category": "Balance",
+      "generated_at": "2026-06-19T16:32:50.120164"
+    },
+    {
+      "english": "Learn daily, grow always.",
+      "vietnamese": "Học mỗi ngày, trưởng thành luôn.",
+      "transliteration": "Hoc moi ngay, truong thanh luon.",
+      "category": "Balance",
+      "generated_at": "2026-06-19T16:32:50.120165"
+    },
+    {
+      "english": "Breathe deep, feel calm.",
+      "vietnamese": "Hít thở sâu, cảm nhận bình yên.",
+      "transliteration": "Hit tho sau, cam nhan binh yen.",
+      "category": "Balance",
+      "generated_at": "2026-06-19T16:32:50.120167"
     }
   ],
-  "last_updated": "2026-06-19T15:35:54.266152"
+  "last_updated": "2026-06-19T16:32:50.120168"
 }
