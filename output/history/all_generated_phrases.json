@@ -839,7 +839,42 @@
       "transliteration": "Kien nhan nhe, noi som thoi.",
       "category": "Motivation",
       "generated_at": "2026-06-19T18:51:41.747686"
+    },
+    {
+      "english": "Hello, how are you?",
+      "vietnamese": "Xin chào, bạn khỏe không?",
+      "transliteration": "Sin chow, ban khwe khom?",
+      "category": "Common Expressions",
+      "generated_at": "2026-06-19T20:58:58.873266"
+    },
+    {
+      "english": "Thank you, very much.",
+      "vietnamese": "Cảm ơn, nhiều lắm.",
+      "transliteration": "Kam un, nyew lam.",
+      "category": "Common Expressions",
+      "generated_at": "2026-06-19T20:58:58.873277"
+    },
+    {
+      "english": "No problem, at all.",
+      "vietnamese": "Không có gì, đâu.",
+      "transliteration": "Khom kaw zee, dow.",
+      "category": "Common Expressions",
+      "generated_at": "2026-06-19T20:58:58.873279"
+    },
+    {
+      "english": "Excuse me, please.",
+      "vietnamese": "Xin lỗi, làm ơn.",
+      "transliteration": "Sin loy, lam un.",
+      "category": "Common Expressions",
+      "generated_at": "2026-06-19T20:58:58.873280"
+    },
+    {
+      "english": "I don't understand.",
+      "vietnamese": "Tôi không hiểu.",
+      "transliteration": "Toy khom hyew.",
+      "category": "Common Expressions",
+      "generated_at": "2026-06-19T20:58:58.873281"
     }
   ],
-  "last_updated": "2026-06-19T18:51:41.747688"
+  "last_updated": "2026-06-19T20:58:58.873283"
 }
