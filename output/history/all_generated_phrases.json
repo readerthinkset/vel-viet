@@ -944,7 +944,42 @@
       "transliteration": "Sai lam la bai hoc, khong phai that bai.",
       "category": "Inspiration",
       "generated_at": "2026-06-20T14:20:56.377326"
+    },
+    {
+      "english": "Help! I'm lost, please.",
+      "vietnamese": "Cứu tôi, tôi bị lạc, làm ơn.",
+      "transliteration": "Cuu toi, toi bi lac, lam on.",
+      "category": "Emergency",
+      "generated_at": "2026-06-20T15:46:29.867970"
+    },
+    {
+      "english": "Where is the hospital?",
+      "vietnamese": "Bệnh viện ở đâu?",
+      "transliteration": "Benh vien o dau?",
+      "category": "Emergency",
+      "generated_at": "2026-06-20T15:46:29.867980"
+    },
+    {
+      "english": "I need a doctor, fast.",
+      "vietnamese": "Tôi cần bác sĩ, nhanh lên.",
+      "transliteration": "Toi can bac si, nhanh len.",
+      "category": "Emergency",
+      "generated_at": "2026-06-20T15:46:29.867982"
+    },
+    {
+      "english": "Call the police, now!",
+      "vietnamese": "Gọi cảnh sát, ngay bây giờ!",
+      "transliteration": "Goi canh sat, ngay bay gio!",
+      "category": "Emergency",
+      "generated_at": "2026-06-20T15:46:29.867983"
+    },
+    {
+      "english": "Is anyone there? Help!",
+      "vietnamese": "Có ai ở đó không? Giúp tôi!",
+      "transliteration": "Co ai o do khong? Giup toi!",
+      "category": "Emergency",
+      "generated_at": "2026-06-20T15:46:29.867988"
     }
   ],
-  "last_updated": "2026-06-20T14:20:56.377328"
+  "last_updated": "2026-06-20T15:46:29.867990"
 }
