@@ -874,7 +874,42 @@
       "transliteration": "Toy khom hyew.",
       "category": "Common Expressions",
       "generated_at": "2026-06-19T20:58:58.873281"
+    },
+    {
+      "english": "On Monday.",
+      "vietnamese": "Vào thứ Hai.",
+      "transliteration": "Vow thuh hy.",
+      "category": "Time",
+      "generated_at": "2026-06-20T03:54:01.334228"
+    },
+    {
+      "english": "Last week, gone.",
+      "vietnamese": "Tuần trước, đã qua.",
+      "transliteration": "Tuh-un trook, dah kwah.",
+      "category": "Time",
+      "generated_at": "2026-06-20T03:54:01.334237"
+    },
+    {
+      "english": "Next year, new.",
+      "vietnamese": "Năm tới, mới mẻ.",
+      "transliteration": "Nam toy, muy may.",
+      "category": "Time",
+      "generated_at": "2026-06-20T03:54:01.334239"
+    },
+    {
+      "english": "Right now, here.",
+      "vietnamese": "Ngay bây giờ, ở đây.",
+      "transliteration": "N'gai bay zow, uh day.",
+      "category": "Time",
+      "generated_at": "2026-06-20T03:54:01.334240"
+    },
+    {
+      "english": "Soon, very soon.",
+      "vietnamese": "Sắp tới, rất nhanh.",
+      "transliteration": "Sap toy, rut n'yang.",
+      "category": "Time",
+      "generated_at": "2026-06-20T03:54:01.334242"
     }
   ],
-  "last_updated": "2026-06-19T20:58:58.873283"
+  "last_updated": "2026-06-20T03:54:01.334244"
 }
