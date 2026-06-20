@@ -1014,7 +1014,42 @@
       "transliteration": "Vui vi chung ta gap nhau, that su.",
       "category": "Friendship",
       "generated_at": "2026-06-20T18:07:12.620009"
+    },
+    {
+      "english": "Thank you, for everything.",
+      "vietnamese": "Cảm ơn, vì tất cả.",
+      "transliteration": "cam on, vi tat ca.",
+      "category": "Gratitude",
+      "generated_at": "2026-06-20T21:00:54.838595"
+    },
+    {
+      "english": "I appreciate, your help.",
+      "vietnamese": "Tôi trân trọng, sự giúp đỡ của bạn.",
+      "transliteration": "toi tran trong, su giup do cua ban.",
+      "category": "Gratitude",
+      "generated_at": "2026-06-20T21:00:54.838604"
+    },
+    {
+      "english": "You are, so kind.",
+      "vietnamese": "Bạn thật, tốt bụng.",
+      "transliteration": "ban that, tot bung.",
+      "category": "Gratitude",
+      "generated_at": "2026-06-20T21:00:54.838606"
+    },
+    {
+      "english": "Grateful for, this moment.",
+      "vietnamese": "Biết ơn, khoảnh khắc này.",
+      "transliteration": "biet on, khoanh khac nay.",
+      "category": "Gratitude",
+      "generated_at": "2026-06-20T21:00:54.838608"
+    },
+    {
+      "english": "My thanks, to you.",
+      "vietnamese": "Lời cảm ơn, gửi đến bạn.",
+      "transliteration": "loi cam on, gui den ban.",
+      "category": "Gratitude",
+      "generated_at": "2026-06-20T21:00:54.838609"
     }
   ],
-  "last_updated": "2026-06-20T18:07:12.620010"
+  "last_updated": "2026-06-20T21:00:54.838611"
 }
