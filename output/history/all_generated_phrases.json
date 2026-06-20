@@ -979,7 +979,42 @@
       "transliteration": "Co ai o do khong? Giup toi!",
       "category": "Emergency",
       "generated_at": "2026-06-20T15:46:29.867988"
+    },
+    {
+      "english": "You're my best friend, always.",
+      "vietnamese": "Bạn là bạn thân nhất của tôi, luôn luôn.",
+      "transliteration": "Ban la ban than nhat cua toi, luon luon.",
+      "category": "Friendship",
+      "generated_at": "2026-06-20T18:07:12.619996"
+    },
+    {
+      "english": "Let's hang out, soon.",
+      "vietnamese": "Chúng ta đi chơi nhé, sớm thôi.",
+      "transliteration": "Chung ta di choi nhe, som thoi.",
+      "category": "Friendship",
+      "generated_at": "2026-06-20T18:07:12.620004"
+    },
+    {
+      "english": "Thanks for being there.",
+      "vietnamese": "Cảm ơn vì đã ở đó.",
+      "transliteration": "Cam on vi da o do.",
+      "category": "Friendship",
+      "generated_at": "2026-06-20T18:07:12.620006"
+    },
+    {
+      "english": "We understand each other.",
+      "vietnamese": "Chúng ta hiểu nhau mà.",
+      "transliteration": "Chung ta hieu nhau ma.",
+      "category": "Friendship",
+      "generated_at": "2026-06-20T18:07:12.620007"
+    },
+    {
+      "english": "Glad we met, really.",
+      "vietnamese": "Vui vì chúng ta gặp nhau, thật sự.",
+      "transliteration": "Vui vi chung ta gap nhau, that su.",
+      "category": "Friendship",
+      "generated_at": "2026-06-20T18:07:12.620009"
     }
   ],
-  "last_updated": "2026-06-20T15:46:29.867990"
+  "last_updated": "2026-06-20T18:07:12.620010"
 }
