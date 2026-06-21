@@ -1049,7 +1049,42 @@
       "transliteration": "loi cam on, gui den ban.",
       "category": "Gratitude",
       "generated_at": "2026-06-20T21:00:54.838609"
+    },
+    {
+      "english": "Welcome, please come in.",
+      "vietnamese": "Chào mừng, mời vào.",
+      "transliteration": "chow mung, muy vao",
+      "category": "Greetings",
+      "generated_at": "2026-06-21T04:24:35.602159"
+    },
+    {
+      "english": "Hello, hope you're well.",
+      "vietnamese": "Xin chào, mong bạn mọi sự tốt.",
+      "transliteration": "sin chow, mong ban moy su toht",
+      "category": "Greetings",
+      "generated_at": "2026-06-21T04:24:35.602168"
+    },
+    {
+      "english": "Hi everyone, how's it going?",
+      "vietnamese": "Chào mọi người, mọi việc sao rồi?",
+      "transliteration": "chow moy ngoy, moy vek sao roy?",
+      "category": "Greetings",
+      "generated_at": "2026-06-21T04:24:35.602170"
+    },
+    {
+      "english": "Hello, it's a pleasure.",
+      "vietnamese": "Xin chào, thật là một niềm vui.",
+      "transliteration": "sin chow, zet la mot niem vuy",
+      "category": "Greetings",
+      "generated_at": "2026-06-21T04:24:35.602171"
+    },
+    {
+      "english": "Good evening, enjoy your meal.",
+      "vietnamese": "Chào buổi tối, chúc ngon miệng.",
+      "transliteration": "chow booy toy, chook ngon mieng",
+      "category": "Greetings",
+      "generated_at": "2026-06-21T04:24:35.602173"
     }
   ],
-  "last_updated": "2026-06-20T21:00:54.838611"
+  "last_updated": "2026-06-21T04:24:35.602174"
 }
