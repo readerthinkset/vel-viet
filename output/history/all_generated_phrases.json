@@ -1224,7 +1224,42 @@
       "transliteration": "Mot tia lua, cau chuyen.",
       "category": "Creativity",
       "generated_at": "2026-06-21T21:01:23.058299"
+    },
+    {
+      "english": "What is this?",
+      "vietnamese": "Đây là gì?",
+      "transliteration": "Day la yee?",
+      "category": "Basic Phrases",
+      "generated_at": "2026-06-22T04:27:25.988151"
+    },
+    {
+      "english": "Can you help me?",
+      "vietnamese": "Bạn giúp tôi được không?",
+      "transliteration": "Ban yoop toy duuk khom?",
+      "category": "Basic Phrases",
+      "generated_at": "2026-06-22T04:27:25.988160"
+    },
+    {
+      "english": "Where is the bathroom?",
+      "vietnamese": "Nhà vệ sinh ở đâu?",
+      "transliteration": "Nya veh sin uh dow?",
+      "category": "Basic Phrases",
+      "generated_at": "2026-06-22T04:27:25.988162"
+    },
+    {
+      "english": "How much is this?",
+      "vietnamese": "Cái này bao nhiêu tiền?",
+      "transliteration": "Kye nay bow nyew tyen?",
+      "category": "Basic Phrases",
+      "generated_at": "2026-06-22T04:27:25.988163"
+    },
+    {
+      "english": "Goodbye, see you.",
+      "vietnamese": "Tạm biệt, hẹn gặp lại.",
+      "transliteration": "Tam byet, hen gap lye.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-06-22T04:27:25.988164"
     }
   ],
-  "last_updated": "2026-06-21T21:01:23.058301"
+  "last_updated": "2026-06-22T04:27:25.988166"
 }
