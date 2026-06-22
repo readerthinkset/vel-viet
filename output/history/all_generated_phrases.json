@@ -1259,7 +1259,42 @@
       "transliteration": "Tam byet, hen gap lye.",
       "category": "Basic Phrases",
       "generated_at": "2026-06-22T04:27:25.988164"
+    },
+    {
+      "english": "I'm sorry, please forgive me.",
+      "vietnamese": "Xin lỗi, hãy tha thứ cho tôi.",
+      "transliteration": "Sin loy, hai tha thoo cho toy.",
+      "category": "Forgiveness",
+      "generated_at": "2026-06-22T18:13:17.833796"
+    },
+    {
+      "english": "Let's move on, okay?",
+      "vietnamese": "Chúng ta bỏ qua nhé?",
+      "transliteration": "Choong ta bo qua nye?",
+      "category": "Forgiveness",
+      "generated_at": "2026-06-22T18:13:17.833807"
+    },
+    {
+      "english": "I accept your apology.",
+      "vietnamese": "Tôi chấp nhận lời xin lỗi.",
+      "transliteration": "Toy chap nhan loy sin loy.",
+      "category": "Forgiveness",
+      "generated_at": "2026-06-22T18:13:17.833809"
+    },
+    {
+      "english": "No hard feelings, right?",
+      "vietnamese": "Không giận nhau nhé?",
+      "transliteration": "Khong jan nhaw nye?",
+      "category": "Forgiveness",
+      "generated_at": "2026-06-22T18:13:17.833810"
+    },
+    {
+      "english": "It's all water under the bridge.",
+      "vietnamese": "Chuyện cũ bỏ qua thôi.",
+      "transliteration": "Chuyen coo bo qua thoy.",
+      "category": "Forgiveness",
+      "generated_at": "2026-06-22T18:13:17.833811"
     }
   ],
-  "last_updated": "2026-06-22T04:27:25.988166"
+  "last_updated": "2026-06-22T18:13:17.833813"
 }
