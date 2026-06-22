@@ -1329,7 +1329,42 @@
       "transliteration": "Ban du roi, nhu ban von co.",
       "category": "Mindfulness",
       "generated_at": "2026-06-22T20:00:51.755953"
+    },
+    {
+      "english": "One table, please, for two.",
+      "vietnamese": "Một bàn, làm ơn, cho hai người.",
+      "transliteration": "Mot ban, lam on, cho hai nguoi.",
+      "category": "Restaurant",
+      "generated_at": "2026-06-22T21:53:57.256190"
+    },
+    {
+      "english": "Can I see, the menu?",
+      "vietnamese": "Cho xem, thực đơn ạ?",
+      "transliteration": "Cho xem, thuc don a?",
+      "category": "Restaurant",
+      "generated_at": "2026-06-22T21:53:57.256198"
+    },
+    {
+      "english": "What do you recommend?",
+      "vietnamese": "Món gì, ngon nhất?",
+      "transliteration": "Mon gi, ngon nhat?",
+      "category": "Restaurant",
+      "generated_at": "2026-06-22T21:53:57.256200"
+    },
+    {
+      "english": "This is delicious, thank you.",
+      "vietnamese": "Ngon quá, cảm ơn.",
+      "transliteration": "Ngon qua, cam on.",
+      "category": "Restaurant",
+      "generated_at": "2026-06-22T21:53:57.256201"
+    },
+    {
+      "english": "One more, of this, please.",
+      "vietnamese": "Thêm một, món này, làm ơn.",
+      "transliteration": "Them mot, mon nay, lam on.",
+      "category": "Restaurant",
+      "generated_at": "2026-06-22T21:53:57.256202"
     }
   ],
-  "last_updated": "2026-06-22T20:00:51.755954"
+  "last_updated": "2026-06-22T21:53:57.256203"
 }
