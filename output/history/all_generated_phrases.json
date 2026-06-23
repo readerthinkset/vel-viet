@@ -1399,7 +1399,42 @@
       "transliteration": "Su man nguyen, la hanh phuc.",
       "category": "Happiness",
       "generated_at": "2026-06-23T16:28:28.799712"
+    },
+    {
+      "english": "You can do it, step by step.",
+      "vietnamese": "Bạn có thể làm được, từng bước một.",
+      "transliteration": "Ban co the lam duoc, tung buoc mot.",
+      "category": "Confidence",
+      "generated_at": "2026-06-23T19:07:08.299838"
+    },
+    {
+      "english": "Listen well, speak clearly.",
+      "vietnamese": "Nghe kỹ, nói rõ ràng.",
+      "transliteration": "Nghe ky, noi ro rang.",
+      "category": "Confidence",
+      "generated_at": "2026-06-23T19:07:08.299847"
+    },
+    {
+      "english": "Keep practicing, daily.",
+      "vietnamese": "Cứ luyện tập, mỗi ngày.",
+      "transliteration": "Cu luyen tap, moi ngay.",
+      "category": "Confidence",
+      "generated_at": "2026-06-23T19:07:08.299849"
+    },
+    {
+      "english": "Your voice, matters.",
+      "vietnamese": "Giọng nói của bạn, có giá trị.",
+      "transliteration": "Giong noi cua ban, co gia tri.",
+      "category": "Confidence",
+      "generated_at": "2026-06-23T19:07:08.299850"
+    },
+    {
+      "english": "Learn Vietnamese, embrace the culture.",
+      "vietnamese": "Học tiếng Việt, yêu văn hóa.",
+      "transliteration": "Hoc tieng Viet, yeu van hoa.",
+      "category": "Confidence",
+      "generated_at": "2026-06-23T19:07:08.299851"
     }
   ],
-  "last_updated": "2026-06-23T16:28:28.799713"
+  "last_updated": "2026-06-23T19:07:08.299853"
 }
