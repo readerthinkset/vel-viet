@@ -1434,7 +1434,42 @@
       "transliteration": "Hoc tieng Viet, yeu van hoa.",
       "category": "Confidence",
       "generated_at": "2026-06-23T19:07:08.299851"
+    },
+    {
+      "english": "Read Vietnamese, for fun.",
+      "vietnamese": "Đọc tiếng Việt, cho vui.",
+      "transliteration": "Doc tieng Viet, cho vui.",
+      "category": "Purpose",
+      "generated_at": "2026-06-23T21:21:45.791341"
+    },
+    {
+      "english": "Write Vietnamese, to express.",
+      "vietnamese": "Viết tiếng Việt, để diễn đạt.",
+      "transliteration": "Viet tieng Viet, de dien dat.",
+      "category": "Purpose",
+      "generated_at": "2026-06-23T21:21:45.791353"
+    },
+    {
+      "english": "Listen Vietnamese, to learn.",
+      "vietnamese": "Nghe tiếng Việt, để học.",
+      "transliteration": "Nghe tieng Viet, de hoc.",
+      "category": "Purpose",
+      "generated_at": "2026-06-23T21:21:45.791356"
+    },
+    {
+      "english": "Think Vietnamese, to master.",
+      "vietnamese": "Tư duy tiếng Việt, để giỏi.",
+      "transliteration": "Tu duy tieng Viet, de gioi.",
+      "category": "Purpose",
+      "generated_at": "2026-06-23T21:21:45.791358"
+    },
+    {
+      "english": "Live Vietnamese, for experience.",
+      "vietnamese": "Sống tiếng Việt, để trải nghiệm.",
+      "transliteration": "Song tieng Viet, de trai nghiem.",
+      "category": "Purpose",
+      "generated_at": "2026-06-23T21:21:45.791361"
     }
   ],
-  "last_updated": "2026-06-23T19:07:08.299853"
+  "last_updated": "2026-06-23T21:21:45.791364"
 }
