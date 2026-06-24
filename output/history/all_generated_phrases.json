@@ -1609,7 +1609,42 @@
       "transliteration": "Cu la minh, ngay day.",
       "category": "Inner Peace",
       "generated_at": "2026-06-24T18:30:21.750963"
+    },
+    {
+      "english": "I'm hurt, very badly.",
+      "vietnamese": "Tôi bị thương, rất nặng.",
+      "transliteration": "Toi bi thuong, rat nang.",
+      "category": "Emergency",
+      "generated_at": "2026-06-24T21:15:33.709945"
+    },
+    {
+      "english": "My bag was stolen, quickly.",
+      "vietnamese": "Túi của tôi bị cướp, mau lên.",
+      "transliteration": "Tui cua toi bi cuop, mau len.",
+      "category": "Emergency",
+      "generated_at": "2026-06-24T21:15:33.709954"
+    },
+    {
+      "english": "Is there a fire? Danger!",
+      "vietnamese": "Có cháy không? Nguy hiểm!",
+      "transliteration": "Co chay khong? Nguy hiem!",
+      "category": "Emergency",
+      "generated_at": "2026-06-24T21:15:33.709956"
+    },
+    {
+      "english": "I can't breathe, help me.",
+      "vietnamese": "Tôi không thở được, cứu tôi.",
+      "transliteration": "Toi khong tho duoc, cuu toi.",
+      "category": "Emergency",
+      "generated_at": "2026-06-24T21:15:33.709957"
+    },
+    {
+      "english": "I need water, urgently.",
+      "vietnamese": "Tôi cần nước, khẩn cấp.",
+      "transliteration": "Toi can nuoc, khan cap.",
+      "category": "Emergency",
+      "generated_at": "2026-06-24T21:15:33.709958"
     }
   ],
-  "last_updated": "2026-06-24T18:30:21.750964"
+  "last_updated": "2026-06-24T21:15:33.709960"
 }
