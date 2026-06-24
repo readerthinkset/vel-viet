@@ -1469,7 +1469,42 @@
       "transliteration": "Song tieng Viet, de trai nghiem.",
       "category": "Purpose",
       "generated_at": "2026-06-23T21:21:45.791361"
+    },
+    {
+      "english": "Where is the nearest, restroom?",
+      "vietnamese": "Nhà vệ sinh, ở đâu ạ?",
+      "transliteration": "Nha ve sinh, o dau a?",
+      "category": "Travel",
+      "generated_at": "2026-06-24T03:46:57.919927"
+    },
+    {
+      "english": "How much, is this?",
+      "vietnamese": "Cái này, bao nhiêu tiền?",
+      "transliteration": "Cai nay, bao nhieu tien?",
+      "category": "Travel",
+      "generated_at": "2026-06-24T03:46:57.919936"
+    },
+    {
+      "english": "Can you help, me please?",
+      "vietnamese": "Bạn giúp, tôi được không?",
+      "transliteration": "Ban giup, toi duoc khong?",
+      "category": "Travel",
+      "generated_at": "2026-06-24T03:46:57.919938"
+    },
+    {
+      "english": "I want to go, to the market.",
+      "vietnamese": "Tôi muốn đi, chợ.",
+      "transliteration": "Toi muon di, cho.",
+      "category": "Travel",
+      "generated_at": "2026-06-24T03:46:57.919939"
+    },
+    {
+      "english": "Do you speak, English?",
+      "vietnamese": "Bạn nói, tiếng Anh không?",
+      "transliteration": "Ban noi, tieng Anh khong?",
+      "category": "Travel",
+      "generated_at": "2026-06-24T03:46:57.919940"
     }
   ],
-  "last_updated": "2026-06-23T21:21:45.791364"
+  "last_updated": "2026-06-24T03:46:57.919941"
 }
