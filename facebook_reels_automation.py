@@ -78,7 +78,27 @@ CATEGORIES_ENGLISH = [
     "Growth",
     "Purpose",
     "Mindfulness"
-]
+
+    "Daily Routine",
+    "Weather",
+    "Feelings",
+    "Food",
+    "Health",
+    "Work",
+    "Technology",
+    "Nature",
+    "Animals",
+    "Colors",
+    "Directions",
+    "Body Parts",
+    "Clothes",
+    "Music",
+    "Sports",
+    "Holidays",
+    "Education",
+    "Culture",
+    "Finance",
+    "Relationships",]
 
 CATEGORIES_NATIVE = {
     "Greetings": "Lời Chào",
@@ -123,7 +143,7 @@ NATIVE_VOICE = "vi-VN-NamMinhNeural"
 
 PHRASE_HISTORY_FILE = HISTORY_DIR / "all_generated_phrases.json"
 RECENT_CATEGORIES_FILE = HISTORY_DIR / "recent_categories.json"
-MAX_RECENT_CATEGORIES = 15
+MAX_RECENT_CATEGORIES = 25
 
 
 def load_phrase_history():
@@ -198,6 +218,10 @@ def get_available_category():
 def generate_phrases(category_english: str, num_phrases: int = 5) -> list:
     category_native = CATEGORIES_NATIVE[category_english]
     max_attempts = 3
+
+    history = load_phrase_history()
+    recent_english = [p["english"] for p in history.get("phrases", []) if p.get("category") == category_english][-30:]
+
     for attempt in range(max_attempts):
         try:
             import requests
@@ -207,7 +231,11 @@ def generate_phrases(category_english: str, num_phrases: int = 5) -> list:
                 "Content-Type": "application/json"
             }
 
-            prompt = f"""Create {num_phrases * 2} unique {category_english} phrases for English speakers learning Vietnamese.
+            avoid_text = ""
+            if recent_english:
+                avoid_text = "\nABSOLUTELY AVOID these already-used phrases:\n" + "\n".join(f"- {p}" for p in recent_english)
+
+            prompt = f"""Create {num_phrases * 6} unique and creative {category_english} phrases for English speakers learning Vietnamese.{avoid_text}
 
 IMPORTANT RULES FOR NATURAL SPEECH:
 1. Keep phrases SHORT (5-12 words max per language)
@@ -218,6 +246,7 @@ IMPORTANT RULES FOR NATURAL SPEECH:
 6. Vietnamese text should be CLEAN - use standard Vietnamese script
 7. Do NOT include multiple versions or slashes - just ONE clean Vietnamese translation
 8. Transliteration should be in Roman script for pronunciation
+9. BE CREATIVE AND VARIED - do NOT repeat themes from the avoid list
 
 For each phrase:
 1. English phrase (with commas for natural pauses)
@@ -233,10 +262,10 @@ IMPORTANT: Vietnamese text must be clean - no slashes, no multiple versions."""
             payload = {
                 "model": AI_MODEL,
                 "messages": [
-                    {"role": "system", "content": "You are a Vietnamese teacher. Create short, natural phrases with pauses."},
+                    {"role": "system", "content": "You are a Vietnamese teacher. Create short, natural phrases with pauses. Each generation must produce completely different, creative phrases."},
                     {"role": "user", "content": prompt}
                 ],
-                "temperature": 0.9
+                "temperature": min(0.95 + attempt * 0.03, 1.0)
             }
 
             response = requests.post(url, headers=headers, json=payload, timeout=60)
@@ -277,6 +306,11 @@ IMPORTANT: Vietnamese text must be clean - no slashes, no multiple versions."""
                 add_phrases_to_history(unique_phrases[:num_phrases], category_english)
                 return unique_phrases[:num_phrases]
 
+            print(f"[content] Attempt {attempt + 1}: API returned {len(phrases)} phrases, only {len(unique_phrases)} are new (need {num_phrases})")
+            for p in unique_phrases:
+                if p["english"] not in recent_english:
+                    recent_english.append(p["english"])
+
         except Exception as e:
             print(f"[content] Attempt {attempt + 1} failed: {e}")
 
@@ -288,22 +322,58 @@ IMPORTANT: Vietnamese text must be clean - no slashes, no multiple versions."""
 def get_fresh_fallback_phrases(category: str, num_phrases: int) -> list:
     """Return simple English fallback phrases when AI generation fails"""
     generic_fallbacks = [
-        {"english": "Hello, nice to meet you.", "vietnamese": "[VI] Hello", "transliteration": "hello"},
-        {"english": "Thank you very much.", "vietnamese": "[VI] Thank you", "transliteration": "thank you"},
-        {"english": "Good morning, have a great day.", "vietnamese": "[VI] Good morning", "transliteration": "good morning"},
-        {"english": "I love learning new languages.", "vietnamese": "[VI] Love learning", "transliteration": "love learning"},
-        {"english": "Never give up on your dreams.", "vietnamese": "[VI] Never give up", "transliteration": "never give up"},
-        {"english": "Every day is a fresh start.", "vietnamese": "[VI] Fresh start", "transliteration": "fresh start"},
-        {"english": "Believe in yourself always.", "vietnamese": "[VI] Believe", "transliteration": "believe"},
-        {"english": "Small steps lead to big changes.", "vietnamese": "[VI] Small steps", "transliteration": "small steps"},
-        {"english": "You are stronger than you think.", "vietnamese": "[VI] Stronger", "transliteration": "stronger"},
-        {"english": "Happiness is a choice, choose it.", "vietnamese": "[VI] Happiness", "transliteration": "happiness"},
+        {"english": "Hello, nice to meet you.", "vietnamese": "Xin ch\u00e0o, r\u1ea5t vui \u0111\u01b0\u1ee3c g\u1eb7p b\u1ea1n.", "transliteration": "Sin chow, ret vooi duoc gap ban."},
+        {"english": "Thank you very much.", "vietnamese": "C\u1ea3m \u01a1n b\u1ea1n r\u1ea5t nhi\u1ec1u.", "transliteration": "Cam on ban ret nhieu."},
+        {"english": "Good morning, have a great day.", "vietnamese": "Ch\u00e0o bu\u1ed5i s\u00e1ng, ch\u00fac b\u1ea1n m\u1ed9t ng\u00e0y t\u1ed1t l\u00e0nh.", "transliteration": "Chow buoi sang, chuc ban mot ngay tot lanh."},
+        {"english": "I love learning new languages.", "vietnamese": "T\u00f4i y\u00eau th\u00edch vi\u1ec7c h\u1ecdc nh\u1eefng ng\u00f4n ng\u1eef m\u1edbi.", "transliteration": "Toi yeu thich viec hoc nhung ngon ngu moi."},
+        {"english": "Never give up on your dreams.", "vietnamese": "\u0110\u1eebng bao gi\u1edd t\u1eeb b\u1ecf \u01b0\u1edbc m\u01a1 c\u1ee7a b\u1ea1n.", "transliteration": "Dung bao gio tu bo uoc mo cua ban."},
+        {"english": "Every day is a fresh start.", "vietnamese": "M\u1ed7i ng\u00e0y l\u00e0 m\u1ed9t s\u1ef1 kh\u1edfi \u0111\u1ea7u m\u1edbi.", "transliteration": "Moi ngay la mot su khoi dau moi."},
+        {"english": "Believe in yourself always.", "vietnamese": "Lu\u00f4n tin t\u01b0\u1edfng v\u00e0o b\u1ea3n th\u00e2n.", "transliteration": "Luen tin tuong vao ban than."},
+        {"english": "Small steps lead to big changes.", "vietnamese": "Nh\u1eefng b\u01b0\u1edbc \u0111i nh\u1ecf d\u1eabn \u0111\u1ebfn nh\u1eefng thay \u0111\u1ed5i l\u1edbn.", "transliteration": "Nhung buoc di nho dan den nhung thay doi lon."},
+        {"english": "You are stronger than you think.", "vietnamese": "B\u1ea1n m\u1ea1nh m\u1ebd h\u01a1n b\u1ea1n ngh\u0129.", "transliteration": "Ban manh me hon ban nghi."},
+        {"english": "Happiness is a choice, choose it.", "vietnamese": "H\u1ea1nh ph\u00fac l\u00e0 m\u1ed9t s\u1ef1 l\u1ef1a ch\u1ecdn, h\u00e3y ch\u1ecdn n\u00f3.", "transliteration": "Hanh phuc la mot su lua chon, hay chon no."},
+        {"english": "What time is it please.", "vietnamese": "Xin h\u1ecfi m\u1ea5y gi\u1edd r\u1ed3i \u1ea1?", "transliteration": "Sin hoi may gio roi a?"},
+        {"english": "Where is the train station.", "vietnamese": "Nh\u00e0 ga t\u00e0u h\u1ecfa \u1edf \u0111\u00e2u?", "transliteration": "Nha ga tau hoa o dau?"},
+        {"english": "How much does this cost.", "vietnamese": "C\u00e1i n\u00e0y gi\u00e1 bao nhi\u00eau?", "transliteration": "Cai nay gia bao nhieu?"},
+        {"english": "Can you help me please.", "vietnamese": "B\u1ea1n c\u00f3 th\u1ec3 gi\u00fap t\u00f4i \u0111\u01b0\u1ee3c kh\u00f4ng?", "transliteration": "Ban co the giup toi duoc khong?"},
+        {"english": "I would like a coffee please.", "vietnamese": "T\u00f4i mu\u1ed1n m\u1ed9t ly c\u00e0 ph\u00ea.", "transliteration": "Toi muon mot ly ca phe."},
+        {"english": "The food is delicious today.", "vietnamese": "\u0110\u1ed3 \u0103n h\u00f4m nay ngon qu\u00e1.", "transliteration": "Do an hom nay ngon qua."},
+        {"english": "Have a wonderful weekend.", "vietnamese": "Ch\u00fac b\u1ea1n cu\u1ed1i tu\u1ea7n vui v\u1ebb.", "transliteration": "Chuc ban cuoi tuan vui ve."},
+        {"english": "Take care of yourself.", "vietnamese": "H\u00e3y t\u1ef1 ch\u0103m s\u00f3c b\u1ea3n th\u00e2n.", "transliteration": "Hay tu cham soc ban than."},
+        {"english": "See you tomorrow my friend.", "vietnamese": "H\u1eb9n g\u1eb7p b\u1ea1n ng\u00e0y mai nh\u00e9.", "transliteration": "Hen gap ban ngay mai nhe."},
+        {"english": "The weather is beautiful outside.", "vietnamese": "Th\u1eddi ti\u1ebft b\u00ean ngo\u00e0i th\u1eadt \u0111\u1eb9p.", "transliteration": "Thoi tiet ben ngoai that dep."},
+        {"english": "I am very happy today.", "vietnamese": "T\u00f4i r\u1ea5t vui h\u00f4m nay.", "transliteration": "Toi ret vui hom nay."},
+        {"english": "Learning a language opens new doors.", "vietnamese": "H\u1ecdc m\u1ed9t ng\u00f4n ng\u1eef m\u1edf ra nh\u1eefng c\u00e1nh c\u1eeda m\u1edbi.", "transliteration": "Hoc mot ngon ngu mo ra nhung canh cua moi."},
+        {"english": "Keep practicing every single day.", "vietnamese": "H\u00e3y ti\u1ebfp t\u1ee5c luy\u1ec7n t\u1eadp m\u1ed7i ng\u00e0y.", "transliteration": "Hay tiep tuc luyen tap moi ngay."},
+        {"english": "You can achieve anything you want.", "vietnamese": "B\u1ea1n c\u00f3 th\u1ec3 \u0111\u1ea1t \u0111\u01b0\u1ee3c b\u1ea5t c\u1ee9 \u0111i\u1ec1u g\u00ec b\u1ea1n mu\u1ed1n.", "transliteration": "Ban co the dat duoc bat cu dieu gi ban muon."},
+        {"english": "Rest when you are tired.", "vietnamese": "H\u00e3y ngh\u1ec9 ng\u01a1i khi b\u1ea1n m\u1ec7t m\u1ecfi.", "transliteration": "Hay nghi ngoi khi ban met moi."},
+        {"english": "Focus on the positive things.", "vietnamese": "H\u00e3y t\u1eadp trung v\u00e0o nh\u1eefng \u0111i\u1ec1u t\u00edch c\u1ef1c.", "transliteration": "Hay tap trung vao nhung dieu tich cuc."},
+        {"english": "Learn from your mistakes.", "vietnamese": "H\u00e3y h\u1ecdc h\u1ecfi t\u1eeb nh\u1eefng sai l\u1ea7m c\u1ee7a b\u1ea1n.", "transliteration": "Hay hoc hoi tu nhung sai lam cua ban."},
+        {"english": "Trust the process completely.", "vietnamese": "H\u00e3y tin t\u01b0\u1edfng ho\u00e0n to\u00e0n v\u00e0o qu\u00e1 tr\u00ecnh.", "transliteration": "Hay tin tuong hoan toan vao qua trinh."},
+        {"english": "Breathe deeply and stay calm.", "vietnamese": "H\u00edt th\u1edf s\u00e2u v\u00e0 gi\u1eef b\u00ecnh t\u0129nh.", "transliteration": "Hit tho sau va giu binh tinh."},
+        {"english": "Enjoy the little moments in life.", "vietnamese": "H\u00e3y t\u1eadn h\u01b0\u1edfng nh\u1eefng kho\u1ea3nh kh\u1eafc nh\u1ecf b\u00e9 trong cu\u1ed9c s\u1ed1ng.", "transliteration": "Hay tan huong nhung khoanh khac nho be trong cuoc song."},
+        {"english": "Smile more, worry less.", "vietnamese": "H\u00e3y c\u01b0\u1eddi nhi\u1ec1u h\u01a1n, b\u1edbt lo l\u1eafng.", "transliteration": "Hay cuoi nhieu hon, bot lo lang."},
+        {"english": "Be kind to everyone you meet.", "vietnamese": "H\u00e3y t\u1eed t\u1ebf v\u1edbi t\u1ea5t c\u1ea3 m\u1ecdi ng\u01b0\u1eddi b\u1ea1n g\u1eb7p.", "transliteration": "Hay tu te voi tat ca moi nguoi ban gap."},
+        {"english": "Help others without expecting anything back.", "vietnamese": "Gi\u00fap \u0111\u1ee1 ng\u01b0\u1eddi kh\u00e1c m\u00e0 kh\u00f4ng mong \u0111\u1ee3i nh\u1eadn l\u1ea1i \u0111i\u1ec1u g\u00ec.", "transliteration": "Giup do nguoi khac ma khong mong doi nhan lai dieu gi."},
+        {"english": "Forgive yourself and move forward.", "vietnamese": "H\u00e3y tha th\u1ee9 cho b\u1ea3n th\u00e2n v\u00e0 ti\u1ebfn v\u1ec1 ph\u00eda tr\u01b0\u1edbc.", "transliteration": "Hay tha thu cho ban than va tien ve phia truoc."},
+        {"english": "Stay strong in difficult times.", "vietnamese": "H\u00e3y m\u1ea1nh m\u1ebd trong nh\u1eefng l\u00fac kh\u00f3 kh\u0103n.", "transliteration": "Hay manh me trong nhung luc kho khan."},
+        {"english": "Every moment is a new beginning.", "vietnamese": "M\u1ed7i kho\u1ea3nh kh\u1eafc l\u00e0 m\u1ed9t s\u1ef1 kh\u1edfi \u0111\u1ea7u m\u1edbi.", "transliteration": "Moi khoanh khac la mot su khoi dau moi."},
+        {"english": "Listen to your heart always.", "vietnamese": "Lu\u00f4n l\u1eafng nghe tr\u00e1i tim b\u1ea1n.", "transliteration": "Luen lang nghe trai tim ban."},
+        {"english": "Do what makes you happy.", "vietnamese": "H\u00e3y l\u00e0m nh\u1eefng g\u00ec khi\u1ebfn b\u1ea1n h\u1ea1nh ph\u00fac.", "transliteration": "Hay lam nhung gi khien ban hanh phuc."},
+        {"english": "Your potential is unlimited.", "vietnamese": "Ti\u1ec1m n\u0103ng c\u1ee7a b\u1ea1n l\u00e0 v\u00f4 h\u1ea1n.", "transliteration": "Tiem nang cua ban la vo han."},
+        {"english": "Be brave and take risks.", "vietnamese": "H\u00e3y d\u0169ng c\u1ea3m v\u00e0 ch\u1ea5p nh\u1eadn r\u1ee7i ro.", "transliteration": "Hay dung cam va chap nhan rui ro."},
+        {"english": "Celebrate your progress every day.", "vietnamese": "H\u00e3y \u0103n m\u1eebng s\u1ef1 ti\u1ebfn b\u1ed9 c\u1ee7a b\u1ea1n m\u1ed7i ng\u00e0y.", "transliteration": "Hay an mung su tien bo cua ban moi ngay."},
+        {"english": "Surround yourself with good people.", "vietnamese": "H\u00e3y bao quanh m\u00ecnh v\u1edbi nh\u1eefng ng\u01b0\u1eddi t\u1ed1t.", "transliteration": "Hay bao quanh minh voi nhung nguoi tot."},
+        {"english": "Read books and grow your mind.", "vietnamese": "\u0110\u1ecdc s\u00e1ch v\u00e0 ph\u00e1t tri\u1ec3n tr\u00ed tu\u1ec7 c\u1ee7a b\u1ea1n.", "transliteration": "Doc sach va phat trien tri tue cua ban."},
+        {"english": "Travel and discover new places.", "vietnamese": "Du l\u1ecbch v\u00e0 kh\u00e1m ph\u00e1 nh\u1eefng \u0111\u1ecba \u0111i\u1ec3m m\u1edbi.", "transliteration": "Du lich va kham pha nhung dia diem moi."},
+        {"english": "Appreciate what you already have.", "vietnamese": "H\u00e3y tr\u00e2n tr\u1ecdng nh\u1eefng g\u00ec b\u1ea1n \u0111\u00e3 c\u00f3.", "transliteration": "Hay tran trong nhung gi ban da co."},
+        {"english": "Dance like nobody is watching.", "vietnamese": "H\u00e3y nh\u1ea3y m\u00faa nh\u01b0 th\u1ec3 kh\u00f4ng ai \u0111ang xem.", "transliteration": "Hay nhay mua nhu the khong ai dang xem."},
+        {"english": "Sing from your heart out loud.", "vietnamese": "H\u00e3y h\u00e1t t\u1eeb tr\u00e1i tim b\u1ea1n th\u1eadt to.", "transliteration": "Hay hat tu trai tim ban that to."},
+        {"english": "Plant seeds of kindness everywhere.", "vietnamese": "Gieo nh\u1eefng h\u1ea1t gi\u1ed1ng t\u1eed t\u1ebf \u1edf kh\u1eafp m\u1ecdi n\u01a1i.", "transliteration": "Gieo nhung hat giong tu te o khap moi noi."},
+        {"english": "Let go of what you cannot control.", "vietnamese": "H\u00e3y bu\u00f4ng b\u1ecf nh\u1eefng g\u00ec b\u1ea1n kh\u00f4ng th\u1ec3 ki\u1ec3m so\u00e1t.", "transliteration": "Hay buong bo nhung gi ban khong the kiem soat."},
+        {"english": "Be present in the here and now.", "vietnamese": "H\u00e3y hi\u1ec7n di\u1ec7n trong kho\u1ea3nh kh\u1eafc hi\u1ec7n t\u1ea1i.", "transliteration": "Hay hien dien trong khoanh khac hien tai."}
     ]
     fresh = [p for p in generic_fallbacks if not is_phrase_used(p["english"])]
-    # Assign the right language key
-    lang_key = "vietnamese"
-    for p in fresh:
-        p[lang_key] = p.pop("vietnamese")
     return fresh[:num_phrases]
 async def generate_single_audio(text: str, voice: str, output_path: str):
     try:
@@ -1420,7 +1490,7 @@ def generate_complete_image(phrase_data: dict, category_english: str, output_pat
     cy = start_y
 
     # Category bar (rounded)
-    cat_text = cat_native
+    cat_text = category_english
     cat_bb = draw.textbbox((0, 0), cat_text, font=font_category)
     cat_tw = cat_bb[2] - cat_bb[0]
     cat_th = cat_bb[3] - cat_bb[1]
