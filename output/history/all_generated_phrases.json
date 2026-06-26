@@ -1644,7 +1644,42 @@
       "transliteration": "Toi can nuoc, khan cap.",
       "category": "Emergency",
       "generated_at": "2026-06-24T21:15:33.709958"
+    },
+    {
+      "english": "Look up, see the sky.",
+      "vietnamese": "Ngước lên, nhìn bầu trời.",
+      "transliteration": "Ngước lên, nhìn bầu trời.",
+      "category": "Directions",
+      "generated_at": "2026-06-26T00:01:43.674331"
+    },
+    {
+      "english": "Turn left, at the corner.",
+      "vietnamese": "Rẽ trái, ở góc đường.",
+      "transliteration": "Rẽ trái, ở góc đường.",
+      "category": "Directions",
+      "generated_at": "2026-06-26T00:01:43.674340"
+    },
+    {
+      "english": "Walk straight, then stop.",
+      "vietnamese": "Đi thẳng, rồi dừng lại.",
+      "transliteration": "Đi thẳng, rồi dừng lại.",
+      "category": "Directions",
+      "generated_at": "2026-06-26T00:01:43.674342"
+    },
+    {
+      "english": "Go down, to the river.",
+      "vietnamese": "Đi xuống, tới con sông.",
+      "transliteration": "Đi xuống, tới con sông.",
+      "category": "Directions",
+      "generated_at": "2026-06-26T00:01:43.674344"
+    },
+    {
+      "english": "Follow this path.",
+      "vietnamese": "Đi theo con đường này.",
+      "transliteration": "Đi theo con đường này.",
+      "category": "Directions",
+      "generated_at": "2026-06-26T00:01:43.674345"
     }
   ],
-  "last_updated": "2026-06-24T21:15:33.709960"
+  "last_updated": "2026-06-26T00:01:43.674346"
 }
