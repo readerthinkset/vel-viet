@@ -77,8 +77,7 @@ CATEGORIES_ENGLISH = [
     "Balance",
     "Growth",
     "Purpose",
-    "Mindfulness"
-
+    "Mindfulness",
     "Daily Routine",
     "Weather",
     "Feelings",
@@ -135,7 +134,27 @@ CATEGORIES_NATIVE = {
     "Balance": "Cân Bằng",
     "Growth": "Phát Triển",
     "Purpose": "Mục Đích",
-    "Mindfulness": "Chánh Niệm"
+    "Mindfulness": "Chánh Niệm",
+    "Daily Routine": "Thói Quen Hàng Ngày",
+    "Weather": "Thời Tiết",
+    "Feelings": "Cảm Xúc",
+    "Food": "Đồ Ăn",
+    "Health": "Sức Khỏe",
+    "Work": "Công Việc",
+    "Technology": "Công Nghệ",
+    "Nature": "Thiên Nhiên",
+    "Animals": "Động Vật",
+    "Colors": "Màu Sắc",
+    "Directions": "Chỉ Đường",
+    "Body Parts": "Bộ Phận Cơ Thể",
+    "Clothes": "Quần Áo",
+    "Music": "Âm Nhạc",
+    "Sports": "Thể Thao",
+    "Holidays": "Ngày Lễ",
+    "Education": "Giáo Dục",
+    "Culture": "Văn Hóa",
+    "Finance": "Tài Chính",
+    "Relationships": "Mối Quan Hệ"
 }
 
 ENGLISH_VOICE = "en-US-GuyNeural"
