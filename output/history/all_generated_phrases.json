@@ -1679,7 +1679,42 @@
       "transliteration": "Đi theo con đường này.",
       "category": "Directions",
       "generated_at": "2026-06-26T00:01:43.674345"
+    },
+    {
+      "english": "Wake up, greet the sun.",
+      "vietnamese": "Thức dậy, chào mặt trời.",
+      "transliteration": "Thuc day, chao mat troi.",
+      "category": "Daily Routine",
+      "generated_at": "2026-06-26T03:55:13.724771"
+    },
+    {
+      "english": "Stretch out, feel alive.",
+      "vietnamese": "Vươn vai, thấy tràn đầy.",
+      "transliteration": "Vươn vai, thay tràn đầy.",
+      "category": "Daily Routine",
+      "generated_at": "2026-06-26T03:55:13.724782"
+    },
+    {
+      "english": "Drink water, refresh yourself.",
+      "vietnamese": "Uống nước, sảng khoái nhé.",
+      "transliteration": "Uống nước, sảng khoái nhé.",
+      "category": "Daily Routine",
+      "generated_at": "2026-06-26T03:55:13.724784"
+    },
+    {
+      "english": "Eat breakfast, fuel your day.",
+      "vietnamese": "Ăn sáng, nạp năng lượng.",
+      "transliteration": "Ăn sáng, nạp năng lượng.",
+      "category": "Daily Routine",
+      "generated_at": "2026-06-26T03:55:13.724786"
+    },
+    {
+      "english": "Get dressed, look sharp.",
+      "vietnamese": "Mặc đồ, trông thật bảnh.",
+      "transliteration": "Mặc đồ, trông thật bảnh.",
+      "category": "Daily Routine",
+      "generated_at": "2026-06-26T03:55:13.724787"
     }
   ],
-  "last_updated": "2026-06-26T00:01:43.674346"
+  "last_updated": "2026-06-26T03:55:13.724789"
 }
