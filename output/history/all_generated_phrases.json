@@ -2064,7 +2064,42 @@
       "transliteration": "Mưa dịu dàng, nuôi dưỡng đất.",
       "category": "Patience",
       "generated_at": "2026-06-28T04:01:24.847124"
+    },
+    {
+      "english": "A busy bee, always working.",
+      "vietnamese": "Con ong bận rộn, luôn làm việc.",
+      "transliteration": "Con ong ban ron, luon lam viec.",
+      "category": "Animals",
+      "generated_at": "2026-06-28T14:04:55.369710"
+    },
+    {
+      "english": "The cat naps, in the sun.",
+      "vietnamese": "Con mèo ngủ, dưới nắng.",
+      "transliteration": "Con meo ngu, duoi nang.",
+      "category": "Animals",
+      "generated_at": "2026-06-28T14:04:55.369720"
+    },
+    {
+      "english": "A playful puppy, chasing its tail.",
+      "vietnamese": "Chú chó con tinh nghịch, đuổi đuôi.",
+      "transliteration": "Chu cho con tinh nghich, duoi duoi.",
+      "category": "Animals",
+      "generated_at": "2026-06-28T14:04:55.369722"
+    },
+    {
+      "english": "The wise owl, watches the night.",
+      "vietnamese": "Con cú khôn ngoan, canh đêm.",
+      "transliteration": "Con cu khon ngoan, canh dem.",
+      "category": "Animals",
+      "generated_at": "2026-06-28T14:04:55.369723"
+    },
+    {
+      "english": "A gentle deer, in the forest.",
+      "vietnamese": "Con nai hiền lành, trong rừng.",
+      "transliteration": "Con nai hien lanh, trong rung.",
+      "category": "Animals",
+      "generated_at": "2026-06-28T14:04:55.369724"
     }
   ],
-  "last_updated": "2026-06-28T04:01:24.847126"
+  "last_updated": "2026-06-28T14:04:55.369728"
 }
