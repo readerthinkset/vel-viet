@@ -2099,7 +2099,42 @@
       "transliteration": "Con nai hien lanh, trong rung.",
       "category": "Animals",
       "generated_at": "2026-06-28T14:04:55.369724"
+    },
+    {
+      "english": "This one, is delicious.",
+      "vietnamese": "Món này, ngon quá.",
+      "transliteration": "Mon nay, ngon qua.",
+      "category": "Common Expressions",
+      "generated_at": "2026-06-28T15:19:24.829265"
+    },
+    {
+      "english": "Can I have, the bill please?",
+      "vietnamese": "Tính tiền, làm ơn.",
+      "transliteration": "Tinh tien, lam on.",
+      "category": "Common Expressions",
+      "generated_at": "2026-06-28T15:19:24.829275"
+    },
+    {
+      "english": "What time, is it now?",
+      "vietnamese": "Bây giờ, mấy giờ rồi?",
+      "transliteration": "Bay gio, may gio roi?",
+      "category": "Common Expressions",
+      "generated_at": "2026-06-28T15:19:24.829277"
+    },
+    {
+      "english": "Where is, the bathroom?",
+      "vietnamese": "Nhà vệ sinh, ở đâu?",
+      "transliteration": "Nha ve sinh, o dau?",
+      "category": "Common Expressions",
+      "generated_at": "2026-06-28T15:19:24.829278"
+    },
+    {
+      "english": "I like, this city.",
+      "vietnamese": "Tôi thích, thành phố này.",
+      "transliteration": "Toi thich, thanh pho nay.",
+      "category": "Common Expressions",
+      "generated_at": "2026-06-28T15:19:24.829279"
     }
   ],
-  "last_updated": "2026-06-28T14:04:55.369728"
+  "last_updated": "2026-06-28T15:19:24.829280"
 }
