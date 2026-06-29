@@ -2204,7 +2204,42 @@
       "transliteration": "Banh mi, chuyen di ngon.",
       "category": "Culture",
       "generated_at": "2026-06-28T20:48:41.646405"
+    },
+    {
+      "english": "One, tiny seed, sprouts.",
+      "vietnamese": "Một, hạt mầm nhỏ, nảy.",
+      "transliteration": "Mot, hat mam nho, nay.",
+      "category": "Numbers",
+      "generated_at": "2026-06-29T04:07:55.900720"
+    },
+    {
+      "english": "Two, bright stars, shine.",
+      "vietnamese": "Hai, vì sao sáng, lung linh.",
+      "transliteration": "Hai, vi sao sang, lung linh.",
+      "category": "Numbers",
+      "generated_at": "2026-06-29T04:07:55.900728"
+    },
+    {
+      "english": "Three, wise owls, hoot.",
+      "vietnamese": "Ba, chú cú khôn, kêu.",
+      "transliteration": "Ba, chu cu khon, keu.",
+      "category": "Numbers",
+      "generated_at": "2026-06-29T04:07:55.900730"
+    },
+    {
+      "english": "Four, strong legs, run.",
+      "vietnamese": "Bốn, chân khỏe, chạy.",
+      "transliteration": "Bon, chan khoe, chay.",
+      "category": "Numbers",
+      "generated_at": "2026-06-29T04:07:55.900731"
+    },
+    {
+      "english": "Five, happy smiles, bloom.",
+      "vietnamese": "Năm, nụ cười vui, nở.",
+      "transliteration": "Nam, nu cuoi vui, no.",
+      "category": "Numbers",
+      "generated_at": "2026-06-29T04:07:55.900732"
     }
   ],
-  "last_updated": "2026-06-28T20:48:41.646407"
+  "last_updated": "2026-06-29T04:07:55.900734"
 }
