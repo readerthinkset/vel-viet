@@ -2309,7 +2309,42 @@
       "transliteration": "Ket noi van hoa, noi tieng Viet.",
       "category": "Motivation",
       "generated_at": "2026-06-29T16:54:17.620715"
+    },
+    {
+      "english": "Sunrise, sticky rice.",
+      "vietnamese": "Bình minh, xôi nếp.",
+      "transliteration": "Binh minh, xoi nep.",
+      "category": "Food",
+      "generated_at": "2026-06-29T19:01:08.253600"
+    },
+    {
+      "english": "Soup so good, wow!",
+      "vietnamese": "Canh ngon, ôi chao!",
+      "transliteration": "Canh ngon, oi chao!",
+      "category": "Food",
+      "generated_at": "2026-06-29T19:01:08.253612"
+    },
+    {
+      "english": "Banh mi, bites please.",
+      "vietnamese": "Bánh mì, xin miếng.",
+      "transliteration": "Banh mi, xin mieng.",
+      "category": "Food",
+      "generated_at": "2026-06-29T19:01:08.253614"
+    },
+    {
+      "english": "Fresh fruit, sweet taste.",
+      "vietnamese": "Trái cây tươi, ngọt lịm.",
+      "transliteration": "Trai cay tuoi, ngot lim.",
+      "category": "Food",
+      "generated_at": "2026-06-29T19:01:08.253615"
+    },
+    {
+      "english": "Tea time, relax now.",
+      "vietnamese": "Giờ trà, thư giãn nhé.",
+      "transliteration": "Gio tra, thu gian nhe.",
+      "category": "Food",
+      "generated_at": "2026-06-29T19:01:08.253617"
     }
   ],
-  "last_updated": "2026-06-29T16:54:17.620717"
+  "last_updated": "2026-06-29T19:01:08.253618"
 }
