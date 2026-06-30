@@ -2379,7 +2379,42 @@
       "transliteration": "Xay nen mong vung chac, vuon toi vi sao.",
       "category": "Balance",
       "generated_at": "2026-06-29T21:15:30.102055"
+    },
+    {
+      "english": "Let's clear the air, shall we?",
+      "vietnamese": "Mình làm rõ mọi chuyện nhé?",
+      "transliteration": "Minh lam ro moi chuyen nhe?",
+      "category": "Forgiveness",
+      "generated_at": "2026-06-30T03:52:00.220062"
+    },
+    {
+      "english": "Peace between us, okay?",
+      "vietnamese": "Hai ta hòa nhé?",
+      "transliteration": "Hai ta hoa nhe?",
+      "category": "Forgiveness",
+      "generated_at": "2026-06-30T03:52:00.220072"
+    },
+    {
+      "english": "Let's reset, friend.",
+      "vietnamese": "Mình làm lại nhé, bạn.",
+      "transliteration": "Minh lam lai nhe, ban.",
+      "category": "Forgiveness",
+      "generated_at": "2026-06-30T03:52:00.220074"
+    },
+    {
+      "english": "Can we start fresh?",
+      "vietnamese": "Mình bắt đầu lại được không?",
+      "transliteration": "Minh bat dau lai duoc khong?",
+      "category": "Forgiveness",
+      "generated_at": "2026-06-30T03:52:00.220075"
+    },
+    {
+      "english": "Let bygones be bygones.",
+      "vietnamese": "Quá khứ cho qua.",
+      "transliteration": "Qua khu cho qua.",
+      "category": "Forgiveness",
+      "generated_at": "2026-06-30T03:52:00.220077"
     }
   ],
-  "last_updated": "2026-06-29T21:15:30.102057"
+  "last_updated": "2026-06-30T03:52:00.220078"
 }
