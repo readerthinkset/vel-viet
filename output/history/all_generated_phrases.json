@@ -2624,7 +2624,42 @@
       "transliteration": "Toy thích mohn ahn nai.",
       "category": "Basic Phrases",
       "generated_at": "2026-07-01T14:51:38.254146"
+    },
+    {
+      "english": "My phone, is dead. Please.",
+      "vietnamese": "Điện thoại tôi, hết pin.",
+      "transliteration": "Dien thoai toi, het pin.",
+      "category": "Emergency",
+      "generated_at": "2026-07-01T16:28:23.351283"
+    },
+    {
+      "english": "This place, is unfamiliar. Guide me?",
+      "vietnamese": "Chỗ này, lạ quá. Dẫn tôi?",
+      "transliteration": "Cho nay, la qua. Dan toi?",
+      "category": "Emergency",
+      "generated_at": "2026-07-01T16:28:23.351293"
+    },
+    {
+      "english": "I feel unwell, very.",
+      "vietnamese": "Tôi cảm thấy, không khỏe.",
+      "transliteration": "Toi cam thay, khong khoe.",
+      "category": "Emergency",
+      "generated_at": "2026-07-01T16:28:23.351295"
+    },
+    {
+      "english": "Need safe shelter, quickly.",
+      "vietnamese": "Cần chỗ trú, nhanh.",
+      "transliteration": "Can cho tru, nhanh.",
+      "category": "Emergency",
+      "generated_at": "2026-07-01T16:28:23.351296"
+    },
+    {
+      "english": "My documents, are missing.",
+      "vietnamese": "Giấy tờ của tôi, mất rồi.",
+      "transliteration": "Giay to cua toi, mat roi.",
+      "category": "Emergency",
+      "generated_at": "2026-07-01T16:28:23.351297"
     }
   ],
-  "last_updated": "2026-07-01T14:51:38.254147"
+  "last_updated": "2026-07-01T16:28:23.351299"
 }
