@@ -2729,7 +2729,42 @@
       "transliteration": "Chay theo ngon ngu, tim nhip dieu cua ban.",
       "category": "Confidence",
       "generated_at": "2026-07-01T21:14:53.320593"
+    },
+    {
+      "english": "Dewdrops, on the spiderweb.",
+      "vietnamese": "Giọt sương, trên mạng nhện.",
+      "transliteration": "Got suong, tren mang nhen.",
+      "category": "Nature",
+      "generated_at": "2026-07-02T03:47:07.367118"
+    },
+    {
+      "english": "Stars ignite, the night sky.",
+      "vietnamese": "Sao lấp lánh, bầu trời đêm.",
+      "transliteration": "Sao lap lanh, bau troi dem.",
+      "category": "Nature",
+      "generated_at": "2026-07-02T03:47:07.367126"
+    },
+    {
+      "english": "Roots grip, the ancient earth.",
+      "vietnamese": "Rễ bám chặt, đất cổ xưa.",
+      "transliteration": "Re bam chat, dat co xua.",
+      "category": "Nature",
+      "generated_at": "2026-07-02T03:47:07.367128"
+    },
+    {
+      "english": "Waves crash, on the shore.",
+      "vietnamese": "Sóng vỗ bờ, đá rạn.",
+      "transliteration": "Song vo bo, da ran.",
+      "category": "Nature",
+      "generated_at": "2026-07-02T03:47:07.367129"
+    },
+    {
+      "english": "A creek meanders, through the woods.",
+      "vietnamese": "Suối len lỏi, qua rừng sâu.",
+      "transliteration": "Suoi len loi, qua rung sau.",
+      "category": "Nature",
+      "generated_at": "2026-07-02T03:47:07.367131"
     }
   ],
-  "last_updated": "2026-07-01T21:14:53.320595"
+  "last_updated": "2026-07-02T03:47:07.367132"
 }
