@@ -2799,7 +2799,42 @@
       "transliteration": "Kwahn kay cow nyaw, coo dee teep.",
       "category": "Directions",
       "generated_at": "2026-07-02T14:20:34.726693"
+    },
+    {
+      "english": "Feeling happy, today's a good day.",
+      "vietnamese": "Vui vẻ, hôm nay là một ngày tốt.",
+      "transliteration": "Vui ve, hom nay la mot ngay tot.",
+      "category": "Feelings",
+      "generated_at": "2026-07-02T16:08:33.462634"
+    },
+    {
+      "english": "A bit sad, thinking of home.",
+      "vietnamese": "Hơi buồn, nhớ nhà.",
+      "transliteration": "Hoi buon, nho nha.",
+      "category": "Feelings",
+      "generated_at": "2026-07-02T16:08:33.462641"
+    },
+    {
+      "english": "Feeling excited, can't wait!",
+      "vietnamese": "Phấn khích, không thể chờ đợi!",
+      "transliteration": "Phan khich, khong the cho doi!",
+      "category": "Feelings",
+      "generated_at": "2026-07-02T16:08:33.462643"
+    },
+    {
+      "english": "Feeling tired, need a rest.",
+      "vietnamese": "Mệt mỏi, cần nghỉ ngơi.",
+      "transliteration": "Met moi, can nghi ngoi.",
+      "category": "Feelings",
+      "generated_at": "2026-07-02T16:08:33.462645"
+    },
+    {
+      "english": "So angry, lost my temper.",
+      "vietnamese": "Giận dữ, mất bình tĩnh.",
+      "transliteration": "Gian du, mat binh tinh.",
+      "category": "Feelings",
+      "generated_at": "2026-07-02T16:08:33.462646"
     }
   ],
-  "last_updated": "2026-07-02T14:20:34.726695"
+  "last_updated": "2026-07-02T16:08:33.462647"
 }
