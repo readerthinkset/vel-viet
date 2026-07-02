@@ -2764,7 +2764,42 @@
       "transliteration": "Suoi len loi, qua rung sau.",
       "category": "Nature",
       "generated_at": "2026-07-02T03:47:07.367131"
+    },
+    {
+      "english": "Take this alley, it's a shortcut.",
+      "vietnamese": "Đi vào con hẻm này, là lối tắt.",
+      "transliteration": "Dee vao kon hem nai, la loy tat.",
+      "category": "Directions",
+      "generated_at": "2026-07-02T14:20:34.726679"
+    },
+    {
+      "english": "Head towards the market, then ask again.",
+      "vietnamese": "Đi về phía chợ, rồi hỏi lại.",
+      "transliteration": "Dee vee fee-uh cho, roy hoy lai.",
+      "category": "Directions",
+      "generated_at": "2026-07-02T14:20:34.726689"
+    },
+    {
+      "english": "Find the big banyan tree, it's nearby.",
+      "vietnamese": "Tìm cây đa lớn, nó ở gần đây.",
+      "transliteration": "Teem kay da lohn, noh uh gun dy.",
+      "category": "Directions",
+      "generated_at": "2026-07-02T14:20:34.726691"
+    },
+    {
+      "english": "Continue past the temple, then turn.",
+      "vietnamese": "Đi tiếp qua chùa, rồi rẽ.",
+      "transliteration": "Dee teep kwah chua, roy ray.",
+      "category": "Directions",
+      "generated_at": "2026-07-02T14:20:34.726692"
+    },
+    {
+      "english": "Go across the small bridge, keep going.",
+      "vietnamese": "Qua cây cầu nhỏ, cứ đi tiếp.",
+      "transliteration": "Kwahn kay cow nyaw, coo dee teep.",
+      "category": "Directions",
+      "generated_at": "2026-07-02T14:20:34.726693"
     }
   ],
-  "last_updated": "2026-07-02T03:47:07.367132"
+  "last_updated": "2026-07-02T14:20:34.726695"
 }
