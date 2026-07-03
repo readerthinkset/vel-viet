@@ -3009,7 +3009,42 @@
       "transliteration": "Sang tao, thich nghi, phat trien.",
       "category": "Work",
       "generated_at": "2026-07-03T15:53:31.934884"
+    },
+    {
+      "english": "Merry Christmas, everyone.",
+      "vietnamese": "Giáng sinh vui vẻ, mọi người.",
+      "transliteration": "Giáng sinh vui vẻ, mọi người.",
+      "category": "Holidays",
+      "generated_at": "2026-07-03T18:10:13.951431"
+    },
+    {
+      "english": "Happy New Year!",
+      "vietnamese": "Chúc mừng năm mới!",
+      "transliteration": "Chúc mừng năm mới!",
+      "category": "Holidays",
+      "generated_at": "2026-07-03T18:10:13.951439"
+    },
+    {
+      "english": "Happy Lunar New Year.",
+      "vietnamese": "Chúc mừng Tết Nguyên Đán.",
+      "transliteration": "Chúc mừng Tết Nguyên Đán.",
+      "category": "Holidays",
+      "generated_at": "2026-07-03T18:10:13.951441"
+    },
+    {
+      "english": "Happy Mid-Autumn Festival.",
+      "vietnamese": "Chúc mừng Tết Trung Thu.",
+      "transliteration": "Chúc mừng Tết Trung Thu.",
+      "category": "Holidays",
+      "generated_at": "2026-07-03T18:10:13.951443"
+    },
+    {
+      "english": "Wishing you joy.",
+      "vietnamese": "Chúc bạn niềm vui.",
+      "transliteration": "Chúc bạn niềm vui.",
+      "category": "Holidays",
+      "generated_at": "2026-07-03T18:10:13.951444"
     }
   ],
-  "last_updated": "2026-07-03T15:53:31.934886"
+  "last_updated": "2026-07-03T18:10:13.951446"
 }
