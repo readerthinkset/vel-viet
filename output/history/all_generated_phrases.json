@@ -3114,7 +3114,42 @@
       "transliteration": "Cam hoang hon, am ap, moi goi.",
       "category": "Colors",
       "generated_at": "2026-07-04T03:20:32.191660"
+    },
+    {
+      "english": "The sun is smiling today.",
+      "vietnamese": "Trời hôm nay, nắng đẹp quá.",
+      "transliteration": "Troi hom nay, nang dep qua.",
+      "category": "Weather",
+      "generated_at": "2026-07-04T13:49:48.171546"
+    },
+    {
+      "english": "Clouds are playing, hide and seek.",
+      "vietnamese": "Mây đang chơi, trốn tìm.",
+      "transliteration": "May dang choi, tron tim.",
+      "category": "Weather",
+      "generated_at": "2026-07-04T13:49:48.171558"
+    },
+    {
+      "english": "Raindrops are dancing, on the roof.",
+      "vietnamese": "Giọt mưa đang nhảy, trên mái nhà.",
+      "transliteration": "Giot mua dang nhay, tren mai nha.",
+      "category": "Weather",
+      "generated_at": "2026-07-04T13:49:48.171559"
+    },
+    {
+      "english": "Fog creeps in, softly.",
+      "vietnamese": "Sương mù đang đến, thật nhẹ nhàng.",
+      "transliteration": "Suong mu dang den, that nhe nhang.",
+      "category": "Weather",
+      "generated_at": "2026-07-04T13:49:48.171560"
+    },
+    {
+      "english": "Thunder rumbles, in the distance.",
+      "vietnamese": "Sấm đang gầm, ở đằng xa.",
+      "transliteration": "Sam dang gam, o dang xa.",
+      "category": "Weather",
+      "generated_at": "2026-07-04T13:49:48.171562"
     }
   ],
-  "last_updated": "2026-07-04T03:20:32.191661"
+  "last_updated": "2026-07-04T13:49:48.171563"
 }
