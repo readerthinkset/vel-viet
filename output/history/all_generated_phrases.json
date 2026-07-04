@@ -3149,7 +3149,42 @@
       "transliteration": "Sam dang gam, o dang xa.",
       "category": "Weather",
       "generated_at": "2026-07-04T13:49:48.171562"
+    },
+    {
+      "english": "This dress, is beautiful.",
+      "vietnamese": "Chiếc váy này, thật đẹp.",
+      "transliteration": "Chi-ek vai nai, tut dep.",
+      "category": "Clothes",
+      "generated_at": "2026-07-04T15:06:57.365887"
+    },
+    {
+      "english": "I need new shoes.",
+      "vietnamese": "Tôi cần, giày mới.",
+      "transliteration": "Toy ken, yai moy.",
+      "category": "Clothes",
+      "generated_at": "2026-07-04T15:06:57.365899"
+    },
+    {
+      "english": "What size, are you?",
+      "vietnamese": "Bạn mặc, size gì?",
+      "transliteration": "Ban mak, size zi?",
+      "category": "Clothes",
+      "generated_at": "2026-07-04T15:06:57.365901"
+    },
+    {
+      "english": "This shirt, fits well.",
+      "vietnamese": "Áo này, vừa lắm.",
+      "transliteration": "Ow nai, vuuh lam.",
+      "category": "Clothes",
+      "generated_at": "2026-07-04T15:06:57.365902"
+    },
+    {
+      "english": "Do you have, pants?",
+      "vietnamese": "Bạn có, quần không?",
+      "transliteration": "Ban co, kwoon khong?",
+      "category": "Clothes",
+      "generated_at": "2026-07-04T15:06:57.365903"
     }
   ],
-  "last_updated": "2026-07-04T13:49:48.171563"
+  "last_updated": "2026-07-04T15:06:57.365905"
 }
