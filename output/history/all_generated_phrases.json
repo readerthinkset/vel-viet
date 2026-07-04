@@ -3079,7 +3079,42 @@
       "transliteration": "Chia se cau chuyen, bang tieng Viet.",
       "category": "Purpose",
       "generated_at": "2026-07-03T20:50:27.123897"
+    },
+    {
+      "english": "Sky blue, like a clear day.",
+      "vietnamese": "Xanh da trời, như ngày trong veo.",
+      "transliteration": "Xanh da troi, nhu ngay trong veo.",
+      "category": "Colors",
+      "generated_at": "2026-07-04T03:20:32.191646"
+    },
+    {
+      "english": "Grass green, fresh and alive.",
+      "vietnamese": "Xanh lá cây, tươi mới, sinh động.",
+      "transliteration": "Xanh la cay, tuoi moi, sinh dong.",
+      "category": "Colors",
+      "generated_at": "2026-07-04T03:20:32.191655"
+    },
+    {
+      "english": "Ocean blue, deep and calm.",
+      "vietnamese": "Xanh biển, sâu lắng, yên bình.",
+      "transliteration": "Xanh bien, sau lang, yen binh.",
+      "category": "Colors",
+      "generated_at": "2026-07-04T03:20:32.191657"
+    },
+    {
+      "english": "Fire red, bold and bright.",
+      "vietnamese": "Đỏ rực lửa, mạnh mẽ, chói lọi.",
+      "transliteration": "Do ruc lua, manh me, choi loi.",
+      "category": "Colors",
+      "generated_at": "2026-07-04T03:20:32.191658"
+    },
+    {
+      "english": "Sunset orange, warm and inviting.",
+      "vietnamese": "Cam hoàng hôn, ấm áp, mời gọi.",
+      "transliteration": "Cam hoang hon, am ap, moi goi.",
+      "category": "Colors",
+      "generated_at": "2026-07-04T03:20:32.191660"
     }
   ],
-  "last_updated": "2026-07-03T20:50:27.123899"
+  "last_updated": "2026-07-04T03:20:32.191661"
 }
