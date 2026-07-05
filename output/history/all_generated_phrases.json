@@ -3289,7 +3289,42 @@
       "transliteration": "Món này, ngon tuyệt!",
       "category": "Travel",
       "generated_at": "2026-07-05T03:36:41.574907"
+    },
+    {
+      "english": "This one, I like very much.",
+      "vietnamese": "Cái này, tôi rất thích.",
+      "transliteration": "Kai nai, toi rat thich.",
+      "category": "Shopping",
+      "generated_at": "2026-07-05T13:56:07.903216"
+    },
+    {
+      "english": "Do you have, something similar?",
+      "vietnamese": "Bạn có, cái tương tự không?",
+      "transliteration": "Ban co, kai tuong tu khong?",
+      "category": "Shopping",
+      "generated_at": "2026-07-05T13:56:07.903227"
+    },
+    {
+      "english": "Could I, see a different size?",
+      "vietnamese": "Tôi xem, cỡ khác được không?",
+      "transliteration": "Toi xem, co khac duoc khong?",
+      "category": "Shopping",
+      "generated_at": "2026-07-05T13:56:07.903229"
+    },
+    {
+      "english": "It's a bit, too expensive.",
+      "vietnamese": "Hơi, đắt một chút.",
+      "transliteration": "Hoi, dat mot chut.",
+      "category": "Shopping",
+      "generated_at": "2026-07-05T13:56:07.903230"
+    },
+    {
+      "english": "What's the best price, for this?",
+      "vietnamese": "Giá tốt nhất, cho cái này?",
+      "transliteration": "Gia tot nhat, cho kai nai?",
+      "category": "Shopping",
+      "generated_at": "2026-07-05T13:56:07.903232"
     }
   ],
-  "last_updated": "2026-07-05T03:36:41.574908"
+  "last_updated": "2026-07-05T13:56:07.903233"
 }
