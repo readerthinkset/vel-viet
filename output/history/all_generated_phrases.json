@@ -3429,7 +3429,42 @@
       "transliteration": "Lang yen, ro rang.",
       "category": "Patience",
       "generated_at": "2026-07-05T20:44:20.002347"
+    },
+    {
+      "english": "One, tiny drop, makes an ocean.",
+      "vietnamese": "Một, giọt nhỏ, tạo nên biển.",
+      "transliteration": "Mot, giot nho, tao nen bien.",
+      "category": "Numbers",
+      "generated_at": "2026-07-06T03:43:50.324571"
+    },
+    {
+      "english": "Two, hands clapping, make a sound.",
+      "vietnamese": "Hai, bàn tay vỗ, tạo tiếng vang.",
+      "transliteration": "Hai, ban tay vo, tao tieng vang.",
+      "category": "Numbers",
+      "generated_at": "2026-07-06T03:43:50.324581"
+    },
+    {
+      "english": "Three, cheers, for victory.",
+      "vietnamese": "Ba, tiếng reo, mừng chiến thắng.",
+      "transliteration": "Ba, tieng reo, mung chien thang.",
+      "category": "Numbers",
+      "generated_at": "2026-07-06T03:43:50.324583"
+    },
+    {
+      "english": "Four, wheels, on a car.",
+      "vietnamese": "Bốn, bánh xe, trên xe hơi.",
+      "transliteration": "Bon, banh xe, tren xe hoi.",
+      "category": "Numbers",
+      "generated_at": "2026-07-06T03:43:50.324585"
+    },
+    {
+      "english": "Five, senses, we experience.",
+      "vietnamese": "Năm, giác quan, ta cảm nhận.",
+      "transliteration": "Nam, giac quan, ta cam nhan.",
+      "category": "Numbers",
+      "generated_at": "2026-07-06T03:43:50.324586"
     }
   ],
-  "last_updated": "2026-07-05T20:44:20.002349"
+  "last_updated": "2026-07-06T03:43:50.324588"
 }
