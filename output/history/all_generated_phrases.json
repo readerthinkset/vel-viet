@@ -3464,7 +3464,42 @@
       "transliteration": "Nam, giac quan, ta cam nhan.",
       "category": "Numbers",
       "generated_at": "2026-07-06T03:43:50.324586"
+    },
+    {
+      "english": "My eyes, see the world.",
+      "vietnamese": "Mắt tôi, nhìn thế giới.",
+      "transliteration": "Mat toi, nhin the gioi.",
+      "category": "Body Parts",
+      "generated_at": "2026-07-06T15:49:45.455511"
+    },
+    {
+      "english": "Her ears, hear the music.",
+      "vietnamese": "Tai cô ấy, nghe nhạc.",
+      "transliteration": "Tai co ay, nghe nhac.",
+      "category": "Body Parts",
+      "generated_at": "2026-07-06T15:49:45.455519"
+    },
+    {
+      "english": "His nose, smells flowers.",
+      "vietnamese": "Mũi anh ấy, ngửi hoa.",
+      "transliteration": "Mui anh ay, ngui hoa.",
+      "category": "Body Parts",
+      "generated_at": "2026-07-06T15:49:45.455521"
+    },
+    {
+      "english": "Your mouth, says hello.",
+      "vietnamese": "Miệng bạn, nói xin chào.",
+      "transliteration": "Mieng ban, noi xin chao.",
+      "category": "Body Parts",
+      "generated_at": "2026-07-06T15:49:45.455522"
+    },
+    {
+      "english": "Our hands, hold tight.",
+      "vietnamese": "Tay chúng ta, nắm chặt.",
+      "transliteration": "Tay chung ta, nam chat.",
+      "category": "Body Parts",
+      "generated_at": "2026-07-06T15:49:45.455524"
     }
   ],
-  "last_updated": "2026-07-06T03:43:50.324588"
+  "last_updated": "2026-07-06T15:49:45.455525"
 }
