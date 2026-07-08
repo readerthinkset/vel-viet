@@ -3814,7 +3814,42 @@
       "transliteration": "Nuoc cot dua, beo ngay.",
       "category": "Food",
       "generated_at": "2026-07-08T18:14:34.849545"
+    },
+    {
+      "english": "I need, a quiet place.",
+      "vietnamese": "Tôi cần, một nơi yên tĩnh.",
+      "transliteration": "Toi can, mot noi yen tinh.",
+      "category": "Emergency",
+      "generated_at": "2026-07-08T20:53:10.176717"
+    },
+    {
+      "english": "My wallet, is gone.",
+      "vietnamese": "Ví của tôi, đã mất.",
+      "transliteration": "Vi cua toi, da mat.",
+      "category": "Emergency",
+      "generated_at": "2026-07-08T20:53:10.176728"
+    },
+    {
+      "english": "Is this, the right way?",
+      "vietnamese": "Đây, có phải đường đúng?",
+      "transliteration": "Day, co phai duong dung?",
+      "category": "Emergency",
+      "generated_at": "2026-07-08T20:53:10.176730"
+    },
+    {
+      "english": "I am, very thirsty.",
+      "vietnamese": "Tôi, rất khát nước.",
+      "transliteration": "Toi, rat khat nuoc.",
+      "category": "Emergency",
+      "generated_at": "2026-07-08T20:53:10.176731"
+    },
+    {
+      "english": "Where can I, charge this?",
+      "vietnamese": "Tôi có thể, sạc cái này ở đâu?",
+      "transliteration": "Toi co the, sac cai nay o dau?",
+      "category": "Emergency",
+      "generated_at": "2026-07-08T20:53:10.176732"
     }
   ],
-  "last_updated": "2026-07-08T18:14:34.849547"
+  "last_updated": "2026-07-08T20:53:10.176734"
 }
