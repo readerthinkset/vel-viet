@@ -4024,7 +4024,42 @@
       "transliteration": "Gang tay cua toi, o dau?",
       "category": "Clothes",
       "generated_at": "2026-07-09T21:09:11.294088"
+    },
+    {
+      "english": "Sky is clear, a beautiful day.",
+      "vietnamese": "Trời quang mây, ngày đẹp lắm.",
+      "transliteration": "Troi quang may, ngay dep lam.",
+      "category": "Weather",
+      "generated_at": "2026-07-10T03:31:21.096143"
+    },
+    {
+      "english": "Wind whispers, through the trees.",
+      "vietnamese": "Gió khẽ hát, qua kẽ lá.",
+      "transliteration": "Gio khe hat, qua ke la.",
+      "category": "Weather",
+      "generated_at": "2026-07-10T03:31:21.096153"
+    },
+    {
+      "english": "Sunlight warms, my skin.",
+      "vietnamese": "Nắng ấm áp, trên da thịt.",
+      "transliteration": "Nang am ap, tren da thit.",
+      "category": "Weather",
+      "generated_at": "2026-07-10T03:31:21.096155"
+    },
+    {
+      "english": "Rain falls, a gentle shower.",
+      "vietnamese": "Mưa rơi nhẹ, mơn man.",
+      "transliteration": "Mua roi nhe, mon man.",
+      "category": "Weather",
+      "generated_at": "2026-07-10T03:31:21.096156"
+    },
+    {
+      "english": "Air is cool, very refreshing.",
+      "vietnamese": "Không khí mát, sảng khoái.",
+      "transliteration": "Khong khi mat, sang khoai.",
+      "category": "Weather",
+      "generated_at": "2026-07-10T03:31:21.096157"
     }
   ],
-  "last_updated": "2026-07-09T21:09:11.294092"
+  "last_updated": "2026-07-10T03:31:21.096159"
 }
