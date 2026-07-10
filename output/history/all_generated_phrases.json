@@ -4094,7 +4094,42 @@
       "transliteration": "Xanh ngoc luc, quy gia.",
       "category": "Colors",
       "generated_at": "2026-07-10T14:44:35.690770"
+    },
+    {
+      "english": "Let's wander, down this street.",
+      "vietnamese": "Mình đi dạo, dọc con phố này.",
+      "transliteration": "Minh di dao, doc con pho nay.",
+      "category": "Travel",
+      "generated_at": "2026-07-10T16:26:05.072538"
+    },
+    {
+      "english": "Is this, the right bus?",
+      "vietnamese": "Đây có phải, xe buýt đúng không?",
+      "transliteration": "Day co phai, xe buyt dung khong?",
+      "category": "Travel",
+      "generated_at": "2026-07-10T16:26:05.072548"
+    },
+    {
+      "english": "Could you, point that out?",
+      "vietnamese": "Bạn có thể, chỉ giúp tôi chỗ đó không?",
+      "transliteration": "Ban co the, chi giup toi cho do khong?",
+      "category": "Travel",
+      "generated_at": "2026-07-10T16:26:05.072550"
+    },
+    {
+      "english": "What a, charming village.",
+      "vietnamese": "Ngôi làng, thật duyên dáng làm sao.",
+      "transliteration": "Ngoi lang, that duyen dang lam sao.",
+      "category": "Travel",
+      "generated_at": "2026-07-10T16:26:05.072551"
+    },
+    {
+      "english": "I'm looking, for a quiet spot.",
+      "vietnamese": "Tôi đang tìm, một chỗ yên tĩnh.",
+      "transliteration": "Toi dang tim, mot cho yen tinh.",
+      "category": "Travel",
+      "generated_at": "2026-07-10T16:26:05.072552"
     }
   ],
-  "last_updated": "2026-07-10T14:44:35.690772"
+  "last_updated": "2026-07-10T16:26:05.072554"
 }
