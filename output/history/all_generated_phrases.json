@@ -4059,7 +4059,42 @@
       "transliteration": "Khong khi mat, sang khoai.",
       "category": "Weather",
       "generated_at": "2026-07-10T03:31:21.096157"
+    },
+    {
+      "english": "Grape purple, sweet and rich.",
+      "vietnamese": "Màu tím nho, ngọt đậm đà.",
+      "transliteration": "Mau tim nho, ngot dam da.",
+      "category": "Colors",
+      "generated_at": "2026-07-10T14:44:35.690754"
+    },
+    {
+      "english": "Lemon yellow, zesty and bright.",
+      "vietnamese": "Màu vàng chanh, tươi rói.",
+      "transliteration": "Mau vang chanh, tuoi roi.",
+      "category": "Colors",
+      "generated_at": "2026-07-10T14:44:35.690766"
+    },
+    {
+      "english": "Chocolate brown, smooth and earthy.",
+      "vietnamese": "Nâu sô cô la, mịn màng.",
+      "transliteration": "Nau so co la, min mang.",
+      "category": "Colors",
+      "generated_at": "2026-07-10T14:44:35.690768"
+    },
+    {
+      "english": "Rose pink, soft and gentle.",
+      "vietnamese": "Hồng cánh sen, dịu dàng.",
+      "transliteration": "Hong canh sen, diu dang.",
+      "category": "Colors",
+      "generated_at": "2026-07-10T14:44:35.690769"
+    },
+    {
+      "english": "Emerald green, precious and deep.",
+      "vietnamese": "Xanh ngọc lục, quý giá.",
+      "transliteration": "Xanh ngoc luc, quy gia.",
+      "category": "Colors",
+      "generated_at": "2026-07-10T14:44:35.690770"
     }
   ],
-  "last_updated": "2026-07-10T03:31:21.096159"
+  "last_updated": "2026-07-10T14:44:35.690772"
 }
