@@ -4339,7 +4339,42 @@
       "transliteration": "Hanh trinh cua ban, dang mo ra.",
       "category": "Confidence",
       "generated_at": "2026-07-11T17:49:45.838498"
+    },
+    {
+      "english": "Glad we met, today.",
+      "vietnamese": "Vui được gặp, bạn hôm nay.",
+      "transliteration": "Vui duoc gap, ban hom nay.",
+      "category": "Greetings",
+      "generated_at": "2026-07-11T20:35:52.014649"
+    },
+    {
+      "english": "A pleasant surprise, seeing you.",
+      "vietnamese": "Thật vui khi gặp, bạn bất ngờ.",
+      "transliteration": "That vui khi gap, ban bat ngo.",
+      "category": "Greetings",
+      "generated_at": "2026-07-11T20:35:52.014668"
+    },
+    {
+      "english": "Hope your journey, was smooth.",
+      "vietnamese": "Chúc chuyến đi, của bạn thuận lợi.",
+      "transliteration": "Chuc chuyen di, cua ban thuan loi.",
+      "category": "Greetings",
+      "generated_at": "2026-07-11T20:35:52.014671"
+    },
+    {
+      "english": "Ready for our chat, perhaps?",
+      "vietnamese": "Sẵn sàng trò chuyện, chưa nào?",
+      "transliteration": "San sang tro chuyen, chua nao?",
+      "category": "Greetings",
+      "generated_at": "2026-07-11T20:35:52.014672"
+    },
+    {
+      "english": "Wishing you, a great time.",
+      "vietnamese": "Chúc bạn, có khoảng thời gian tuyệt.",
+      "transliteration": "Chuc ban, co khoang thoi gian tuyet.",
+      "category": "Greetings",
+      "generated_at": "2026-07-11T20:35:52.014674"
     }
   ],
-  "last_updated": "2026-07-11T17:49:45.838500"
+  "last_updated": "2026-07-11T20:35:52.014675"
 }
