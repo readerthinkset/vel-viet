@@ -4654,7 +4654,42 @@
       "transliteration": "Cung nhau, chung ta xay.",
       "category": "Work",
       "generated_at": "2026-07-13T16:34:54.504899"
+    },
+    {
+      "english": "Could I have another, please?",
+      "vietnamese": "Cho tôi thêm một cái, ơn.",
+      "transliteration": "Cho toi them mot cai, on.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-07-13T18:28:51.718309"
+    },
+    {
+      "english": "I need water, quickly.",
+      "vietnamese": "Tôi cần nước, nhanh lên.",
+      "transliteration": "Toi can nuoc, nhanh len.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-07-13T18:28:51.718320"
+    },
+    {
+      "english": "Where can I find that?",
+      "vietnamese": "Tôi tìm nó ở đâu?",
+      "transliteration": "Toi tim no o dau?",
+      "category": "Basic Phrases",
+      "generated_at": "2026-07-13T18:28:51.718322"
+    },
+    {
+      "english": "It's very beautiful, truly.",
+      "vietnamese": "Đẹp lắm, thật sự.",
+      "transliteration": "Dep lam, that su.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-07-13T18:28:51.718324"
+    },
+    {
+      "english": "May I sit here?",
+      "vietnamese": "Tôi ngồi đây được không?",
+      "transliteration": "Toi ngoi day duoc khong?",
+      "category": "Basic Phrases",
+      "generated_at": "2026-07-13T18:28:51.718325"
     }
   ],
-  "last_updated": "2026-07-13T16:34:54.504901"
+  "last_updated": "2026-07-13T18:28:51.718326"
 }
