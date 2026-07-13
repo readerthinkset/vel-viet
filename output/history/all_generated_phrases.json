@@ -4584,7 +4584,42 @@
       "transliteration": "Chai toc, cho gon gang.",
       "category": "Daily Routine",
       "generated_at": "2026-07-13T02:56:54.460864"
+    },
+    {
+      "english": "Excuse me, can we order now?",
+      "vietnamese": "Xin lỗi, cho chúng tôi gọi món nhé?",
+      "transliteration": "Sin loi, cho chung toi goi mon nyeh?",
+      "category": "Restaurant",
+      "generated_at": "2026-07-13T15:01:36.579841"
+    },
+    {
+      "english": "What's the special dish today?",
+      "vietnamese": "Món đặc biệt hôm nay là gì ạ?",
+      "transliteration": "Mon dac biet hom nay la yee ah?",
+      "category": "Restaurant",
+      "generated_at": "2026-07-13T15:01:36.579851"
+    },
+    {
+      "english": "Could we have some water, please?",
+      "vietnamese": "Cho xin ít nước lọc được không?",
+      "transliteration": "Cho sin eet nuoc loc duoc khong?",
+      "category": "Restaurant",
+      "generated_at": "2026-07-13T15:01:36.579853"
+    },
+    {
+      "english": "This smells amazing, what is it?",
+      "vietnamese": "Món này thơm quá, là gì vậy?",
+      "transliteration": "Mon nyei thom wha, la yee vyei?",
+      "category": "Restaurant",
+      "generated_at": "2026-07-13T15:01:36.579854"
+    },
+    {
+      "english": "Is this spicy, a little bit?",
+      "vietnamese": "Món này có cay không, một chút?",
+      "transliteration": "Mon nyei co caye khong, mot choot?",
+      "category": "Restaurant",
+      "generated_at": "2026-07-13T15:01:36.579855"
     }
   ],
-  "last_updated": "2026-07-13T02:56:54.460866"
+  "last_updated": "2026-07-13T15:01:36.579857"
 }
