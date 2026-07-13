@@ -4549,7 +4549,42 @@
       "transliteration": "Nem huong vi, tung am tiet.",
       "category": "Growth",
       "generated_at": "2026-07-12T20:33:30.095636"
+    },
+    {
+      "english": "Open eyes, greet the morning.",
+      "vietnamese": "Mở mắt, đón bình minh.",
+      "transliteration": "Mo mat, don binh minh.",
+      "category": "Daily Routine",
+      "generated_at": "2026-07-13T02:56:54.460850"
+    },
+    {
+      "english": "Sip coffee, savor the quiet.",
+      "vietnamese": "Nhâm nhi cà phê, thưởng thức tĩnh lặng.",
+      "transliteration": "Nham nhi ca phe, thuong thuc tinh lang.",
+      "category": "Daily Routine",
+      "generated_at": "2026-07-13T02:56:54.460860"
+    },
+    {
+      "english": "Wash face, clear the sleep.",
+      "vietnamese": "Rửa mặt, tỉnh giấc mộng.",
+      "transliteration": "Rua mat, tinh giac mong.",
+      "category": "Daily Routine",
+      "generated_at": "2026-07-13T02:56:54.460862"
+    },
+    {
+      "english": "Brush teeth, make them gleam.",
+      "vietnamese": "Đánh răng, cho trắng sáng.",
+      "transliteration": "Danh rang, cho trang sang.",
+      "category": "Daily Routine",
+      "generated_at": "2026-07-13T02:56:54.460863"
+    },
+    {
+      "english": "Comb hair, tidy up.",
+      "vietnamese": "Chải tóc, cho gọn gàng.",
+      "transliteration": "Chai toc, cho gon gang.",
+      "category": "Daily Routine",
+      "generated_at": "2026-07-13T02:56:54.460864"
     }
   ],
-  "last_updated": "2026-07-12T20:33:30.095641"
+  "last_updated": "2026-07-13T02:56:54.460866"
 }
