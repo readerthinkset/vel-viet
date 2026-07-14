@@ -4829,7 +4829,42 @@
       "transliteration": "Xoai chin mong, mon qua mua he.",
       "category": "Food",
       "generated_at": "2026-07-14T17:58:20.134309"
+    },
+    {
+      "english": "One, bright sun, warms the day.",
+      "vietnamese": "Một, mặt trời rực rỡ, sưởi ấm ngày.",
+      "transliteration": "Mot, mat troi ruc ro, suoi am ngay.",
+      "category": "Numbers",
+      "generated_at": "2026-07-14T20:47:36.667873"
+    },
+    {
+      "english": "Two, little birds, sing songs.",
+      "vietnamese": "Hai, chú chim nhỏ, hót ca.",
+      "transliteration": "Hai, chu chim nho, hot ca.",
+      "category": "Numbers",
+      "generated_at": "2026-07-14T20:47:36.667882"
+    },
+    {
+      "english": "Three, green leaves, on a branch.",
+      "vietnamese": "Ba, lá xanh tươi, trên cành.",
+      "transliteration": "Ba, la xanh tuoi, tren canh.",
+      "category": "Numbers",
+      "generated_at": "2026-07-14T20:47:36.667884"
+    },
+    {
+      "english": "Four, red apples, in the basket.",
+      "vietnamese": "Bốn, quả táo đỏ, trong giỏ.",
+      "transliteration": "Bon, qua tao do, trong gio.",
+      "category": "Numbers",
+      "generated_at": "2026-07-14T20:47:36.667885"
+    },
+    {
+      "english": "Five, tiny steps, learning to walk.",
+      "vietnamese": "Năm, bước chân nhỏ, tập đi.",
+      "transliteration": "Nam, buoc chan nho, tap di.",
+      "category": "Numbers",
+      "generated_at": "2026-07-14T20:47:36.667887"
     }
   ],
-  "last_updated": "2026-07-14T17:58:20.134311"
+  "last_updated": "2026-07-14T20:47:36.667888"
 }
