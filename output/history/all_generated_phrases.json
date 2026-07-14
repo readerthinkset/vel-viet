@@ -4794,7 +4794,42 @@
       "transliteration": "Anh/Em mang, binh yen den bao long.",
       "category": "Relationships",
       "generated_at": "2026-07-14T14:01:16.058056"
+    },
+    {
+      "english": "A quick snack, fuel my day.",
+      "vietnamese": "Một bữa ăn nhẹ, nạp năng lượng.",
+      "transliteration": "Mot bua an nhe, nap nang luong.",
+      "category": "Food",
+      "generated_at": "2026-07-14T17:58:20.134291"
+    },
+    {
+      "english": "Morning coffee, wake me up.",
+      "vietnamese": "Cà phê sáng, đánh thức tôi.",
+      "transliteration": "Ca phe sang, danh thuc toi.",
+      "category": "Food",
+      "generated_at": "2026-07-14T17:58:20.134304"
+    },
+    {
+      "english": "Sweet dessert, happy me.",
+      "vietnamese": "Tráng miệng ngọt, vui vẻ.",
+      "transliteration": "Trang mieng ngot, vui ve.",
+      "category": "Food",
+      "generated_at": "2026-07-14T17:58:20.134306"
+    },
+    {
+      "english": "Savory broth, deeply rich.",
+      "vietnamese": "Nước dùng đậm đà, sâu lắng.",
+      "transliteration": "Nuoc dung dam da, sau lang.",
+      "category": "Food",
+      "generated_at": "2026-07-14T17:58:20.134308"
+    },
+    {
+      "english": "Juicy mango, summer's treat.",
+      "vietnamese": "Xoài chín mọng, món quà mùa hè.",
+      "transliteration": "Xoai chin mong, mon qua mua he.",
+      "category": "Food",
+      "generated_at": "2026-07-14T17:58:20.134309"
     }
   ],
-  "last_updated": "2026-07-14T14:01:16.058058"
+  "last_updated": "2026-07-14T17:58:20.134311"
 }
