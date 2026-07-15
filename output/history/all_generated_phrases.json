@@ -4864,7 +4864,42 @@
       "transliteration": "Nam, buoc chan nho, tap di.",
       "category": "Numbers",
       "generated_at": "2026-07-14T20:47:36.667887"
+    },
+    {
+      "english": "Someone, follow me, please.",
+      "vietnamese": "Ai đó, đi theo tôi, làm ơn.",
+      "transliteration": "Ai do, di theo toi, lam on.",
+      "category": "Emergency",
+      "generated_at": "2026-07-15T02:36:58.873881"
+    },
+    {
+      "english": "I need, a quiet corner.",
+      "vietnamese": "Tôi cần, một góc yên tĩnh.",
+      "transliteration": "Toi can, mot goc yen tinh.",
+      "category": "Emergency",
+      "generated_at": "2026-07-15T02:36:58.873891"
+    },
+    {
+      "english": "This food, makes me sick.",
+      "vietnamese": "Đồ ăn này, làm tôi khó chịu.",
+      "transliteration": "Do an nay, lam toi kho chiu.",
+      "category": "Emergency",
+      "generated_at": "2026-07-15T02:36:58.873892"
+    },
+    {
+      "english": "My head, is spinning.",
+      "vietnamese": "Đầu tôi, cứ quay cuồng.",
+      "transliteration": "Dau toi, cu quay cuong.",
+      "category": "Emergency",
+      "generated_at": "2026-07-15T02:36:58.873893"
+    },
+    {
+      "english": "Where is, the nearest exit?",
+      "vietnamese": "Lối thoát, gần nhất ở đâu?",
+      "transliteration": "Loi thoat, gan nhat o dau?",
+      "category": "Emergency",
+      "generated_at": "2026-07-15T02:36:58.873893"
     }
   ],
-  "last_updated": "2026-07-14T20:47:36.667888"
+  "last_updated": "2026-07-15T02:36:58.873895"
 }
