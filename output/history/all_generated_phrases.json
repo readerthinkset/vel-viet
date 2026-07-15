@@ -4899,7 +4899,42 @@
       "transliteration": "Loi thoat, gan nhat o dau?",
       "category": "Emergency",
       "generated_at": "2026-07-15T02:36:58.873893"
+    },
+    {
+      "english": "Wow, that's amazing, isn't it?",
+      "vietnamese": "Ồ, tuyệt thật, nhỉ?",
+      "transliteration": "Oh, tuyet that, nhi?",
+      "category": "Common Expressions",
+      "generated_at": "2026-07-15T13:58:59.451201"
+    },
+    {
+      "english": "Let's grab, some coffee.",
+      "vietnamese": "Đi uống, cà phê thôi.",
+      "transliteration": "Di uong, ca phe thoi.",
+      "category": "Common Expressions",
+      "generated_at": "2026-07-15T13:58:59.451210"
+    },
+    {
+      "english": "What a beautiful, sunset.",
+      "vietnamese": "Hoàng hôn, đẹp quá.",
+      "transliteration": "Hoang hon, dep qua.",
+      "category": "Common Expressions",
+      "generated_at": "2026-07-15T13:58:59.451211"
+    },
+    {
+      "english": "It’s time, to go home.",
+      "vietnamese": "Đến giờ, về nhà rồi.",
+      "transliteration": "Den gio, ve nha roi.",
+      "category": "Common Expressions",
+      "generated_at": "2026-07-15T13:58:59.451213"
+    },
+    {
+      "english": "Could you, help me?",
+      "vietnamese": "Anh/chị có thể, giúp tôi không?",
+      "transliteration": "Anh/chi co the, giup toi khong?",
+      "category": "Common Expressions",
+      "generated_at": "2026-07-15T13:58:59.451214"
     }
   ],
-  "last_updated": "2026-07-15T02:36:58.873895"
+  "last_updated": "2026-07-15T13:58:59.451215"
 }
