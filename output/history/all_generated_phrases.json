@@ -5144,7 +5144,42 @@
       "transliteration": "Tho phao man nguyen, nhe nhom.",
       "category": "Joy",
       "generated_at": "2026-07-16T15:39:45.231373"
+    },
+    {
+      "english": "Bright sky, perfect for a picnic.",
+      "vietnamese": "Trời trong, tuyệt để dã ngoại.",
+      "transliteration": "Troi trong, tuyet de da ngoai.",
+      "category": "Weather",
+      "generated_at": "2026-07-16T18:02:04.405864"
+    },
+    {
+      "english": "A little drizzle, just enough.",
+      "vietnamese": "Mưa phùn nhẹ, vừa đủ thôi.",
+      "transliteration": "Mua phun nhe, vua du thoi.",
+      "category": "Weather",
+      "generated_at": "2026-07-16T18:02:04.405873"
+    },
+    {
+      "english": "Strong gusts, hold on tight.",
+      "vietnamese": "Gió mạnh, giữ chặt nhé.",
+      "transliteration": "Gio manh, giu chat nhe.",
+      "category": "Weather",
+      "generated_at": "2026-07-16T18:02:04.405875"
+    },
+    {
+      "english": "The air feels heavy, like before a storm.",
+      "vietnamese": "Không khí nặng nề, như sắp mưa.",
+      "transliteration": "Khong khi nang ne, nhu sap mua.",
+      "category": "Weather",
+      "generated_at": "2026-07-16T18:02:04.405877"
+    },
+    {
+      "english": "Sunny spells, peek through.",
+      "vietnamese": "Nắng ló dạng, chen qua thôi.",
+      "transliteration": "Nang lo dang, chen qua thoi.",
+      "category": "Weather",
+      "generated_at": "2026-07-16T18:02:04.405878"
     }
   ],
-  "last_updated": "2026-07-16T15:39:45.231375"
+  "last_updated": "2026-07-16T18:02:04.405879"
 }
