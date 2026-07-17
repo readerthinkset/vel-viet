@@ -5249,7 +5249,42 @@
       "transliteration": "Em trai, hay nghich, tam long rong.",
       "category": "Family Terms",
       "generated_at": "2026-07-17T02:46:49.225847"
+    },
+    {
+      "english": "Pass the red gate, then veer right.",
+      "vietnamese": "Qua cổng đỏ, rồi rẽ phải.",
+      "transliteration": "Qua cong do, roi re phai.",
+      "category": "Directions",
+      "generated_at": "2026-07-17T13:54:01.123766"
+    },
+    {
+      "english": "Keep moving, until the blue house.",
+      "vietnamese": "Cứ đi tiếp, đến nhà màu xanh.",
+      "transliteration": "Cu di tiep, den nha mau xanh.",
+      "category": "Directions",
+      "generated_at": "2026-07-17T13:54:01.123779"
+    },
+    {
+      "english": "Look for the statue, on your left.",
+      "vietnamese": "Tìm bức tượng, bên tay trái.",
+      "transliteration": "Tim buc tuong, ben tay trai.",
+      "category": "Directions",
+      "generated_at": "2026-07-17T13:54:01.123781"
+    },
+    {
+      "english": "Go around the fountain, then ahead.",
+      "vietnamese": "Vòng qua đài phun nước, rồi thẳng.",
+      "transliteration": "Vong qua dai phun nuoc, roi thang.",
+      "category": "Directions",
+      "generated_at": "2026-07-17T13:54:01.123783"
+    },
+    {
+      "english": "Follow the stream, to the stone wall.",
+      "vietnamese": "Men theo suối, đến tường đá.",
+      "transliteration": "Men theo suoi, den tuong da.",
+      "category": "Directions",
+      "generated_at": "2026-07-17T13:54:01.123784"
     }
   ],
-  "last_updated": "2026-07-17T02:46:49.225849"
+  "last_updated": "2026-07-17T13:54:01.123786"
 }
