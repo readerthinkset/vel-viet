@@ -5494,7 +5494,42 @@
       "transliteration": "Xay dung cau noi, bang ngon ngu.",
       "category": "Confidence",
       "generated_at": "2026-07-18T14:53:54.234587"
+    },
+    {
+      "english": "My mistake, truly.",
+      "vietnamese": "Lỗi của tôi, thật lòng.",
+      "transliteration": "Loy cooy toi, thut long.",
+      "category": "Forgiveness",
+      "generated_at": "2026-07-18T17:52:03.678424"
+    },
+    {
+      "english": "Can we let this go?",
+      "vietnamese": "Mình bỏ qua được không?",
+      "transliteration": "Minh bo qua duoc khong?",
+      "category": "Forgiveness",
+      "generated_at": "2026-07-18T17:52:03.678435"
+    },
+    {
+      "english": "My apologies, deeply.",
+      "vietnamese": "Xin lỗi, thật sâu sắc.",
+      "transliteration": "Xin loy, thut sau sac.",
+      "category": "Forgiveness",
+      "generated_at": "2026-07-18T17:52:03.678437"
+    },
+    {
+      "english": "Forget what happened?",
+      "vietnamese": "Quên chuyện đã qua?",
+      "transliteration": "Quen chuyen da qua?",
+      "category": "Forgiveness",
+      "generated_at": "2026-07-18T17:52:03.678439"
+    },
+    {
+      "english": "It's okay, really.",
+      "vietnamese": "Không sao đâu, thật mà.",
+      "transliteration": "Khong sao dau, thut ma.",
+      "category": "Forgiveness",
+      "generated_at": "2026-07-18T17:52:03.678440"
     }
   ],
-  "last_updated": "2026-07-18T14:53:54.234588"
+  "last_updated": "2026-07-18T17:52:03.678442"
 }
