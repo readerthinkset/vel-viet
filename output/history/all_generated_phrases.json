@@ -5599,7 +5599,42 @@
       "transliteration": "Trong qua khu, bai hoc.",
       "category": "Time",
       "generated_at": "2026-07-19T02:53:49.139832"
+    },
+    {
+      "english": "Nourish your body, mind, and spirit.",
+      "vietnamese": "Nuôi dưỡng cơ thể, tâm trí, và linh hồn.",
+      "transliteration": "Nooi duong co the, tam tri, va linh hon.",
+      "category": "Health",
+      "generated_at": "2026-07-19T13:39:23.515257"
+    },
+    {
+      "english": "Gentle movement, happy joints.",
+      "vietnamese": "Vận động nhẹ nhàng, khớp vui vẻ.",
+      "transliteration": "Van dong nhe nhang, khop vui ve.",
+      "category": "Health",
+      "generated_at": "2026-07-19T13:39:23.515269"
+    },
+    {
+      "english": "Sip water, feel alive.",
+      "vietnamese": "Nhấp nước, thấy tràn đầy sức sống.",
+      "transliteration": "Nhap nuoc, thay tran day suc song.",
+      "category": "Health",
+      "generated_at": "2026-07-19T13:39:23.515271"
+    },
+    {
+      "english": "Quiet moments, deep recovery.",
+      "vietnamese": "Khoảnh khắc tĩnh lặng, phục hồi sâu.",
+      "transliteration": "Khoanh khac tinh lang, phuc hoi sau.",
+      "category": "Health",
+      "generated_at": "2026-07-19T13:39:23.515272"
+    },
+    {
+      "english": "Inhale calm, exhale worries.",
+      "vietnamese": "Hít vào bình tĩnh, thở ra lo âu.",
+      "transliteration": "Hit vao binh tinh, tho ra lo au.",
+      "category": "Health",
+      "generated_at": "2026-07-19T13:39:23.515273"
     }
   ],
-  "last_updated": "2026-07-19T02:53:49.139833"
+  "last_updated": "2026-07-19T13:39:23.515275"
 }
