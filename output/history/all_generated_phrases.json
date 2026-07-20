@@ -5844,7 +5844,42 @@
       "transliteration": "Thuc te ao, mot chieu khong gian moi.",
       "category": "Technology",
       "generated_at": "2026-07-20T18:49:59.355381"
+    },
+    {
+      "english": "This alley, feels like a secret.",
+      "vietnamese": "Ngõ này, có vẻ bí mật quá.",
+      "transliteration": "Ngo nay, co ve bi mat qua.",
+      "category": "Travel",
+      "generated_at": "2026-07-20T20:57:28.488844"
+    },
+    {
+      "english": "Could you, recommend a local dish?",
+      "vietnamese": "Xin giới thiệu, món đặc sản địa phương?",
+      "transliteration": "Sin gioi thieu, mon dac san dia phuong?",
+      "category": "Travel",
+      "generated_at": "2026-07-20T20:57:28.488854"
+    },
+    {
+      "english": "The water, looks so refreshing.",
+      "vietnamese": "Nước ở đây, trông mát mẻ thật.",
+      "transliteration": "Nuoc o day, trong mat me that.",
+      "category": "Travel",
+      "generated_at": "2026-07-20T20:57:28.488856"
+    },
+    {
+      "english": "This architecture, is so intricate.",
+      "vietnamese": "Kiến trúc này, thật tinh xảo.",
+      "transliteration": "Kien truc nay, that tinh xao.",
+      "category": "Travel",
+      "generated_at": "2026-07-20T20:57:28.488857"
+    },
+    {
+      "english": "Where can I, find some amazing coffee?",
+      "vietnamese": "Tìm quán cà phê ngon, ở đâu nhỉ?",
+      "transliteration": "Tim quan ca phe ngon, o dau nhi?",
+      "category": "Travel",
+      "generated_at": "2026-07-20T20:57:28.488858"
     }
   ],
-  "last_updated": "2026-07-20T18:49:59.355382"
+  "last_updated": "2026-07-20T20:57:28.488859"
 }
