@@ -6019,7 +6019,42 @@
       "transliteration": "Nuoc sot choo-a, choot kye.",
       "category": "Food",
       "generated_at": "2026-07-21T20:56:20.197576"
+    },
+    {
+      "english": "Is this, vegetarian?",
+      "vietnamese": "Món này, có chay không?",
+      "transliteration": "Mon nai, co chai khong?",
+      "category": "Restaurant",
+      "generated_at": "2026-07-22T02:47:18.285402"
+    },
+    {
+      "english": "We're ready, to order.",
+      "vietnamese": "Chúng tôi, sẵn sàng gọi món.",
+      "transliteration": "Chung toi, san sang goi mon.",
+      "category": "Restaurant",
+      "generated_at": "2026-07-22T02:47:18.285414"
+    },
+    {
+      "english": "Could we have, the bill, please?",
+      "vietnamese": "Cho xin, hóa đơn, làm ơn.",
+      "transliteration": "Cho xin, hoa don, lam on.",
+      "category": "Restaurant",
+      "generated_at": "2026-07-22T02:47:18.285417"
+    },
+    {
+      "english": "This is, very fresh.",
+      "vietnamese": "Cái này, tươi lắm.",
+      "transliteration": "Cai nai, tuoi lam.",
+      "category": "Restaurant",
+      "generated_at": "2026-07-22T02:47:18.285419"
+    },
+    {
+      "english": "What's inside, this dish?",
+      "vietnamese": "Trong món này, có gì?",
+      "transliteration": "Trong mon nai, co gi?",
+      "category": "Restaurant",
+      "generated_at": "2026-07-22T02:47:18.285420"
     }
   ],
-  "last_updated": "2026-07-21T20:56:20.197578"
+  "last_updated": "2026-07-22T02:47:18.285423"
 }
