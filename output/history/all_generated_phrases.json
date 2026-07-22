@@ -6159,7 +6159,42 @@
       "transliteration": "Chia se tri thuc, lan toa.",
       "category": "Wisdom",
       "generated_at": "2026-07-22T18:06:10.758351"
+    },
+    {
+      "english": "This one, fits perfectly.",
+      "vietnamese": "Chiếc này, vừa vặn lắm.",
+      "transliteration": "Chik nai, vuh-van lam.",
+      "category": "Shopping",
+      "generated_at": "2026-07-22T20:51:45.209210"
+    },
+    {
+      "english": "I need, something for a gift.",
+      "vietnamese": "Tôi cần, quà tặng ai đó.",
+      "transliteration": "Toy cun, kwah tang ai doh.",
+      "category": "Shopping",
+      "generated_at": "2026-07-22T20:51:45.209220"
+    },
+    {
+      "english": "Is this, on sale today?",
+      "vietnamese": "Cái này, có giảm giá không?",
+      "transliteration": "Kai nai, koh zahm jah kom?",
+      "category": "Shopping",
+      "generated_at": "2026-07-22T20:51:45.209222"
+    },
+    {
+      "english": "Can I, pay with card?",
+      "vietnamese": "Tôi có thể, trả bằng thẻ không?",
+      "transliteration": "Toy koh teh, chah bahng teh kom?",
+      "category": "Shopping",
+      "generated_at": "2026-07-22T20:51:45.209223"
+    },
+    {
+      "english": "Do you have, this in stock?",
+      "vietnamese": "Bên bạn, còn món này không?",
+      "transliteration": "Bane bahn, koh mon nai kom?",
+      "category": "Shopping",
+      "generated_at": "2026-07-22T20:51:45.209224"
     }
   ],
-  "last_updated": "2026-07-22T18:06:10.758353"
+  "last_updated": "2026-07-22T20:51:45.209226"
 }
