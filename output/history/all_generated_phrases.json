@@ -6089,7 +6089,42 @@
       "transliteration": "Hay tan huong qua trinh, hoc nhieu hon.",
       "category": "Success",
       "generated_at": "2026-07-22T14:12:03.532218"
+    },
+    {
+      "english": "Danger nearby, please warn.",
+      "vietnamese": "Nguy hiểm gần đây, xin báo.",
+      "transliteration": "Nguy hiem gan day, xin bao.",
+      "category": "Emergency",
+      "generated_at": "2026-07-22T15:44:01.547108"
+    },
+    {
+      "english": "I need, medical aid, soon.",
+      "vietnamese": "Tôi cần, giúp đỡ y tế, sớm.",
+      "transliteration": "Toi can, giup do y te, som.",
+      "category": "Emergency",
+      "generated_at": "2026-07-22T15:44:01.547119"
+    },
+    {
+      "english": "Please, direct me, home.",
+      "vietnamese": "Xin, chỉ đường, về nhà.",
+      "transliteration": "Xin, chi duong, ve nha.",
+      "category": "Emergency",
+      "generated_at": "2026-07-22T15:44:01.547121"
+    },
+    {
+      "english": "My key, is missing, alas.",
+      "vietnamese": "Chìa khóa, tôi mất rồi, ôi.",
+      "transliteration": "Chia khoa, toi mat roi, oi.",
+      "category": "Emergency",
+      "generated_at": "2026-07-22T15:44:01.547122"
+    },
+    {
+      "english": "Emergency, contact needed.",
+      "vietnamese": "Khẩn cấp, cần liên hệ.",
+      "transliteration": "Khan cap, can lien he.",
+      "category": "Emergency",
+      "generated_at": "2026-07-22T15:44:01.547123"
     }
   ],
-  "last_updated": "2026-07-22T14:12:03.532220"
+  "last_updated": "2026-07-22T15:44:01.547125"
 }
