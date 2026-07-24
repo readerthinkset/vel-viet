@@ -172,77 +172,8 @@ def upload_to_all_platforms(video_path, caption, category, phrases=None):
     print("=" * 80)
 
     if not Path(video_path).exists():
-        print(f"Video file not found: {video_path}")
-        
-    # === STANDARDIZED STATUS REPORT ===
-    print("\n" + "=" * 60)
-    print("UPLOAD STATUS REPORT")
-    print("=" * 60)
-    success_list = [p.lower() for p in results.get("platforms_successful", [])]
-    failed_list = [p.lower() for p in results.get("platforms_failed", [])]
-    skipped_list = [p.lower() for p in results.get("platforms_skipped", [])]
-    for pname in ["INSTAGRAM", "FACEBOOK", "YOUTUBE", "THREADS", "TIKTOK"]:
-        pl = pname.lower()
-        if pl in success_list: status = "SUCCESS"
-        elif pl in failed_list: status = "FAILED"
-        elif pl in skipped_list: status = "SKIPPED"
-        else: status = "-"
-        print(f"{pname}: {status}")
-    print("=" * 60)
-            # ====== UPLOAD STATUS REPORT ======
-    print("\n" + "=" * 60)
-    print("UPLOAD STATUS REPORT")
-    print("=" * 60)
-    uploads = results.get("uploads", {})
-    success_count = 0
-    fail_count = 0
-    skip_count = 0
-    for pname, pkey in [("INSTAGRAM", "instagram"), ("FACEBOOK", "facebook"), ("YOUTUBE", "youtube"),
-                          ("THREADS", "threads"), ("TIKTOK", "tiktok"), ("TWITTER", "twitter"),
-                          ("VK", "vk"), ("TELEGRAM", "telegram")]:
-        pinfo = uploads.get(pkey, {})
-        if pinfo and pinfo.get("status") == "success":
-            pid = pinfo.get("id", "N/A")
-            print(f"  {pname}: SUCCESS (ID: {pid})")
-            success_count += 1
-        elif pinfo and pinfo.get("status") == "skipped":
-            reason = pinfo.get("reason", "unknown")
-            print(f"  {pname}: SKIPPED - {reason}")
-            skip_count += 1
-        elif pinfo:
-            err = str(pinfo.get("error", pinfo.get("reason", "unknown")))[:100]
-            print(f"  {pname}: FAILED - {err}")
-            fail_count += 1
-        else:
-            pl = pkey.lower()
-            failed = pl in [p.lower() for p in results.get("platforms_failed", [])]
-            skipped = pl in [p.lower() for p in results.get("platforms_skipped", [])]
-            if failed: print(f"  {pname}: FAILED"); fail_count += 1
-            elif skipped: print(f"  {pname}: SKIPPED"); skip_count += 1
-            else: print(f"  {pname}: -")
-    print("=" * 60)
-    print(f"  Results: {success_count} success, {fail_count} failed, {skip_count} skipped")
-    print("=" * 60)
-
-    uploads = results.get("uploads", {})
-    for pname, pkey in [("INSTAGRAM", "instagram"), ("FACEBOOK", "facebook"), ("YOUTUBE", "youtube"),
-                          ("THREADS", "threads"), ("TIKTOK", "tiktok"), ("TWITTER", "twitter"),
-                          ("VK", "vk"), ("TELEGRAM", "telegram")]:
-        pinfo = uploads.get(pkey, {})
-        if pinfo and pinfo.get("status") == "success":
-            pid = pinfo.get("id", "N/A")
-            print(f"{pname}: SUCCESS (ID: {pid})")
-        elif pinfo:
-            err = str(pinfo.get("error", pinfo.get("reason", "unknown")))[:80]
-            print(f"{pname}: FAILED - {err}")
-        else:
-            pl = pkey.lower()
-            failed = pl in [p.lower() for p in results.get("platforms_failed", [])]
-            skipped = pl in [p.lower() for p in results.get("platforms_skipped", [])]
-            print(f"{pname}: {'FAILED' if failed else ('SKIPPED' if skipped else '-')}")
-    print("=" * 60)
-
-    return results
+        print(f"[ERROR] Video file not found: {video_path}")
+        return results
 
     platforms = [
         ("facebook", upload_to_facebook, "Facebook"),
@@ -262,155 +193,54 @@ def upload_to_all_platforms(video_path, caption, category, phrases=None):
         if upload_func:
             try:
                 upload_result = None
-
                 if platform_name == "facebook":
-                    upload_result = upload_func(
-                        video_path=video_path,
-                        description=caption,
-                        title=f"Vietnamese: {category}"
-                    )
+                    upload_result = upload_func(video_path=video_path, description=caption, title=f"Vietnamese: {category}")
                 elif platform_name == "instagram":
-                    upload_result = upload_func(
-                        video_path=video_path,
-                        caption=caption,
-                        is_story=False
-                    )
+                    upload_result = upload_func(video_path=video_path, caption=caption, is_story=False)
                 elif platform_name == "youtube":
                     num_phrases = len(phrases) if phrases else 5
                     from upload_to_youtube import generate_video_metadata
                     yt_title, yt_description, yt_tags = generate_video_metadata(category, num_phrases, phrases)
-                    upload_result = upload_func(
-                        video_path=video_path,
-                        title=yt_title,
-                        description=yt_description,
-                        tags=yt_tags,
-                        category_id='22'
-                    )
+                    upload_result = upload_func(video_path=video_path, title=yt_title, description=yt_description, tags=yt_tags, category_id='22')
                 elif platform_name == "vk":
-                    upload_result = upload_func(
-                        video_path=video_path,
-                        description=caption,
-                        title=f"Vietnamese: {category}"
-                    )
+                    upload_result = upload_func(video_path=video_path, description=caption, title=f"Vietnamese: {category}")
                 elif platform_name == "telegram":
-                    upload_result = upload_func(
-                        video_path=video_path,
-                        caption=caption
-                    )
+                    upload_result = upload_func(video_path=video_path, caption=caption)
                 elif platform_name == "twitter":
-                    upload_result = upload_func(
-                        video_path=video_path,
-                        caption=caption
-                    )
+                    upload_result = upload_func(video_path=video_path, caption=caption)
                 elif platform_name == "threads":
-                    upload_result = upload_func(
-                        video_path=video_path,
-                        text=caption
-                    )
+                    upload_result = upload_func(video_path=video_path, text=caption)
                 elif platform_name == "tiktok":
-                    upload_result = upload_func(
-                        video_path=video_path,
-                        description=caption
-                    )
+                    upload_result = upload_func(video_path=video_path, description=caption)
 
                 if upload_result:
                     results["uploads"][platform_name] = upload_result
                     results["platforms_successful"].append(platform_name)
-                    print(f"  {display_name} upload successful")
                 else:
                     results["uploads"][platform_name] = {"status": "failed", "error": "Upload function returned None"}
                     results["platforms_failed"].append(platform_name)
-                    print(f"  {display_name} upload failed: No result returned")
-
             except Exception as e:
                 error_msg = str(e)
                 results["uploads"][platform_name] = {"status": "failed", "error": error_msg}
                 results["platforms_failed"].append(platform_name)
-                print(f"  {display_name} upload failed: {error_msg}")
+                print(f"  Error: {error_msg}")
         else:
-            print(f"  {display_name} upload skipped (module not available)")
             results["uploads"][platform_name] = {"status": "skipped", "reason": "Module not available"}
             results["platforms_skipped"].append(platform_name)
 
-    print("\n" + "=" * 80)
-    print("UPLOAD SUMMARY")
-    print("=" * 80)
-
-    total_attempted = len(results["platforms_attempted"])
-    successful_count = len(results["platforms_successful"])
-    failed_count = len(results["platforms_failed"])
-    skipped_count = len(results["platforms_skipped"])
-
-    print(f"\nOverall Status:")
-    print(f"   Total Platforms: {total_attempted}")
-    print(f"   Successful: {successful_count}")
-    print(f"   Failed: {failed_count}")
-    print(f"   Skipped: {skipped_count}")
-
-    if total_attempted > 0:
-        success_rate = (successful_count / total_attempted) * 100
-        print(f"\nSuccess Rate: {success_rate:.0f}%")
-
-    if results["platforms_successful"]:
-        print(f"\nSUCCESSFUL UPLOADS ({len(results['platforms_successful'])}):")
-        for platform in results["platforms_successful"]:
-            platform_data = results["uploads"].get(platform, {})
-            video_id = platform_data.get("video_id") or platform_data.get("id") or "N/A"
-            print(f"   {platform.upper()}: Success (ID: {video_id})")
-
-    if results["platforms_failed"]:
-        print(f"\nFAILED UPLOADS ({len(results['platforms_failed'])}):")
-        for platform in results["platforms_failed"]:
-            platform_data = results["uploads"].get(platform, {})
-            error = platform_data.get("error", "Unknown error")
-            print(f"   {platform.upper()}: Failed - {error[:80]}...")
-
-    if results["platforms_skipped"]:
-        print(f"\nSKIPPED PLATFORMS ({len(results['platforms_skipped'])}):")
-        skipped_list = ", ".join([p.upper() for p in results["platforms_skipped"]])
-        print(f"   {skipped_list}")
-        print(f"   Add credentials to enable these platforms")
-
-    print("\n" + "=" * 80)
-
-    results_file = Path("output") / f"upload_results_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
-    results_file.parent.mkdir(exist_ok=True)
-    with open(results_file, "w", encoding="utf-8") as f:
-        json.dump(results, f, indent=2, ensure_ascii=False)
-
-    print(f"\nResults saved: {results_file}")
-    print("=" * 80)
-
-    
-    # === STANDARDIZED STATUS REPORT ===
     print("\n" + "=" * 60)
     print("UPLOAD STATUS REPORT")
     print("=" * 60)
-    success_list = [p.lower() for p in results.get("platforms_successful", [])]
-    failed_list = [p.lower() for p in results.get("platforms_failed", [])]
-    skipped_list = [p.lower() for p in results.get("platforms_skipped", [])]
-    for pname in ["INSTAGRAM", "FACEBOOK", "YOUTUBE", "THREADS", "TIKTOK"]:
-        pl = pname.lower()
-        if pl in success_list: status = "SUCCESS"
-        elif pl in failed_list: status = "FAILED"
-        elif pl in skipped_list: status = "SKIPPED"
-        else: status = "-"
-        print(f"{pname}: {status}")
-    print("=" * 60)
-        # === UPLOAD STATUS REPORT ===
-    print("\n" + "=" * 60)
-    print("UPLOAD STATUS REPORT")
-    print("=" * 60)
-    uploads = results.get("uploads", {})
     for pname, pkey in [("INSTAGRAM", "instagram"), ("FACEBOOK", "facebook"), ("YOUTUBE", "youtube"),
-                          ("THREADS", "threads"), ("TIKTOK", "tiktok"), ("TWITTER", "twitter"),
-                          ("VK", "vk"), ("TELEGRAM", "telegram")]:
-        pinfo = uploads.get(pkey, {})
+                          ("THREADS", "threads"), ("TIKTOK", "tiktok")]:
+        pinfo = results["uploads"].get(pkey, {})
         if pinfo and pinfo.get("status") == "success":
             pid = pinfo.get("id", "N/A")
             print(f"{pname}: SUCCESS (ID: {pid})")
+        elif pinfo and pinfo.get("status") == "skipped":
+            print(f"{pname}: SKIPPED")
         elif pinfo:
-            err = str(pinfo.get("error", pinfo.get("reason", "unknown")))[:80]
+            err = str(pinfo.get("error", ""))[:80]
             print(f"{pname}: FAILED - {err}")
         else:
             pl = pkey.lower()
@@ -418,6 +248,11 @@ def upload_to_all_platforms(video_path, caption, category, phrases=None):
             skipped = pl in [p.lower() for p in results.get("platforms_skipped", [])]
             print(f"{pname}: {'FAILED' if failed else ('SKIPPED' if skipped else '-')}")
     print("=" * 60)
+
+    results_file = Path("output") / f"upload_results_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+    results_file.parent.mkdir(exist_ok=True)
+    with open(results_file, "w", encoding="utf-8") as f:
+        json.dump(results, f, indent=2, ensure_ascii=False)
 
     return results
 
@@ -443,13 +278,7 @@ def main():
     print(caption[:500] + "..." if len(caption) > 500 else caption)
     print("-" * 80)
 
-    results = upload_to_all_platforms(
-        reel['video_path'],
-        caption,
-        reel['category'],
-        reel['phrases']
-    )
-
+    results = upload_to_all_platforms(reel['video_path'], caption, reel['category'], reel['phrases'])
     results["phrases"] = reel['phrases']
 
     successful = len(results.get("platforms_successful", []))
