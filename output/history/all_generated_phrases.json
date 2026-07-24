@@ -6544,7 +6544,42 @@
       "transliteration": "Tro chuyen voi nguoi ban hang, xay dung ket noi.",
       "category": "Purpose",
       "generated_at": "2026-07-23T20:48:29.079355"
+    },
+    {
+      "english": "This silk, feels amazing.",
+      "vietnamese": "Lụa này, sờ thích lắm.",
+      "transliteration": "Lua nay, so thich lam.",
+      "category": "Clothes",
+      "generated_at": "2026-07-24T05:49:31.923293"
+    },
+    {
+      "english": "A cozy sweater, for winter.",
+      "vietnamese": "Áo ấm, cho mùa đông.",
+      "transliteration": "Ao am, cho mua dong.",
+      "category": "Clothes",
+      "generated_at": "2026-07-24T05:49:31.923303"
+    },
+    {
+      "english": "My favorite, pajamas.",
+      "vietnamese": "Đồ ngủ, yêu thích của tôi.",
+      "transliteration": "Do ngu, yeu thich cua toi.",
+      "category": "Clothes",
+      "generated_at": "2026-07-24T05:49:31.923305"
+    },
+    {
+      "english": "These jeans, are really comfortable.",
+      "vietnamese": "Quần jean này, mặc thoải mái ghê.",
+      "transliteration": "Quan jean nay, mac thoai mai ghe.",
+      "category": "Clothes",
+      "generated_at": "2026-07-24T05:49:31.923306"
+    },
+    {
+      "english": "A fancy skirt, for the party.",
+      "vietnamese": "Váy sang trọng, đi tiệc nhé.",
+      "transliteration": "Vay sang trong, di tiec nhe.",
+      "category": "Clothes",
+      "generated_at": "2026-07-24T05:49:31.923307"
     }
   ],
-  "last_updated": "2026-07-23T20:48:29.079357"
+  "last_updated": "2026-07-24T05:49:31.923309"
 }
