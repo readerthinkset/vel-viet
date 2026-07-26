@@ -97,15 +97,15 @@ def get_language_name(phrases, lang_field):
         import subprocess
         remote = subprocess.check_output(["git", "config", "--get", "remote.origin.url"], stderr=subprocess.DEVNULL).decode().strip()
         import re
-        m = re.search(r'vel-([a-z]+)', remote)
+        m = re.search(r'(?:vel|Vel|vdl|vei)_?([a-z]+)', remote)
         if m:
-            code = m.group(1)
+            code = m.group(1).lower()
             if code in LANGUAGE_MAP:
                 return LANGUAGE_MAP[code]
         m2 = re.search(r'/([^/]+)$', remote)
         if m2:
-            repo = m2.group(1).replace(".git", "")
-            parts = repo.split("-")
+            repo = m2.group(1).replace(".git", "").lower()
+            parts = re.split(r'[-_\s]', repo)
             if len(parts) > 1:
                 code = parts[-1]
                 if code in LANGUAGE_MAP:
@@ -138,7 +138,7 @@ def generate_caption(phrases, category, lang_field="native"):
 
 def upload_to_all_platforms(video_path, caption, category, phrases=None, lang_field="native"):
     lang_name = get_language_name(phrases or [], lang_field)
-    results = {"timestamp": datetime.now().isoformat(), "category": category, "video": video_path, "uploads": {}, "platforms_attempted": [], "platforms_successful": [], "platforms_skipped": [], "platforms_failed": []}
+    results = {"timestamp": datetime.now().isoformat(), "category": category, "video": video_path, "uploads": {}, "platforms_attempted": [], "platforms_successful": [], "platforms_skipped": [], "platforms_failed": [], "timing": {}}
     print("\n" + "="*80)
     print(f"VELOCITY {lang_name.upper()} - MULTI-PLATFORM UPLOAD")
     print("="*80)
@@ -149,6 +149,7 @@ def upload_to_all_platforms(video_path, caption, category, phrases=None, lang_fi
         func = uploaders.get(key)
         if func:
             try:
+                t_start = datetime.now()
                 if pname == "youtube":
                     from upload_to_youtube import generate_video_metadata
                     yt_title, yt_desc, yt_tags = generate_video_metadata(category, len(phrases) if phrases else 5, phrases)
@@ -167,6 +168,9 @@ def upload_to_all_platforms(video_path, caption, category, phrases=None, lang_fi
                     r = func(video_path=video_path, description=caption, title=f"{lang_name}: {category}")
                 elif pname == "instagram":
                     r = func(video_path=video_path, caption=caption, is_story=False)
+                t_end = datetime.now()
+                t_sec = round((t_end - t_start).total_seconds())
+                results["timing"][pname] = f"{t_sec}s"
                 if r:
                     results["uploads"][pname] = r
                     results["platforms_successful"].append(pname)
