@@ -112,11 +112,11 @@ def upload_to_instagram(video_path, caption="", is_story=False):
         print(f"[instagram] ✅ Video Bytes Transferred Successfully!")
 
         print("[instagram] Step 3: Polling Meta container status until FINISHED...")
-        max_polls = 18 # Up to 3 minutes
+        max_polls = 5 # Up to 2.5 minutes
         is_ready = False
         
         for poll_idx in range(max_polls):
-            time.sleep(5)
+            time.sleep(30)
             st_res = requests.get(
                 f"{api_base}/{container_id}?fields=status_code,status&access_token={access_token}",
                 timeout=10
