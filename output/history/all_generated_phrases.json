@@ -7174,7 +7174,42 @@
       "transliteration": "Dung bo cuoc, ban gan lam roi.",
       "category": "Perseverance",
       "generated_at": "2026-07-28T20:55:05.273083"
+    },
+    {
+      "english": "This is quite delicious.",
+      "vietnamese": "Cái này, khá ngon.",
+      "transliteration": "Kai nai, ka ngon.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-07-29T02:46:13.081474"
+    },
+    {
+      "english": "It tastes different.",
+      "vietnamese": "Vị này, lạ lắm.",
+      "transliteration": "Vi nai, la lam.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-07-29T02:46:13.081486"
+    },
+    {
+      "english": "May I take a picture?",
+      "vietnamese": "Xin chụp tấm hình?",
+      "transliteration": "Sin chup tam him?",
+      "category": "Basic Phrases",
+      "generated_at": "2026-07-29T02:46:13.081488"
+    },
+    {
+      "english": "Such a quiet street.",
+      "vietnamese": "Đường này, tĩnh lặng.",
+      "transliteration": "Duong nai, tinh lang.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-07-29T02:46:13.081489"
+    },
+    {
+      "english": "What a lovely morning.",
+      "vietnamese": "Buổi sáng, đẹp quá.",
+      "transliteration": "Buoi sang, dep qua.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-07-29T02:46:13.081490"
     }
   ],
-  "last_updated": "2026-07-28T20:55:05.273085"
+  "last_updated": "2026-07-29T02:46:13.081492"
 }
