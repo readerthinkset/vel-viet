@@ -7349,7 +7349,42 @@
       "transliteration": "Nem van hoa, qua ngon ngu.",
       "category": "Inspiration",
       "generated_at": "2026-07-29T20:41:29.288383"
+    },
+    {
+      "english": "Morning dew, glistens bright.",
+      "vietnamese": "Sương sớm, lấp lánh.",
+      "transliteration": "Suong som, lap lanh.",
+      "category": "Weather",
+      "generated_at": "2026-07-30T02:31:36.203286"
+    },
+    {
+      "english": "Sky turns, a deep blue.",
+      "vietnamese": "Trời xanh, thẳm.",
+      "transliteration": "Troi xanh, tham.",
+      "category": "Weather",
+      "generated_at": "2026-07-30T02:31:36.203297"
+    },
+    {
+      "english": "Clouds drift, lazily by.",
+      "vietnamese": "Mây lững lờ, trôi.",
+      "transliteration": "May lung lo, troi.",
+      "category": "Weather",
+      "generated_at": "2026-07-30T02:31:36.203299"
+    },
+    {
+      "english": "A sudden downpour, soaked.",
+      "vietnamese": "Mưa ào ạt, ướt sũng.",
+      "transliteration": "Mua ao at, uot sung.",
+      "category": "Weather",
+      "generated_at": "2026-07-30T02:31:36.203300"
+    },
+    {
+      "english": "Chilly air, bites the skin.",
+      "vietnamese": "Không khí lạnh, buốt.",
+      "transliteration": "Khong khi lanh, buot.",
+      "category": "Weather",
+      "generated_at": "2026-07-30T02:31:36.203302"
     }
   ],
-  "last_updated": "2026-07-29T20:41:29.288385"
+  "last_updated": "2026-07-30T02:31:36.203304"
 }
