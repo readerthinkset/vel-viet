@@ -7699,7 +7699,42 @@
       "transliteration": "Hoi ng'uong, toi khong ngo toi.",
       "category": "Feelings",
       "generated_at": "2026-08-01T02:56:44.813608"
+    },
+    {
+      "english": "Your voice, is strong.",
+      "vietnamese": "Giọng bạn, thật mạnh mẽ.",
+      "transliteration": "Giong ban, that manh me.",
+      "category": "Confidence",
+      "generated_at": "2026-08-01T13:43:16.469699"
+    },
+    {
+      "english": "Explore Vietnamese, fearlessly.",
+      "vietnamese": "Khám phá tiếng Việt, không sợ hãi.",
+      "transliteration": "Kham pha tieng Viet, khong so hai.",
+      "category": "Confidence",
+      "generated_at": "2026-08-01T13:43:16.469708"
+    },
+    {
+      "english": "Little by little, grow.",
+      "vietnamese": "Từng chút một, bạn lớn lên.",
+      "transliteration": "Tung chut mot, ban lon len.",
+      "category": "Confidence",
+      "generated_at": "2026-08-01T13:43:16.469710"
+    },
+    {
+      "english": "Listen, then speak.",
+      "vietnamese": "Hãy nghe, rồi nói.",
+      "transliteration": "Hay nghe, roi noi.",
+      "category": "Confidence",
+      "generated_at": "2026-08-01T13:43:16.469711"
+    },
+    {
+      "english": "This language, is yours.",
+      "vietnamese": "Ngôn ngữ này, là của bạn.",
+      "transliteration": "Ngon ngu nay, la cua ban.",
+      "category": "Confidence",
+      "generated_at": "2026-08-01T13:43:16.469712"
     }
   ],
-  "last_updated": "2026-08-01T02:56:44.813610"
+  "last_updated": "2026-08-01T13:43:16.469714"
 }
