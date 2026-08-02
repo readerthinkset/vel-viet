@@ -7874,7 +7874,42 @@
       "transliteration": "Noi tu, that dep.",
       "category": "Success",
       "generated_at": "2026-08-02T02:55:19.724990"
+    },
+    {
+      "english": "Bright day, isn't it?",
+      "vietnamese": "Trời đẹp, nhỉ?",
+      "transliteration": "Troi dep, nhi?",
+      "category": "Greetings",
+      "generated_at": "2026-08-02T17:57:32.315093"
+    },
+    {
+      "english": "Ready for today?",
+      "vietnamese": "Sẵn sàng cho hôm nay chưa?",
+      "transliteration": "San sang cho hom nay chua?",
+      "category": "Greetings",
+      "generated_at": "2026-08-02T17:57:32.315103"
+    },
+    {
+      "english": "So nice, seeing you.",
+      "vietnamese": "Rất vui, được gặp bạn.",
+      "transliteration": "Rat vui, duoc gap ban.",
+      "category": "Greetings",
+      "generated_at": "2026-08-02T17:57:32.315105"
+    },
+    {
+      "english": "Hope you're having fun.",
+      "vietnamese": "Chúc bạn vui vẻ nhé.",
+      "transliteration": "Chuc ban vui ve nhe.",
+      "category": "Greetings",
+      "generated_at": "2026-08-02T17:57:32.315106"
+    },
+    {
+      "english": "What a lovely moment.",
+      "vietnamese": "Khoảnh khắc thật tuyệt vời.",
+      "transliteration": "Khoanh khac that tuyet voi.",
+      "category": "Greetings",
+      "generated_at": "2026-08-02T17:57:32.315107"
     }
   ],
-  "last_updated": "2026-08-02T02:55:19.724992"
+  "last_updated": "2026-08-02T17:57:32.315109"
 }
