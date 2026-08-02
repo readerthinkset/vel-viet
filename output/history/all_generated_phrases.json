@@ -7839,7 +7839,42 @@
       "transliteration": "Trao di mot khoanh khac, thau hieu.",
       "category": "Kindness",
       "generated_at": "2026-08-01T20:38:42.108337"
+    },
+    {
+      "english": "Ah, that sound! You've got it.",
+      "vietnamese": "À, âm đó! Bạn làm được rồi.",
+      "transliteration": "A, um do! Ban lam duoc roi.",
+      "category": "Success",
+      "generated_at": "2026-08-02T02:55:19.724977"
+    },
+    {
+      "english": "Listen, repeat, master.",
+      "vietnamese": "Nghe, lặp lại, thành thạo.",
+      "transliteration": "Nghe, lap lai, thanh thao.",
+      "category": "Success",
+      "generated_at": "2026-08-02T02:55:19.724986"
+    },
+    {
+      "english": "Your accent, improving.",
+      "vietnamese": "Giọng của bạn, tiến bộ.",
+      "transliteration": "Giong cua ban, tien bo.",
+      "category": "Success",
+      "generated_at": "2026-08-02T02:55:19.724988"
+    },
+    {
+      "english": "One more try, you're close.",
+      "vietnamese": "Thêm một lần nữa, bạn sắp được.",
+      "transliteration": "Them mot lan nua, ban sap duoc.",
+      "category": "Success",
+      "generated_at": "2026-08-02T02:55:19.724989"
+    },
+    {
+      "english": "Connecting words, beautifully.",
+      "vietnamese": "Nối từ, thật đẹp.",
+      "transliteration": "Noi tu, that dep.",
+      "category": "Success",
+      "generated_at": "2026-08-02T02:55:19.724990"
     }
   ],
-  "last_updated": "2026-08-01T20:38:42.108338"
+  "last_updated": "2026-08-02T02:55:19.724992"
 }
