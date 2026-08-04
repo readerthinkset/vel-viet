@@ -8189,7 +8189,42 @@
       "transliteration": "Toi tim do thu cong, o dau nhi?",
       "category": "Travel",
       "generated_at": "2026-08-04T02:40:41.027966"
+    },
+    {
+      "english": "This plate, looks tempting.",
+      "vietnamese": "Món này, trông hấp dẫn.",
+      "transliteration": "Mon nay, trong hap dan.",
+      "category": "Restaurant",
+      "generated_at": "2026-08-04T14:32:03.430078"
+    },
+    {
+      "english": "Could we, try that one?",
+      "vietnamese": "Cho chúng tôi, thử món kia?",
+      "transliteration": "Cho chung toi, thu mon kia?",
+      "category": "Restaurant",
+      "generated_at": "2026-08-04T14:32:03.430086"
+    },
+    {
+      "english": "My stomach, is rumbling.",
+      "vietnamese": "Bụng tôi, đang đói cồn cào.",
+      "transliteration": "Bung toi, dang doi con cao.",
+      "category": "Restaurant",
+      "generated_at": "2026-08-04T14:32:03.430088"
+    },
+    {
+      "english": "Is this, very popular?",
+      "vietnamese": "Món này, có nhiều người ăn không?",
+      "transliteration": "Mon nay, co nhieu nguoi an khong?",
+      "category": "Restaurant",
+      "generated_at": "2026-08-04T14:32:03.430089"
+    },
+    {
+      "english": "I'm craving, something savory.",
+      "vietnamese": "Tôi thèm, một món mặn.",
+      "transliteration": "Toi them, mot mon man.",
+      "category": "Restaurant",
+      "generated_at": "2026-08-04T14:32:03.430090"
     }
   ],
-  "last_updated": "2026-08-04T02:40:41.027968"
+  "last_updated": "2026-08-04T14:32:03.430092"
 }
