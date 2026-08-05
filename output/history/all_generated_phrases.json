@@ -8469,7 +8469,42 @@
       "transliteration": "Suong lang dang, khach khong moi.",
       "category": "Weather",
       "generated_at": "2026-08-05T18:17:24.413102"
+    },
+    {
+      "english": "One, tiny spark, ignites.",
+      "vietnamese": "Một, đốm lửa nhỏ, bùng cháy.",
+      "transliteration": "Mot, dom lua nho, bung chay.",
+      "category": "Numbers",
+      "generated_at": "2026-08-05T20:53:22.997611"
+    },
+    {
+      "english": "Two, beating hearts, in sync.",
+      "vietnamese": "Hai, trái tim đập, cùng nhịp.",
+      "transliteration": "Hai, trai tim dap, cung nhiep.",
+      "category": "Numbers",
+      "generated_at": "2026-08-05T20:53:22.997620"
+    },
+    {
+      "english": "Three, quiet whispers, shared secrets.",
+      "vietnamese": "Ba, lời thì thầm, bí mật trao.",
+      "transliteration": "Ba, loi thi tham, bi mat trao.",
+      "category": "Numbers",
+      "generated_at": "2026-08-05T20:53:22.997622"
+    },
+    {
+      "english": "Four, ancient trees, stand tall.",
+      "vietnamese": "Bốn, cây cổ thụ, vững chãi.",
+      "transliteration": "Bon, cay co thu, vung chai.",
+      "category": "Numbers",
+      "generated_at": "2026-08-05T20:53:22.997624"
+    },
+    {
+      "english": "Five, bold steps, forward march.",
+      "vietnamese": "Năm, bước chân dũng, tiến lên.",
+      "transliteration": "Nam, buoc chan dung, tien len.",
+      "category": "Numbers",
+      "generated_at": "2026-08-05T20:53:22.997625"
     }
   ],
-  "last_updated": "2026-08-05T18:17:24.413103"
+  "last_updated": "2026-08-05T20:53:22.997627"
 }
