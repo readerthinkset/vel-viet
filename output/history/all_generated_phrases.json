@@ -8364,7 +8364,42 @@
       "transliteration": "Mam tom, dam da thoi.",
       "category": "Food",
       "generated_at": "2026-08-05T02:39:28.877292"
+    },
+    {
+      "english": "When did you arrive?",
+      "vietnamese": "Khi nào bạn đến?",
+      "transliteration": "Khi nao ban den?",
+      "category": "Time",
+      "generated_at": "2026-08-05T14:25:05.388596"
+    },
+    {
+      "english": "It's almost lunchtime.",
+      "vietnamese": "Sắp đến giờ ăn trưa.",
+      "transliteration": "Sap den gio an trua.",
+      "category": "Time",
+      "generated_at": "2026-08-05T14:25:05.388604"
+    },
+    {
+      "english": "My birthday is coming.",
+      "vietnamese": "Sinh nhật tôi sắp tới.",
+      "transliteration": "Sinh nhat toi sap toi.",
+      "category": "Time",
+      "generated_at": "2026-08-05T14:25:05.388606"
+    },
+    {
+      "english": "That happened long ago.",
+      "vietnamese": "Chuyện đó xảy ra lâu rồi.",
+      "transliteration": "Chuyen do xay ra lau roi.",
+      "category": "Time",
+      "generated_at": "2026-08-05T14:25:05.388608"
+    },
+    {
+      "english": "When do we start?",
+      "vietnamese": "Chúng ta bắt đầu khi nào?",
+      "transliteration": "Chung ta bat dau khi nao?",
+      "category": "Time",
+      "generated_at": "2026-08-05T14:25:05.388609"
     }
   ],
-  "last_updated": "2026-08-05T02:39:28.877293"
+  "last_updated": "2026-08-05T14:25:05.388611"
 }
