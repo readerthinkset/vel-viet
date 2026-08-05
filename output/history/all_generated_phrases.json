@@ -8329,7 +8329,42 @@
       "transliteration": "The gioi cua toi, da tim thay mau sac.",
       "category": "Love",
       "generated_at": "2026-08-04T20:59:47.855764"
+    },
+    {
+      "english": "Garden greens, lightly steamed.",
+      "vietnamese": "Rau vườn, luộc nhẹ nhàng.",
+      "transliteration": "Rau vu-ən, luok nyay nyang.",
+      "category": "Food",
+      "generated_at": "2026-08-05T02:39:28.877277"
+    },
+    {
+      "english": "Fish sauce, salty depth.",
+      "vietnamese": "Nước mắm, vị mặn sâu.",
+      "transliteration": "Nuok mam, vi man sou.",
+      "category": "Food",
+      "generated_at": "2026-08-05T02:39:28.877287"
+    },
+    {
+      "english": "Steamed rice cake, soft bite.",
+      "vietnamese": "Bánh bột, mềm mại lắm.",
+      "transliteration": "Ban bot, mem my lam.",
+      "category": "Food",
+      "generated_at": "2026-08-05T02:39:28.877289"
+    },
+    {
+      "english": "Fried tofu, crispy edges.",
+      "vietnamese": "Đậu hũ chiên, giòn rụm.",
+      "transliteration": "Dau hu chi-en, gion rum.",
+      "category": "Food",
+      "generated_at": "2026-08-05T02:39:28.877290"
+    },
+    {
+      "english": "Fermented shrimp paste, bold flavor.",
+      "vietnamese": "Mắm tôm, đậm đà thôi.",
+      "transliteration": "Mam tom, dam da thoi.",
+      "category": "Food",
+      "generated_at": "2026-08-05T02:39:28.877292"
     }
   ],
-  "last_updated": "2026-08-04T20:59:47.855766"
+  "last_updated": "2026-08-05T02:39:28.877293"
 }
