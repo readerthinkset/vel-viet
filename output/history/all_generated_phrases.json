@@ -8504,7 +8504,42 @@
       "transliteration": "Nam, buoc chan dung, tien len.",
       "category": "Numbers",
       "generated_at": "2026-08-05T20:53:22.997625"
+    },
+    {
+      "english": "Morning light, evening calm.",
+      "vietnamese": "Sáng tươi, tối dịu.",
+      "transliteration": "Sang tuoi, toi diu.",
+      "category": "Balance",
+      "generated_at": "2026-08-06T02:41:29.425456"
+    },
+    {
+      "english": "Sip slowly, savor fully.",
+      "vietnamese": "Nhâm nhi, thưởng thức.",
+      "transliteration": "Nham nhi, thuong thuc.",
+      "category": "Balance",
+      "generated_at": "2026-08-06T02:41:29.425469"
+    },
+    {
+      "english": "Build bridges, not walls.",
+      "vietnamese": "Xây cầu, đừng xây tường.",
+      "transliteration": "Xay cau, dung xay tuong.",
+      "category": "Balance",
+      "generated_at": "2026-08-06T02:41:29.425471"
+    },
+    {
+      "english": "Ask questions, find answers.",
+      "vietnamese": "Hỏi nhiều, tìm hiểu.",
+      "transliteration": "Hoi nhieu, tim hieu.",
+      "category": "Balance",
+      "generated_at": "2026-08-06T02:41:29.425472"
+    },
+    {
+      "english": "Laugh often, smile always.",
+      "vietnamese": "Cười nhiều, luôn mỉm cười.",
+      "transliteration": "Cuoi nhieu, luon mim cuoi.",
+      "category": "Balance",
+      "generated_at": "2026-08-06T02:41:29.425474"
     }
   ],
-  "last_updated": "2026-08-05T20:53:22.997627"
+  "last_updated": "2026-08-06T02:41:29.425476"
 }
