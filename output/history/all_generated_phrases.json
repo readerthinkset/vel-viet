@@ -8539,7 +8539,42 @@
       "transliteration": "Cuoi nhieu, luon mim cuoi.",
       "category": "Balance",
       "generated_at": "2026-08-06T02:41:29.425474"
+    },
+    {
+      "english": "The frog, leaps into the pond.",
+      "vietnamese": "Con ếch, nhảy xuống ao.",
+      "transliteration": "Con ech, nhay xuong ao.",
+      "category": "Animals",
+      "generated_at": "2026-08-06T14:27:56.705408"
+    },
+    {
+      "english": "A tiny mouse, scurries by.",
+      "vietnamese": "Chú chuột nhỏ, chạy vội qua.",
+      "transliteration": "Chu chuot nho, chay voi qua.",
+      "category": "Animals",
+      "generated_at": "2026-08-06T14:27:56.705418"
+    },
+    {
+      "english": "The elephant, remembers everything.",
+      "vietnamese": "Con voi, nhớ mọi thứ.",
+      "transliteration": "Con voi, nho moi thu.",
+      "category": "Animals",
+      "generated_at": "2026-08-06T14:27:56.705419"
+    },
+    {
+      "english": "A majestic lion, roars loudly.",
+      "vietnamese": "Sư tử oai vệ, gầm vang.",
+      "transliteration": "Su tu oai ve, gam vang.",
+      "category": "Animals",
+      "generated_at": "2026-08-06T14:27:56.705420"
+    },
+    {
+      "english": "The quick fox, plays a trick.",
+      "vietnamese": "Cáo nhanh nhẹn, bày trò.",
+      "transliteration": "Cao nhanh nhen, bay tro.",
+      "category": "Animals",
+      "generated_at": "2026-08-06T14:27:56.705421"
     }
   ],
-  "last_updated": "2026-08-06T02:41:29.425476"
+  "last_updated": "2026-08-06T14:27:56.705423"
 }
