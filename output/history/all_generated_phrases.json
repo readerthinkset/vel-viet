@@ -8924,7 +8924,42 @@
       "transliteration": "Cau cua ban, muot ma.",
       "category": "Success",
       "generated_at": "2026-08-08T14:32:49.623234"
+    },
+    {
+      "english": "My leg, it aches. Support, please?",
+      "vietnamese": "Chân tôi, đau lắm. Vịn tôi, được không?",
+      "transliteration": "Chan toi, dau lam. Vin toi, duoc khong?",
+      "category": "Emergency",
+      "generated_at": "2026-08-08T17:23:32.587555"
+    },
+    {
+      "english": "Sudden dizziness. Sit down, maybe?",
+      "vietnamese": "Chóng mặt đột ngột. Ngồi xuống, có lẽ?",
+      "transliteration": "Chong mat dot ngot. Ngoi xuong, co le?",
+      "category": "Emergency",
+      "generated_at": "2026-08-08T17:23:32.587566"
+    },
+    {
+      "english": "Lost my way. Can you help?",
+      "vietnamese": "Lạc đường rồi. Giúp tôi, được chứ?",
+      "transliteration": "Lac duong roi. Giup toi, duoc chu?",
+      "category": "Emergency",
+      "generated_at": "2026-08-08T17:23:32.587568"
+    },
+    {
+      "english": "Feverish. Need cool place, quickly.",
+      "vietnamese": "Sốt quá. Cần chỗ mát, mau.",
+      "transliteration": "Sot qua. Can cho mat, mau.",
+      "category": "Emergency",
+      "generated_at": "2026-08-08T17:23:32.587569"
+    },
+    {
+      "english": "Strange smell. Is it gas?",
+      "vietnamese": "Mùi lạ quá. Có phải ga?",
+      "transliteration": "Mui la qua. Co phai ga?",
+      "category": "Emergency",
+      "generated_at": "2026-08-08T17:23:32.587570"
     }
   ],
-  "last_updated": "2026-08-08T14:32:49.623235"
+  "last_updated": "2026-08-08T17:23:32.587572"
 }
