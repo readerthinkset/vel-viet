@@ -9414,7 +9414,42 @@
       "transliteration": "Man hinh sang, y tuong tuon trao.",
       "category": "Technology",
       "generated_at": "2026-08-11T13:20:50.416879"
+    },
+    {
+      "english": "Excuse me, what is this called?",
+      "vietnamese": "Xin lỗi, cái này gọi là gì?",
+      "transliteration": "Sin loi, kai nai goi la zi?",
+      "category": "Shopping",
+      "generated_at": "2026-08-11T14:58:38.673078"
+    },
+    {
+      "english": "This looks very nice, for me.",
+      "vietnamese": "Cái này, trông rất hợp với tôi.",
+      "transliteration": "Kai nai, chong rat hop voi toi.",
+      "category": "Shopping",
+      "generated_at": "2026-08-11T14:58:38.673089"
+    },
+    {
+      "english": "I'm looking for a souvenir, please.",
+      "vietnamese": "Tôi đang tìm quà lưu niệm.",
+      "transliteration": "Toi dang tim qua luu niem.",
+      "category": "Shopping",
+      "generated_at": "2026-08-11T14:58:38.673091"
+    },
+    {
+      "english": "Can I see that one, over there?",
+      "vietnamese": "Tôi có thể xem cái kia không?",
+      "transliteration": "Toi co the xem kai kia khong?",
+      "category": "Shopping",
+      "generated_at": "2026-08-11T14:58:38.673092"
+    },
+    {
+      "english": "Is this, handmade?",
+      "vietnamese": "Cái này, có phải làm thủ công không?",
+      "transliteration": "Kai nai, co phai lam thu cong khong?",
+      "category": "Shopping",
+      "generated_at": "2026-08-11T14:58:38.673093"
     }
   ],
-  "last_updated": "2026-08-11T13:20:50.416881"
+  "last_updated": "2026-08-11T14:58:38.673095"
 }
