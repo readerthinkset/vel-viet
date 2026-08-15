@@ -10044,7 +10044,42 @@
       "transliteration": "Ban chi cho toi xem duoc khong?",
       "category": "Basic Phrases",
       "generated_at": "2026-08-15T12:50:28.345353"
+    },
+    {
+      "english": "Lost my passport. Big trouble.",
+      "vietnamese": "Mất hộ chiếu. Rắc rối lớn.",
+      "transliteration": "Mat ho chieu. Rac roi lon.",
+      "category": "Emergency",
+      "generated_at": "2026-08-15T17:15:08.694067"
+    },
+    {
+      "english": "Feeling faint. Need to sit.",
+      "vietnamese": "Sắp ngất. Cần ngồi xuống.",
+      "transliteration": "Sap ngat. Can ngoi xuong.",
+      "category": "Emergency",
+      "generated_at": "2026-08-15T17:15:08.694079"
+    },
+    {
+      "english": "Sudden pain. Here, sharp.",
+      "vietnamese": "Đau đột ngột. Chỗ này, nhói.",
+      "transliteration": "Dau dot ngot. Cho nay, nhoi.",
+      "category": "Emergency",
+      "generated_at": "2026-08-15T17:15:08.694082"
+    },
+    {
+      "english": "Child wandered off. Help find!",
+      "vietnamese": "Con bị lạc. Giúp tìm!",
+      "transliteration": "Con bi lac. Giup tim!",
+      "category": "Emergency",
+      "generated_at": "2026-08-15T17:15:08.694083"
+    },
+    {
+      "english": "Cannot wake them. Please, help.",
+      "vietnamese": "Không đánh thức được. Làm ơn, giúp.",
+      "transliteration": "Khong danh thuc duoc. Lam on, giup.",
+      "category": "Emergency",
+      "generated_at": "2026-08-15T17:15:08.694084"
     }
   ],
-  "last_updated": "2026-08-15T12:50:28.345355"
+  "last_updated": "2026-08-15T17:15:08.694086"
 }
