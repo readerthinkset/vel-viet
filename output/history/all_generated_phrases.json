@@ -10149,7 +10149,42 @@
       "transliteration": "Moi khoan chi, hay hieu ro gia tri.",
       "category": "Finance",
       "generated_at": "2026-08-16T01:23:36.639588"
+    },
+    {
+      "english": "Can I have, a look, at that?",
+      "vietnamese": "Cho tôi, xem cái kia.",
+      "transliteration": "cho toi, xem kai kia.",
+      "category": "Restaurant",
+      "generated_at": "2026-08-16T12:51:50.414611"
+    },
+    {
+      "english": "This aroma, is incredible.",
+      "vietnamese": "Mùi hương, thật tuyệt.",
+      "transliteration": "mui huong, that tuyet.",
+      "category": "Restaurant",
+      "generated_at": "2026-08-16T12:51:50.414620"
+    },
+    {
+      "english": "What's this, called exactly?",
+      "vietnamese": "Món này, tên là gì?",
+      "transliteration": "mon nai, ten la yi?",
+      "category": "Restaurant",
+      "generated_at": "2026-08-16T12:51:50.414621"
+    },
+    {
+      "english": "Could I get, some more, rice?",
+      "vietnamese": "Xin thêm, một ít, cơm nữa.",
+      "transliteration": "sin them, mot it, com nua.",
+      "category": "Restaurant",
+      "generated_at": "2026-08-16T12:51:50.414623"
+    },
+    {
+      "english": "That looks, really satisfying.",
+      "vietnamese": "Trông rất, đáng ăn.",
+      "transliteration": "trong rat, dang an.",
+      "category": "Restaurant",
+      "generated_at": "2026-08-16T12:51:50.414624"
     }
   ],
-  "last_updated": "2026-08-16T01:23:36.639589"
+  "last_updated": "2026-08-16T12:51:50.414625"
 }
