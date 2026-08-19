@@ -10744,7 +10744,42 @@
       "transliteration": "Toi thich, bo do thoai mai nay.",
       "category": "Clothes",
       "generated_at": "2026-08-19T17:22:50.756025"
+    },
+    {
+      "english": "Tech whispers, new ideas.",
+      "vietnamese": "Công nghệ thì thầm, ý tưởng mới.",
+      "transliteration": "Cong nghe thi tham, y tuong moi.",
+      "category": "Technology",
+      "generated_at": "2026-08-19T20:20:33.912629"
+    },
+    {
+      "english": "Tap the screen, change worlds.",
+      "vietnamese": "Chạm màn hình, đổi thế giới.",
+      "transliteration": "Cham man hinh, doi the gioi.",
+      "category": "Technology",
+      "generated_at": "2026-08-19T20:20:33.912642"
+    },
+    {
+      "english": "Byte by byte, build tomorrow.",
+      "vietnamese": "Từng byte một, xây ngày mai.",
+      "transliteration": "Tung byte mot, xay ngay mai.",
+      "category": "Technology",
+      "generated_at": "2026-08-19T20:20:33.912643"
+    },
+    {
+      "english": "Cloud stores, all our memories.",
+      "vietnamese": "Đám mây lưu, mọi ký ức.",
+      "transliteration": "Dam may luu, moi ky uc.",
+      "category": "Technology",
+      "generated_at": "2026-08-19T20:20:33.912644"
+    },
+    {
+      "english": "Digital heartbeat, strong and fast.",
+      "vietnamese": "Nhịp đập số, mạnh và nhanh.",
+      "transliteration": "Nhip dap so, manh va nhanh.",
+      "category": "Technology",
+      "generated_at": "2026-08-19T20:20:33.912645"
     }
   ],
-  "last_updated": "2026-08-19T17:22:50.756027"
+  "last_updated": "2026-08-19T20:20:33.912646"
 }
