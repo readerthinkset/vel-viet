@@ -11024,7 +11024,42 @@
       "transliteration": "Noi tu, tao y nghia.",
       "category": "Strength",
       "generated_at": "2026-08-21T14:36:17.844141"
+    },
+    {
+      "english": "Sky's blushing, pink and gold.",
+      "vietnamese": "Bầu trời ửng hồng, vàng rực.",
+      "transliteration": "Bau troi ung hong, vang ruc.",
+      "category": "Weather",
+      "generated_at": "2026-08-21T17:22:21.839592"
+    },
+    {
+      "english": "Clouds are fluffy, cotton balls.",
+      "vietnamese": "Mây bồng bềnh, như bông.",
+      "transliteration": "May bong benh, nhu bong.",
+      "category": "Weather",
+      "generated_at": "2026-08-21T17:22:21.839605"
+    },
+    {
+      "english": "A gentle breeze, stirs the leaves.",
+      "vietnamese": "Gió nhẹ nhàng, lay lá cây.",
+      "transliteration": "Gio nhe nhang, lay la cay.",
+      "category": "Weather",
+      "generated_at": "2026-08-21T17:22:21.839607"
+    },
+    {
+      "english": "Sunlight paints, dappled patterns.",
+      "vietnamese": "Nắng vẽ, đốm loang lổ.",
+      "transliteration": "Nang ve, dom loang lo.",
+      "category": "Weather",
+      "generated_at": "2026-08-21T17:22:21.839608"
+    },
+    {
+      "english": "Rain's drumming, a soft beat.",
+      "vietnamese": "Mưa đang gõ, nhịp nhẹ.",
+      "transliteration": "Mua dang go, nhịp nhe.",
+      "category": "Weather",
+      "generated_at": "2026-08-21T17:22:21.839609"
     }
   ],
-  "last_updated": "2026-08-21T14:36:17.844143"
+  "last_updated": "2026-08-21T17:22:21.839611"
 }
