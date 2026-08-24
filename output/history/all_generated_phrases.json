@@ -11479,7 +11479,42 @@
       "transliteration": "Chia se anh sang cua ban, soi sang nguoi khac.",
       "category": "Balance",
       "generated_at": "2026-08-24T01:22:33.984922"
+    },
+    {
+      "english": "That's the meaning, now it clicks.",
+      "vietnamese": "Đó là ý nghĩa, giờ hiểu rồi.",
+      "transliteration": "Doh la ee nyee-ah, zur hyoo roh-ee.",
+      "category": "Success",
+      "generated_at": "2026-08-24T13:03:14.615283"
+    },
+    {
+      "english": "Your pronunciation, so clear, good.",
+      "vietnamese": "Phát âm của bạn, rõ lắm, tốt.",
+      "transliteration": "Fat am koo-ah ban, zoh lam, toht.",
+      "category": "Success",
+      "generated_at": "2026-08-24T13:03:14.615291"
+    },
+    {
+      "english": "This grammar point, you grasp it.",
+      "vietnamese": "Ngữ pháp này, bạn nắm được.",
+      "transliteration": "Ngoo fat nai, ban nam duh-ook.",
+      "category": "Success",
+      "generated_at": "2026-08-24T13:03:14.615293"
+    },
+    {
+      "english": "A new idiom, you remember it.",
+      "vietnamese": "Thành ngữ mới, bạn nhớ rồi.",
+      "transliteration": "Than ngoo moh-ee, ban nyuh roh-ee.",
+      "category": "Success",
+      "generated_at": "2026-08-24T13:03:14.615295"
+    },
+    {
+      "english": "You understood that question, great!",
+      "vietnamese": "Bạn hiểu câu hỏi đó, tuyệt!",
+      "transliteration": "Ban hyoo kow hwoy doh, tyoo-et!",
+      "category": "Success",
+      "generated_at": "2026-08-24T13:03:14.615296"
     }
   ],
-  "last_updated": "2026-08-24T01:22:33.984924"
+  "last_updated": "2026-08-24T13:03:14.615297"
 }
