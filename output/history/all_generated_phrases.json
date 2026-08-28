@@ -12144,7 +12144,42 @@
       "transliteration": "Toi cam thay, that truyen cam hung.",
       "category": "Travel",
       "generated_at": "2026-08-28T10:08:40.607001"
+    },
+    {
+      "english": "A good day, to you.",
+      "vietnamese": "Một ngày tốt lành, bạn nhé.",
+      "transliteration": "Mot ngay tot lanh, ban nhe.",
+      "category": "Greetings",
+      "generated_at": "2026-08-28T22:07:48.421846"
+    },
+    {
+      "english": "Glad you're here, really.",
+      "vietnamese": "Rất vui, bạn có mặt.",
+      "transliteration": "Rat vui, ban co mat.",
+      "category": "Greetings",
+      "generated_at": "2026-08-28T22:07:48.421855"
+    },
+    {
+      "english": "Let's begin, shall we?",
+      "vietnamese": "Chúng ta bắt đầu, nhé?",
+      "transliteration": "Chung ta bat dau, nhe?",
+      "category": "Greetings",
+      "generated_at": "2026-08-28T22:07:48.421856"
+    },
+    {
+      "english": "A moment, to connect.",
+      "vietnamese": "Khoảnh khắc, để kết nối.",
+      "transliteration": "Khoanh khac, de ket noi.",
+      "category": "Greetings",
+      "generated_at": "2026-08-28T22:07:48.421858"
+    },
+    {
+      "english": "Peaceful morning, friend.",
+      "vietnamese": "Buổi sáng an lành, bạn.",
+      "transliteration": "Buoi sang an lanh, ban.",
+      "category": "Greetings",
+      "generated_at": "2026-08-28T22:07:48.421862"
     }
   ],
-  "last_updated": "2026-08-28T10:08:40.607002"
+  "last_updated": "2026-08-28T22:07:48.421864"
 }
