@@ -12284,7 +12284,42 @@
       "transliteration": "Nghe tieng Viet, de bat lay giai dieu.",
       "category": "Purpose",
       "generated_at": "2026-08-29T06:06:41.710583"
+    },
+    {
+      "english": "Excited, ready for adventure.",
+      "vietnamese": "Hào hứng, sẵn sàng cho chuyến đi.",
+      "transliteration": "Hao hung, san sang cho chuyen di.",
+      "category": "Feelings",
+      "generated_at": "2026-08-29T16:35:50.419502"
+    },
+    {
+      "english": "A bit tired, need a break.",
+      "vietnamese": "Hơi mệt, cần nghỉ ngơi.",
+      "transliteration": "Hoi met, can nghi ngoi.",
+      "category": "Feelings",
+      "generated_at": "2026-08-29T16:35:50.419512"
+    },
+    {
+      "english": "Feeling happy, sunshine in my heart.",
+      "vietnamese": "Vui vẻ, nắng ấm trong tim.",
+      "transliteration": "Vui ve, nang am trong tim.",
+      "category": "Feelings",
+      "generated_at": "2026-08-29T16:35:50.419514"
+    },
+    {
+      "english": "Slightly annoyed, can't focus.",
+      "vietnamese": "Hơi bực, không tập trung được.",
+      "transliteration": "Hoi buc, khong tap trung duoc.",
+      "category": "Feelings",
+      "generated_at": "2026-08-29T16:35:50.419516"
+    },
+    {
+      "english": "Really sad, a tear falls.",
+      "vietnamese": "Buồn lắm, một giọt nước mắt rơi.",
+      "transliteration": "Buon lam, mot giot nuoc mat roi.",
+      "category": "Feelings",
+      "generated_at": "2026-08-29T16:35:50.419517"
     }
   ],
-  "last_updated": "2026-08-29T06:06:41.710585"
+  "last_updated": "2026-08-29T16:35:50.419518"
 }
