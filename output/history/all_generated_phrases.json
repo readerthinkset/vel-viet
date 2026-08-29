@@ -12319,7 +12319,42 @@
       "transliteration": "Buon lam, mot giot nuoc mat roi.",
       "category": "Feelings",
       "generated_at": "2026-08-29T16:35:50.419517"
+    },
+    {
+      "english": "My tummy, is excited.",
+      "vietnamese": "Bụng tôi, đang háo hức.",
+      "transliteration": "Bung toi, dang hao huc.",
+      "category": "Restaurant",
+      "generated_at": "2026-08-29T17:32:29.981266"
+    },
+    {
+      "english": "This smells, divine.",
+      "vietnamese": "Mùi này, thật tuyệt vời.",
+      "transliteration": "Mui nay, that tuyet voi.",
+      "category": "Restaurant",
+      "generated_at": "2026-08-29T17:32:29.981274"
+    },
+    {
+      "english": "I'm drawn, to that.",
+      "vietnamese": "Tôi bị, cuốn hút bởi món đó.",
+      "transliteration": "Toi bi, cuon hut boi mon do.",
+      "category": "Restaurant",
+      "generated_at": "2026-08-29T17:32:29.981276"
+    },
+    {
+      "english": "What's this, delightful creation?",
+      "vietnamese": "Món sáng tạo, thú vị này là gì?",
+      "transliteration": "Mon sang tao, thu vi nay la gi?",
+      "category": "Restaurant",
+      "generated_at": "2026-08-29T17:32:29.981277"
+    },
+    {
+      "english": "Could we try, that adventurous option?",
+      "vietnamese": "Chúng tôi thử, món mạo hiểm kia không?",
+      "transliteration": "Chung toi thu, mon mao hiem kia khong?",
+      "category": "Restaurant",
+      "generated_at": "2026-08-29T17:32:29.981278"
     }
   ],
-  "last_updated": "2026-08-29T16:35:50.419518"
+  "last_updated": "2026-08-29T17:32:29.981280"
 }
