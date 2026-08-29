@@ -12389,7 +12389,42 @@
       "transliteration": "Hiểu biết hé mở, chậm rãi, chắc chắn.",
       "category": "Success",
       "generated_at": "2026-08-29T19:35:13.251284"
+    },
+    {
+      "english": "Crab soup, briny delight.",
+      "vietnamese": "Súp cua, vị mặn mặn.",
+      "transliteration": "Soop coo-ah, vee mahn mahn.",
+      "category": "Food",
+      "generated_at": "2026-08-29T22:03:48.459510"
+    },
+    {
+      "english": "Rice noodle soup, comforting warmth.",
+      "vietnamese": "Phở, ấm lòng lắm.",
+      "transliteration": "Fuh, uhm long luhm.",
+      "category": "Food",
+      "generated_at": "2026-08-29T22:03:48.459521"
+    },
+    {
+      "english": "Sweet jelly, cool refreshment.",
+      "vietnamese": "Chè, mát lạnh nha.",
+      "transliteration": "Cheh, mahht lahng nya.",
+      "category": "Food",
+      "generated_at": "2026-08-29T22:03:48.459523"
+    },
+    {
+      "english": "Chicken pho, rich flavor.",
+      "vietnamese": "Phở gà, nước đậm đà.",
+      "transliteration": "Fuh gah, nuoc dum dah.",
+      "category": "Food",
+      "generated_at": "2026-08-29T22:03:48.459524"
+    },
+    {
+      "english": "Fried fish, crispy coating.",
+      "vietnamese": "Cá chiên, giòn tan.",
+      "transliteration": "Cah chee-en, zor tahn.",
+      "category": "Food",
+      "generated_at": "2026-08-29T22:03:48.459526"
     }
   ],
-  "last_updated": "2026-08-29T19:35:13.251286"
+  "last_updated": "2026-08-29T22:03:48.459528"
 }
