@@ -12529,7 +12529,42 @@
       "transliteration": "Gio dang tho dai, nghe ri ram.",
       "category": "Weather",
       "generated_at": "2026-08-30T17:58:06.929111"
+    },
+    {
+      "english": "Sun peeks, day begins.",
+      "vietnamese": "Nắng ló dạng, ngày bắt đầu.",
+      "transliteration": "Nang lo dang, ngay bat dau.",
+      "category": "Daily Routine",
+      "generated_at": "2026-08-30T19:36:14.786552"
+    },
+    {
+      "english": "Quiet moment, before the rush.",
+      "vietnamese": "Khoảnh khắc tĩnh lặng, trước vội vã.",
+      "transliteration": "Khoanh khac tinh lang, truoc voi va.",
+      "category": "Daily Routine",
+      "generated_at": "2026-08-30T19:36:14.786560"
+    },
+    {
+      "english": "Warm water, for my throat.",
+      "vietnamese": "Nước ấm, cho cổ họng.",
+      "transliteration": "Nuoc am, cho co hong.",
+      "category": "Daily Routine",
+      "generated_at": "2026-08-30T19:36:14.786562"
+    },
+    {
+      "english": "Slippers on, soft steps.",
+      "vietnamese": "Xỏ dép, bước nhẹ nhàng.",
+      "transliteration": "Xo dep, buoc nhe nhang.",
+      "category": "Daily Routine",
+      "generated_at": "2026-08-30T19:36:14.786563"
+    },
+    {
+      "english": "Window view, new day.",
+      "vietnamese": "Ngắm cửa sổ, ngày mới.",
+      "transliteration": "Ngam cua so, ngay moi.",
+      "category": "Daily Routine",
+      "generated_at": "2026-08-30T19:36:14.786564"
     }
   ],
-  "last_updated": "2026-08-30T17:58:06.929113"
+  "last_updated": "2026-08-30T19:36:14.786566"
 }
