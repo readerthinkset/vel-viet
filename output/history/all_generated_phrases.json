@@ -12494,7 +12494,42 @@
       "transliteration": "Troi cung toi roi nhi?",
       "category": "Common Expressions",
       "generated_at": "2026-08-30T16:31:07.352208"
+    },
+    {
+      "english": "Sky's a soft grey, quiet day.",
+      "vietnamese": "Trời xám dịu, ngày tĩnh lặng.",
+      "transliteration": "Troi xam diu, ngay tinh lang.",
+      "category": "Weather",
+      "generated_at": "2026-08-30T17:58:06.929094"
+    },
+    {
+      "english": "Sun's peeking, through the leaves.",
+      "vietnamese": "Nắng ló dạng, qua tán lá.",
+      "transliteration": "Nang lo dang, qua tan la.",
+      "category": "Weather",
+      "generated_at": "2026-08-30T17:58:06.929107"
+    },
+    {
+      "english": "Rain's tapping, a light rhythm.",
+      "vietnamese": "Mưa gõ nhè nhẹ, theo nhịp.",
+      "transliteration": "Mua go nhe nhe, theo nhip.",
+      "category": "Weather",
+      "generated_at": "2026-08-30T17:58:06.929109"
+    },
+    {
+      "english": "Air feels crisp, morning chill.",
+      "vietnamese": "Không khí trong lành, se lạnh sớm.",
+      "transliteration": "Khong khi trong lanh, se lanh som.",
+      "category": "Weather",
+      "generated_at": "2026-08-30T17:58:06.929110"
+    },
+    {
+      "english": "Wind's sighing, a low hum.",
+      "vietnamese": "Gió đang thở dài, nghe rì rầm.",
+      "transliteration": "Gio dang tho dai, nghe ri ram.",
+      "category": "Weather",
+      "generated_at": "2026-08-30T17:58:06.929111"
     }
   ],
-  "last_updated": "2026-08-30T16:31:07.352210"
+  "last_updated": "2026-08-30T17:58:06.929113"
 }
