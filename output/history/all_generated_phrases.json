@@ -12599,7 +12599,42 @@
       "transliteration": "Nghe da, roi thu.",
       "category": "Growth",
       "generated_at": "2026-08-30T22:10:43.653565"
+    },
+    {
+      "english": "Just beyond, the old well.",
+      "vietnamese": "Ngay sau, cái giếng cũ.",
+      "transliteration": "Ngai sau, kai gieng coo.",
+      "category": "Directions",
+      "generated_at": "2026-08-31T04:19:27.480136"
+    },
+    {
+      "english": "Find the mural, down that street.",
+      "vietnamese": "Tìm tranh tường, cuối phố đó.",
+      "transliteration": "Teem tranh toong, cooi foo doh.",
+      "category": "Directions",
+      "generated_at": "2026-08-31T04:19:27.480146"
+    },
+    {
+      "english": "Go by, the fruit stall.",
+      "vietnamese": "Đi ngang, sạp trái cây.",
+      "transliteration": "Dee ngang, sap tsai kai.",
+      "category": "Directions",
+      "generated_at": "2026-08-31T04:19:27.480148"
+    },
+    {
+      "english": "Seek out, the hidden cafe.",
+      "vietnamese": "Tìm quán cà phê, ẩn mình.",
+      "transliteration": "Teem kwahn ca feh, uhn meeng.",
+      "category": "Directions",
+      "generated_at": "2026-08-31T04:19:27.480149"
+    },
+    {
+      "english": "Follow, the gentle slope.",
+      "vietnamese": "Đi theo, con dốc thoai thoải.",
+      "transliteration": "Dee theo, con zok fwoy fwoy.",
+      "category": "Directions",
+      "generated_at": "2026-08-31T04:19:27.480150"
     }
   ],
-  "last_updated": "2026-08-30T22:10:43.653567"
+  "last_updated": "2026-08-31T04:19:27.480152"
 }
