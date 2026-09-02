@@ -12949,7 +12949,42 @@
       "transliteration": "Sang tao, hop tac, chinh phuc.",
       "category": "Work",
       "generated_at": "2026-09-02T03:39:47.072619"
+    },
+    {
+      "english": "Wait a beat, okay?",
+      "vietnamese": "Chờ chút, nhé?",
+      "transliteration": "Choh choot, nyeh?",
+      "category": "Time",
+      "generated_at": "2026-09-02T16:25:02.868214"
+    },
+    {
+      "english": "When the time is right.",
+      "vietnamese": "Khi nào hợp thời.",
+      "transliteration": "Khee nao hup thoi.",
+      "category": "Time",
+      "generated_at": "2026-09-02T16:25:02.868225"
+    },
+    {
+      "english": "For this occasion, special.",
+      "vietnamese": "Dịp này, đặc biệt.",
+      "transliteration": "Zip nai, dac biet.",
+      "category": "Time",
+      "generated_at": "2026-09-02T16:25:02.868227"
+    },
+    {
+      "english": "Always on time, punctual.",
+      "vietnamese": "Luôn đúng giờ, đáng tin.",
+      "transliteration": "Loon doong joh, daang teen.",
+      "category": "Time",
+      "generated_at": "2026-09-02T16:25:02.868229"
+    },
+    {
+      "english": "Not yet, not quite.",
+      "vietnamese": "Chưa đâu, chưa hẳn.",
+      "transliteration": "Choo doh, choo hun.",
+      "category": "Time",
+      "generated_at": "2026-09-02T16:25:02.868230"
     }
   ],
-  "last_updated": "2026-09-02T03:39:47.072621"
+  "last_updated": "2026-09-02T16:25:02.868232"
 }
