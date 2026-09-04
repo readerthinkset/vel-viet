@@ -13369,7 +13369,42 @@
       "transliteration": "Chung ta, di kham pha.",
       "category": "Common Expressions",
       "generated_at": "2026-09-04T17:25:36.716408"
+    },
+    {
+      "english": "This color, suits me well.",
+      "vietnamese": "Màu này, hợp với tôi lắm.",
+      "transliteration": "Mao nai, hop voi toi lam.",
+      "category": "Shopping",
+      "generated_at": "2026-09-04T19:15:38.671907"
+    },
+    {
+      "english": "May I, see a closer look?",
+      "vietnamese": "Tôi xem kỹ hơn, được không?",
+      "transliteration": "Toi xem ky hon, duoc khong?",
+      "category": "Shopping",
+      "generated_at": "2026-09-04T19:15:38.671918"
+    },
+    {
+      "english": "I'm looking, for something special.",
+      "vietnamese": "Tôi tìm, cái gì đó đặc biệt.",
+      "transliteration": "Toi tim, cai gi do dac biet.",
+      "category": "Shopping",
+      "generated_at": "2026-09-04T19:15:38.671920"
+    },
+    {
+      "english": "This detail, is lovely.",
+      "vietnamese": "Chi tiết này, thật đáng yêu.",
+      "transliteration": "Chi tiet nai, that dang yeu.",
+      "category": "Shopping",
+      "generated_at": "2026-09-04T19:15:38.671921"
+    },
+    {
+      "english": "Is there, a discount, perhaps?",
+      "vietnamese": "Có giảm giá, chút không ạ?",
+      "transliteration": "Co giam gia, chut khong a?",
+      "category": "Shopping",
+      "generated_at": "2026-09-04T19:15:38.671922"
     }
   ],
-  "last_updated": "2026-09-04T17:25:36.716410"
+  "last_updated": "2026-09-04T19:15:38.671924"
 }
