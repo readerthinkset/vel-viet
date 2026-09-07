@@ -13789,7 +13789,42 @@
       "transliteration": "Moi thu, that de dang lam sao.",
       "category": "Joy",
       "generated_at": "2026-09-06T21:47:35.351245"
+    },
+    {
+      "english": "Just browsing, thanks.",
+      "vietnamese": "Chỉ xem thôi, cảm ơn.",
+      "transliteration": "Chi xem thoi, cam on.",
+      "category": "Restaurant",
+      "generated_at": "2026-09-07T03:27:35.803029"
+    },
+    {
+      "english": "Something light, please.",
+      "vietnamese": "Món gì nhẹ nhàng, ạ.",
+      "transliteration": "Mon gi nhe nhang, a.",
+      "category": "Restaurant",
+      "generated_at": "2026-09-07T03:27:35.803043"
+    },
+    {
+      "english": "What's on the side?",
+      "vietnamese": "Món ăn kèm là gì?",
+      "transliteration": "Mon an kem la gi?",
+      "category": "Restaurant",
+      "generated_at": "2026-09-07T03:27:35.803045"
+    },
+    {
+      "english": "Could we share this?",
+      "vietnamese": "Chúng ta có thể chia sẻ?",
+      "transliteration": "Chung ta co the chia se?",
+      "category": "Restaurant",
+      "generated_at": "2026-09-07T03:27:35.803046"
+    },
+    {
+      "english": "This looks very authentic.",
+      "vietnamese": "Món này trông rất chân thật.",
+      "transliteration": "Mon nay trong rat chan that.",
+      "category": "Restaurant",
+      "generated_at": "2026-09-07T03:27:35.803047"
     }
   ],
-  "last_updated": "2026-09-06T21:47:35.351246"
+  "last_updated": "2026-09-07T03:27:35.803049"
 }
