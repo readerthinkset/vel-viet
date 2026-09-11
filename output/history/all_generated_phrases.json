@@ -14349,7 +14349,42 @@
       "transliteration": "Giup do mot tay, nhe nhang.",
       "category": "Kindness",
       "generated_at": "2026-09-10T22:00:22.332685"
+    },
+    {
+      "english": "This umbrella, needs a repair.",
+      "vietnamese": "Cái ô này, cần sửa.",
+      "transliteration": "Kai oh nai, cun suh.",
+      "category": "Clothes",
+      "generated_at": "2026-09-11T03:33:18.301440"
+    },
+    {
+      "english": "A warm coat, for the mountains.",
+      "vietnamese": "Áo ấm, cho núi cao.",
+      "transliteration": "Ao oom, cho nuy kao.",
+      "category": "Clothes",
+      "generated_at": "2026-09-11T03:33:18.301448"
+    },
+    {
+      "english": "These cufflinks, are shiny.",
+      "vietnamese": "Khuy măng sét, sáng bóng.",
+      "transliteration": "Khui mung set, sang bong.",
+      "category": "Clothes",
+      "generated_at": "2026-09-11T03:33:18.301450"
+    },
+    {
+      "english": "My tie, is crooked.",
+      "vietnamese": "Cà vạt, bị lệch rồi.",
+      "transliteration": "Ka vat, bee lech roy.",
+      "category": "Clothes",
+      "generated_at": "2026-09-11T03:33:18.301451"
+    },
+    {
+      "english": "A new belt, to match.",
+      "vietnamese": "Thắt lưng mới, hợp màu.",
+      "transliteration": "That lung moy, hop mow.",
+      "category": "Clothes",
+      "generated_at": "2026-09-11T03:33:18.301452"
     }
   ],
-  "last_updated": "2026-09-10T22:00:22.332687"
+  "last_updated": "2026-09-11T03:33:18.301454"
 }
