@@ -14524,7 +14524,42 @@
       "transliteration": "Mon qua nuoc, nang luong thuan khiet.",
       "category": "Health",
       "generated_at": "2026-09-11T22:03:18.053142"
+    },
+    {
+      "english": "The hummingbird, sips sweet nectar.",
+      "vietnamese": "Chim ruồi, hút mật ngọt.",
+      "transliteration": "Chim rooi, hood mat ngot.",
+      "category": "Animals",
+      "generated_at": "2026-09-12T03:38:28.318061"
+    },
+    {
+      "english": "A sly snake, slithers through grass.",
+      "vietnamese": "Rắn ranh mãnh, trườn qua cỏ.",
+      "transliteration": "Ran ranh manh, truon qua co.",
+      "category": "Animals",
+      "generated_at": "2026-09-12T03:38:28.318075"
+    },
+    {
+      "english": "The proud peacock, displays its fan.",
+      "vietnamese": "Công oai vệ, xòe đuôi.",
+      "transliteration": "Cong oai ve, xoe dooi.",
+      "category": "Animals",
+      "generated_at": "2026-09-12T03:38:28.318076"
+    },
+    {
+      "english": "A buzzing bee, lands on a flower.",
+      "vietnamese": "Ong vo ve, đậu trên hoa.",
+      "transliteration": "Ong vo ve, dau tren hoa.",
+      "category": "Animals",
+      "generated_at": "2026-09-12T03:38:28.318078"
+    },
+    {
+      "english": "The chirping cricket, sings at dusk.",
+      "vietnamese": "Dế kêu rả rích, chiều tà.",
+      "transliteration": "De keu ra rich, chieu ta.",
+      "category": "Animals",
+      "generated_at": "2026-09-12T03:38:28.318079"
     }
   ],
-  "last_updated": "2026-09-11T22:03:18.053145"
+  "last_updated": "2026-09-12T03:38:28.318081"
 }
