@@ -14594,7 +14594,42 @@
       "transliteration": "Nham nhi nhe, huong thu su am ap.",
       "category": "Common Expressions",
       "generated_at": "2026-09-12T15:24:36.149999"
+    },
+    {
+      "english": "My dad, ... a steady hand.",
+      "vietnamese": "Ba tôi, ... bàn tay vững chãi.",
+      "transliteration": "Ba toi, ... ban tay vung chai.",
+      "category": "Family Terms",
+      "generated_at": "2026-09-12T16:48:31.620389"
+    },
+    {
+      "english": "Mom’s gentle voice, ... calming.",
+      "vietnamese": "Giọng mẹ hiền, ... thật êm dịu.",
+      "transliteration": "Giong me hien, ... that em diu.",
+      "category": "Family Terms",
+      "generated_at": "2026-09-12T16:48:31.620399"
+    },
+    {
+      "english": "Older brother, ... my first friend.",
+      "vietnamese": "Anh trai, ... bạn đầu tiên.",
+      "transliteration": "Anh trai, ... ban dau tien.",
+      "category": "Family Terms",
+      "generated_at": "2026-09-12T16:48:31.620400"
+    },
+    {
+      "english": "Older sister, ... shares secrets.",
+      "vietnamese": "Chị gái, ... sẻ chia bí mật.",
+      "transliteration": "Chi gai, ... se chia bi mat.",
+      "category": "Family Terms",
+      "generated_at": "2026-09-12T16:48:31.620401"
+    },
+    {
+      "english": "Younger brother, ... a whirlwind.",
+      "vietnamese": "Em trai, ... như cơn lốc.",
+      "transliteration": "Em trai, ... nhu con loc.",
+      "category": "Family Terms",
+      "generated_at": "2026-09-12T16:48:31.620402"
     }
   ],
-  "last_updated": "2026-09-12T15:24:36.150000"
+  "last_updated": "2026-09-12T16:48:31.620404"
 }
