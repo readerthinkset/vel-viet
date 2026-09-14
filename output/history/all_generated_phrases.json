@@ -14909,7 +14909,42 @@
       "transliteration": "Ngón tay chúng tôi, đếm tiền.",
       "category": "Body Parts",
       "generated_at": "2026-09-14T03:53:24.065824"
+    },
+    {
+      "english": "Accident happened, need help.",
+      "vietnamese": "Tai nạn xảy ra, cần giúp đỡ.",
+      "transliteration": "Tai nan xay ra, can giup do.",
+      "category": "Emergency",
+      "generated_at": "2026-09-14T18:00:10.968576"
+    },
+    {
+      "english": "Fire alarm, is sounding.",
+      "vietnamese": "Báo cháy, đang kêu.",
+      "transliteration": "Bao chay, dang keu.",
+      "category": "Emergency",
+      "generated_at": "2026-09-14T18:00:10.968588"
+    },
+    {
+      "english": "Cannot breathe. Air, trapped.",
+      "vietnamese": "Không thở được. Không khí, bí.",
+      "transliteration": "Khong tho duoc. Khong khi, bi.",
+      "category": "Emergency",
+      "generated_at": "2026-09-14T18:00:10.968590"
+    },
+    {
+      "english": "Someone hurt, badly.",
+      "vietnamese": "Ai đó bị thương, nặng.",
+      "transliteration": "Ai do bi thuong, nang.",
+      "category": "Emergency",
+      "generated_at": "2026-09-14T18:00:10.968591"
+    },
+    {
+      "english": "This is, an emergency.",
+      "vietnamese": "Đây là, trường hợp khẩn cấp.",
+      "transliteration": "Day la, truong hop khan cap.",
+      "category": "Emergency",
+      "generated_at": "2026-09-14T18:00:10.968592"
     }
   ],
-  "last_updated": "2026-09-14T03:53:24.065825"
+  "last_updated": "2026-09-14T18:00:10.968593"
 }
