@@ -15049,7 +15049,42 @@
       "transliteration": "Quan sát quy luật, tìm dòng chảy.",
       "category": "Balance",
       "generated_at": "2026-09-14T22:49:01.281308"
+    },
+    {
+      "english": "The bell rings, class starts.",
+      "vietnamese": "Chuông reo, lớp bắt đầu.",
+      "transliteration": "Chuh-ohng ray-oh, luh-uhp bah-tuh dow.",
+      "category": "Time",
+      "generated_at": "2026-09-15T03:53:24.330423"
+    },
+    {
+      "english": "Midday sun, shines bright.",
+      "vietnamese": "Trưa nắng, chiếu sáng.",
+      "transliteration": "Chuh-uh nuh-uhng, chih-eow sa-ahng.",
+      "category": "Time",
+      "generated_at": "2026-09-15T03:53:24.330435"
+    },
+    {
+      "english": "Evening chill, air cools.",
+      "vietnamese": "Chiều se, không khí mát.",
+      "transliteration": "Chih-eow say, khom-khee maht.",
+      "category": "Time",
+      "generated_at": "2026-09-15T03:53:24.330436"
+    },
+    {
+      "english": "Dawn breaks, world awakens.",
+      "vietnamese": "Rạng đông, thế giới thức.",
+      "transliteration": "Rung duh-ung, thuh-uh-yuhy thuhk.",
+      "category": "Time",
+      "generated_at": "2026-09-15T03:53:24.330437"
+    },
+    {
+      "english": "Moments pass, like water.",
+      "vietnamese": "Khoảnh khắc trôi, như nước.",
+      "transliteration": "Khwung-uhk troh-ee, nyuh nyuh-uhk.",
+      "category": "Time",
+      "generated_at": "2026-09-15T03:53:24.330439"
     }
   ],
-  "last_updated": "2026-09-14T22:49:01.281310"
+  "last_updated": "2026-09-15T03:53:24.330441"
 }
