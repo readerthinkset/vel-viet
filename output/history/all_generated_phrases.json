@@ -15924,7 +15924,42 @@
       "transliteration": "Niem vui gian don, thay hay.",
       "category": "Happiness",
       "generated_at": "2026-09-20T15:53:44.879577"
+    },
+    {
+      "english": "Future tech, arriving soon.",
+      "vietnamese": "Công nghệ tương lai, sắp tới.",
+      "transliteration": "Cong nghe tuong lai, sap toi.",
+      "category": "Technology",
+      "generated_at": "2026-09-20T17:19:44.224657"
+    },
+    {
+      "english": "Smart device, helps me.",
+      "vietnamese": "Thiết bị thông minh, giúp tôi.",
+      "transliteration": "Thiet bi thong minh, giup toi.",
+      "category": "Technology",
+      "generated_at": "2026-09-20T17:19:44.224669"
+    },
+    {
+      "english": "New app, explore now.",
+      "vietnamese": "Ứng dụng mới, khám phá ngay.",
+      "transliteration": "Ung dung moi, kham pha ngay.",
+      "category": "Technology",
+      "generated_at": "2026-09-20T17:19:44.224672"
+    },
+    {
+      "english": "Virtual reality, so real.",
+      "vietnamese": "Thực tế ảo, rất thật.",
+      "transliteration": "Thuc te ao, rat that.",
+      "category": "Technology",
+      "generated_at": "2026-09-20T17:19:44.224673"
+    },
+    {
+      "english": "AI learns, all day.",
+      "vietnamese": "AI học, cả ngày.",
+      "transliteration": "AI hoc, ca ngay.",
+      "category": "Technology",
+      "generated_at": "2026-09-20T17:19:44.224674"
     }
   ],
-  "last_updated": "2026-09-20T15:53:44.879578"
+  "last_updated": "2026-09-20T17:19:44.224676"
 }
