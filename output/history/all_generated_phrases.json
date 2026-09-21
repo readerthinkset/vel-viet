@@ -16169,7 +16169,42 @@
       "transliteration": "Luon tien ve phia truoc, mot buoc.",
       "category": "Wisdom",
       "generated_at": "2026-09-21T20:44:16.532626"
+    },
+    {
+      "english": "Next minute, perhaps.",
+      "vietnamese": "Phút kế tiếp, có lẽ.",
+      "transliteration": "Phut ke tiep, co le.",
+      "category": "Time",
+      "generated_at": "2026-09-21T22:53:01.265959"
+    },
+    {
+      "english": "A moment's breath, then go.",
+      "vietnamese": "Một hơi thở, rồi đi.",
+      "transliteration": "Mot hoi tho, roi di.",
+      "category": "Time",
+      "generated_at": "2026-09-21T22:53:01.265971"
+    },
+    {
+      "english": "Right now, let's begin.",
+      "vietnamese": "Ngay lúc này, ta bắt đầu.",
+      "transliteration": "Ngay luc nay, ta bat dau.",
+      "category": "Time",
+      "generated_at": "2026-09-21T22:53:01.265973"
+    },
+    {
+      "english": "Just a little while.",
+      "vietnamese": "Chỉ một lát thôi.",
+      "transliteration": "Chi mot lat thoi.",
+      "category": "Time",
+      "generated_at": "2026-09-21T22:53:01.265974"
+    },
+    {
+      "english": "Past days, a memory.",
+      "vietnamese": "Ngày xưa, một kỷ niệm.",
+      "transliteration": "Ngay xua, mot ky niem.",
+      "category": "Time",
+      "generated_at": "2026-09-21T22:53:01.265975"
     }
   ],
-  "last_updated": "2026-09-21T20:44:16.532628"
+  "last_updated": "2026-09-21T22:53:01.265977"
 }
