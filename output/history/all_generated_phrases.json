@@ -16239,7 +16239,42 @@
       "transliteration": "Cho nay, co ve, khong an toan.",
       "category": "Emergency",
       "generated_at": "2026-09-22T03:50:22.041354"
+    },
+    {
+      "english": "What's cooking, over there?",
+      "vietnamese": "Kia, có gì hay?",
+      "transliteration": "Kee-ah, coh zee hye?",
+      "category": "Restaurant",
+      "generated_at": "2026-09-22T16:44:04.869370"
+    },
+    {
+      "english": "That dish, smells heavenly.",
+      "vietnamese": "Món kia, thơm quá.",
+      "transliteration": "Mohn kee-ah, thuhm kwah.",
+      "category": "Restaurant",
+      "generated_at": "2026-09-22T16:44:04.869376"
+    },
+    {
+      "english": "Could I have, a little taste?",
+      "vietnamese": "Cho tôi, nếm thử chút?",
+      "transliteration": "Choh toy, nem thuh choot?",
+      "category": "Restaurant",
+      "generated_at": "2026-09-22T16:44:04.869378"
+    },
+    {
+      "english": "This looks, so delicious.",
+      "vietnamese": "Trông này, ngon thật.",
+      "transliteration": "Trong nye, nohn thut.",
+      "category": "Restaurant",
+      "generated_at": "2026-09-22T16:44:04.869379"
+    },
+    {
+      "english": "What's the secret, ingredient?",
+      "vietnamese": "Bí quyết, là gì nhỉ?",
+      "transliteration": "Bee kwyet, lah zee nye?",
+      "category": "Restaurant",
+      "generated_at": "2026-09-22T16:44:04.869380"
     }
   ],
-  "last_updated": "2026-09-22T03:50:22.041355"
+  "last_updated": "2026-09-22T16:44:04.869382"
 }
