@@ -16204,7 +16204,42 @@
       "transliteration": "Ngay xua, mot ky niem.",
       "category": "Time",
       "generated_at": "2026-09-21T22:53:01.265975"
+    },
+    {
+      "english": "Help! My phone, is broken.",
+      "vietnamese": "Cứu tôi! Điện thoại, của tôi, hỏng rồi.",
+      "transliteration": "Cuu toi! Dien thoai, cua toi, hong roi.",
+      "category": "Emergency",
+      "generated_at": "2026-09-22T03:50:22.041340"
+    },
+    {
+      "english": "I am, lost. Can you, guide?",
+      "vietnamese": "Tôi, bị lạc. Bạn, chỉ đường, giúp?",
+      "transliteration": "Toi, bi lac. Ban, chi duong, giup?",
+      "category": "Emergency",
+      "generated_at": "2026-09-22T03:50:22.041349"
+    },
+    {
+      "english": "My bag, has been, stolen.",
+      "vietnamese": "Túi của, tôi, bị cướp.",
+      "transliteration": "Tui cua, toi, bi cuop.",
+      "category": "Emergency",
+      "generated_at": "2026-09-22T03:50:22.041351"
+    },
+    {
+      "english": "Need police, very soon.",
+      "vietnamese": "Cần công an, gấp lắm.",
+      "transliteration": "Can cong an, gap lam.",
+      "category": "Emergency",
+      "generated_at": "2026-09-22T03:50:22.041352"
+    },
+    {
+      "english": "This place, feels unsafe.",
+      "vietnamese": "Chỗ này, có vẻ, không an toàn.",
+      "transliteration": "Cho nay, co ve, khong an toan.",
+      "category": "Emergency",
+      "generated_at": "2026-09-22T03:50:22.041354"
     }
   ],
-  "last_updated": "2026-09-21T22:53:01.265977"
+  "last_updated": "2026-09-22T03:50:22.041355"
 }
