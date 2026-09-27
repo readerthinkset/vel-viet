@@ -17079,7 +17079,42 @@
       "transliteration": "Am ap, trong moi khoanh khac.",
       "category": "Holidays",
       "generated_at": "2026-09-27T04:13:57.581392"
+    },
+    {
+      "english": "Fingertips, feel the texture.",
+      "vietnamese": "Đầu ngón tay, sờ cảm giác.",
+      "transliteration": "Dau ngon tay, so cam giac.",
+      "category": "Body Parts",
+      "generated_at": "2026-09-27T16:48:43.843481"
+    },
+    {
+      "english": "Ankle, twists suddenly.",
+      "vietnamese": "Mắt cá chân, xoay bất ngờ.",
+      "transliteration": "Mat ca chan, xoay bat ngo.",
+      "category": "Body Parts",
+      "generated_at": "2026-09-27T16:48:43.843492"
+    },
+    {
+      "english": "Eyelid, blinks slowly.",
+      "vietnamese": "Mí mắt, chớp từ từ.",
+      "transliteration": "Mi mat, chop tu tu.",
+      "category": "Body Parts",
+      "generated_at": "2026-09-27T16:48:43.843494"
+    },
+    {
+      "english": "Throat, clears before speaking.",
+      "vietnamese": "Cổ họng, khẽ rung trước lời.",
+      "transliteration": "Co hong, khe rung truoc loi.",
+      "category": "Body Parts",
+      "generated_at": "2026-09-27T16:48:43.843495"
+    },
+    {
+      "english": "Palm, opens to give.",
+      "vietnamese": "Lòng bàn tay, mở ra trao.",
+      "transliteration": "Long ban tay, mo ra trao.",
+      "category": "Body Parts",
+      "generated_at": "2026-09-27T16:48:43.843496"
     }
   ],
-  "last_updated": "2026-09-27T04:13:57.581394"
+  "last_updated": "2026-09-27T16:48:43.843498"
 }
