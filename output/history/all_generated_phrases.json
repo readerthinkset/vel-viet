@@ -17254,7 +17254,42 @@
       "transliteration": "Chih-ek moo meh-oy koo-uh toh-ee, chohng tyoot vuh-ee.",
       "category": "Clothes",
       "generated_at": "2026-09-28T04:15:09.043700"
+    },
+    {
+      "english": "Grandpa, a smile, for every tale.",
+      "vietnamese": "Ông, một nụ cười, cho mỗi chuyện.",
+      "transliteration": "Ong, mot nu cuoi, cho moi chuyen.",
+      "category": "Family Terms",
+      "generated_at": "2026-09-28T19:32:40.125829"
+    },
+    {
+      "english": "Grandma, her knitting, a cozy hug.",
+      "vietnamese": "Bà, len đan, một cái ôm ấm áp.",
+      "transliteration": "Ba, len dan, mot cai om am ap.",
+      "category": "Family Terms",
+      "generated_at": "2026-09-28T19:32:40.125844"
+    },
+    {
+      "english": "Dad, quiet strength, in his gaze.",
+      "vietnamese": "Bố, sức mạnh thầm lặng, trong ánh mắt.",
+      "transliteration": "Bo, suc manh tham lang, trong anh mat.",
+      "category": "Family Terms",
+      "generated_at": "2026-09-28T19:32:40.125845"
+    },
+    {
+      "english": "Mom, her wisdom, a guiding light.",
+      "vietnamese": "Mẹ, trí tuệ của mẹ, một ánh sáng dẫn lối.",
+      "transliteration": "Me, tri tue cua me, mot anh sang dan loi.",
+      "category": "Family Terms",
+      "generated_at": "2026-09-28T19:32:40.125846"
+    },
+    {
+      "english": "Elder brother, my first mentor, always.",
+      "vietnamese": "Anh trai, người thầy đầu tiên, luôn vậy.",
+      "transliteration": "Anh trai, nguoi thay dau tien, luon vay.",
+      "category": "Family Terms",
+      "generated_at": "2026-09-28T19:32:40.125847"
     }
   ],
-  "last_updated": "2026-09-28T04:15:09.043702"
+  "last_updated": "2026-09-28T19:32:40.125849"
 }
