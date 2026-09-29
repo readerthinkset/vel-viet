@@ -17534,7 +17534,42 @@
       "transliteration": "Noi khe, nghe ro.",
       "category": "Confidence",
       "generated_at": "2026-09-29T21:13:01.074960"
+    },
+    {
+      "english": "Hello, friend, how are you?",
+      "vietnamese": "Chào bạn, dạo này thế nào?",
+      "transliteration": "Chao ban, dao nay the nao?",
+      "category": "Basic Phrases",
+      "generated_at": "2026-09-29T23:15:14.992240"
+    },
+    {
+      "english": "This place, is very peaceful.",
+      "vietnamese": "Nơi này, thật yên tĩnh.",
+      "transliteration": "Noi nay, that yen tinh.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-09-29T23:15:14.992250"
+    },
+    {
+      "english": "Could I have a menu, please?",
+      "vietnamese": "Cho tôi xin thực đơn, ạ?",
+      "transliteration": "Cho toi xin thuc don, a?",
+      "category": "Basic Phrases",
+      "generated_at": "2026-09-29T23:15:14.992251"
+    },
+    {
+      "english": "I like your smile, very much.",
+      "vietnamese": "Tôi thích nụ cười của bạn, lắm.",
+      "transliteration": "Toi thich nu cuoi cua ban, lam.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-09-29T23:15:14.992253"
+    },
+    {
+      "english": "The river flows, so gently.",
+      "vietnamese": "Dòng sông chảy, êm đềm quá.",
+      "transliteration": "Dong song chay, em dem qua.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-09-29T23:15:14.992254"
     }
   ],
-  "last_updated": "2026-09-29T21:13:01.074961"
+  "last_updated": "2026-09-29T23:15:14.992255"
 }
