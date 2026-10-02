@@ -17919,7 +17919,42 @@
       "transliteration": "Do mong, tuoi tan quyen ru.",
       "category": "Colors",
       "generated_at": "2026-10-02T04:35:19.983264"
+    },
+    {
+      "english": "New program, fresh start.",
+      "vietnamese": "Chương trình mới, khởi đầu tươi.",
+      "transliteration": "Chuong trinh moi, khoi dau tuoi.",
+      "category": "Technology",
+      "generated_at": "2026-10-02T17:45:40.290091"
+    },
+    {
+      "english": "Smart gadget, easy life.",
+      "vietnamese": "Thiết bị thông minh, đời thêm dễ.",
+      "transliteration": "Thiet bi thong minh, doi them de.",
+      "category": "Technology",
+      "generated_at": "2026-10-02T17:45:40.290099"
+    },
+    {
+      "english": "Circuit hums, ideas spark.",
+      "vietnamese": "Mạch điện reo, ý tưởng lóe.",
+      "transliteration": "Mach dien reo, y tuong loe.",
+      "category": "Technology",
+      "generated_at": "2026-10-02T17:45:40.290100"
+    },
+    {
+      "english": "Digital wave, ride it.",
+      "vietnamese": "Làn sóng số, lướt đi.",
+      "transliteration": "Lan song so, luot di.",
+      "category": "Technology",
+      "generated_at": "2026-10-02T17:45:40.290101"
+    },
+    {
+      "english": "Future screen, glows bright.",
+      "vietnamese": "Màn hình tương lai, sáng lung linh.",
+      "transliteration": "Man hinh tuong lai, sang lung linh.",
+      "category": "Technology",
+      "generated_at": "2026-10-02T17:45:40.290101"
     }
   ],
-  "last_updated": "2026-10-02T04:35:19.983266"
+  "last_updated": "2026-10-02T17:45:40.290103"
 }
