@@ -17989,7 +17989,42 @@
       "transliteration": "Dung thang, cam nhan suc manh.",
       "category": "Health",
       "generated_at": "2026-10-02T19:02:05.169503"
+    },
+    {
+      "english": "A table, for two, please.",
+      "vietnamese": "Cho tôi, một bàn, hai người.",
+      "transliteration": "Cho toy, mot ban, hai nguoi.",
+      "category": "Restaurant",
+      "generated_at": "2026-10-02T21:07:49.617347"
+    },
+    {
+      "english": "What's, the daily, special?",
+      "vietnamese": "Món đặc, biệt hôm, nay là gì?",
+      "transliteration": "Mon dac, biet hom, nay la yee?",
+      "category": "Restaurant",
+      "generated_at": "2026-10-02T21:07:49.617360"
+    },
+    {
+      "english": "I'd like, some water, please.",
+      "vietnamese": "Cho tôi, một chút, nước lọc.",
+      "transliteration": "Cho toy, mot choot, nuoc loc.",
+      "category": "Restaurant",
+      "generated_at": "2026-10-02T21:07:49.617362"
+    },
+    {
+      "english": "Could we, see the, drinks menu?",
+      "vietnamese": "Cho xem, thực đơn, đồ uống ạ?",
+      "transliteration": "Cho xem, thuc don, do uong ah?",
+      "category": "Restaurant",
+      "generated_at": "2026-10-02T21:07:49.617363"
+    },
+    {
+      "english": "This dish, sounds interesting.",
+      "vietnamese": "Món này, nghe lạ, tai quá.",
+      "transliteration": "Mon nai, nghe la, tai wah.",
+      "category": "Restaurant",
+      "generated_at": "2026-10-02T21:07:49.617364"
     }
   ],
-  "last_updated": "2026-10-02T19:02:05.169505"
+  "last_updated": "2026-10-02T21:07:49.617365"
 }
