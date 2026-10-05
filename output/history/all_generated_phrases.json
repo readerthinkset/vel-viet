@@ -18444,7 +18444,42 @@
       "transliteration": "Khoang lang nay, that binh yen.",
       "category": "Gratitude",
       "generated_at": "2026-10-05T20:30:05.110657"
+    },
+    {
+      "english": "Spicy chili, fiery kick.",
+      "vietnamese": "Ớt cay, vị nồng.",
+      "transliteration": "Ut cay, vi nong.",
+      "category": "Food",
+      "generated_at": "2026-10-05T21:28:24.735801"
+    },
+    {
+      "english": "Cool drink, quench thirst.",
+      "vietnamese": "Nước mát, đã khát.",
+      "transliteration": "Nuoc mat, da khat.",
+      "category": "Food",
+      "generated_at": "2026-10-05T21:28:24.735809"
+    },
+    {
+      "english": "Sticky rice, chewy treat.",
+      "vietnamese": "Xôi dẻo, dai ngon.",
+      "transliteration": "Xoi deo, dai ngon.",
+      "category": "Food",
+      "generated_at": "2026-10-05T21:28:24.735810"
+    },
+    {
+      "english": "Fresh fruit, nature's candy.",
+      "vietnamese": "Trái cây tươi, kẹo trời.",
+      "transliteration": "Trai cay tuoi, keo troi.",
+      "category": "Food",
+      "generated_at": "2026-10-05T21:28:24.735812"
+    },
+    {
+      "english": "Herbal tea, soothing sip.",
+      "vietnamese": "Trà thảo mộc, dịu êm.",
+      "transliteration": "Tra thao moc, diu em.",
+      "category": "Food",
+      "generated_at": "2026-10-05T21:28:24.735813"
     }
   ],
-  "last_updated": "2026-10-05T20:30:05.110659"
+  "last_updated": "2026-10-05T21:28:24.735815"
 }
