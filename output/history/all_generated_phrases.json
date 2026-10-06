@@ -18514,7 +18514,42 @@
       "transliteration": "Mam mong ky dieu, dang lon dan.",
       "category": "Hope",
       "generated_at": "2026-10-05T23:02:13.011516"
+    },
+    {
+      "english": "Dawn's first light, hopeful.",
+      "vietnamese": "Sáng sớm, hy vọng.",
+      "transliteration": "Sang som, hy vong.",
+      "category": "Time",
+      "generated_at": "2026-10-06T01:00:38.079569"
+    },
+    {
+      "english": "Morning rush, almost there.",
+      "vietnamese": "Buổi sáng, sắp tới.",
+      "transliteration": "Buoi sang, sap toi.",
+      "category": "Time",
+      "generated_at": "2026-10-06T01:00:38.079580"
+    },
+    {
+      "english": "Midday break, a short rest.",
+      "vietnamese": "Giữa trưa, nghỉ chút.",
+      "transliteration": "Giua trua, nghi chut.",
+      "category": "Time",
+      "generated_at": "2026-10-06T01:00:38.079582"
+    },
+    {
+      "english": "Afternoon lull, slow down.",
+      "vietnamese": "Chiều tà, chậm lại.",
+      "transliteration": "Chieu ta, cham lai.",
+      "category": "Time",
+      "generated_at": "2026-10-06T01:00:38.079584"
+    },
+    {
+      "english": "Evening fades, peaceful.",
+      "vietnamese": "Hoàng hôn, yên bình.",
+      "transliteration": "Hoang hon, yen binh.",
+      "category": "Time",
+      "generated_at": "2026-10-06T01:00:38.079585"
     }
   ],
-  "last_updated": "2026-10-05T23:02:13.011518"
+  "last_updated": "2026-10-06T01:00:38.079587"
 }
