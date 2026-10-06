@@ -18549,7 +18549,42 @@
       "transliteration": "Hoang hon, yen binh.",
       "category": "Time",
       "generated_at": "2026-10-06T01:00:38.079585"
+    },
+    {
+      "english": "My sincere apologies, truly.",
+      "vietnamese": "Tôi thật lòng xin lỗi.",
+      "transliteration": "Toi that long xin loi.",
+      "category": "Forgiveness",
+      "generated_at": "2026-10-06T05:23:20.202510"
+    },
+    {
+      "english": "Can we, start fresh?",
+      "vietnamese": "Mình bắt đầu lại nhé?",
+      "transliteration": "Minh bat dau lai nhe?",
+      "category": "Forgiveness",
+      "generated_at": "2026-10-06T05:23:20.202518"
+    },
+    {
+      "english": "I wish to move past this.",
+      "vietnamese": "Tôi muốn vượt qua chuyện này.",
+      "transliteration": "Toi muon vuot qua chuyen nay.",
+      "category": "Forgiveness",
+      "generated_at": "2026-10-06T05:23:20.202518"
+    },
+    {
+      "english": "Let's clear the air, okay?",
+      "vietnamese": "Chúng ta làm rõ mọi chuyện đi?",
+      "transliteration": "Chung ta lam ro moi chuyen di?",
+      "category": "Forgiveness",
+      "generated_at": "2026-10-06T05:23:20.202519"
+    },
+    {
+      "english": "My fault, completely.",
+      "vietnamese": "Hoàn toàn là lỗi của tôi.",
+      "transliteration": "Hoan toan la loi cua toi.",
+      "category": "Forgiveness",
+      "generated_at": "2026-10-06T05:23:20.202520"
     }
   ],
-  "last_updated": "2026-10-06T01:00:38.079587"
+  "last_updated": "2026-10-06T05:23:20.202521"
 }
