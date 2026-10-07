@@ -18724,7 +18724,42 @@
       "transliteration": "Ông nội, chuyện cười, tiếng cười ấm.",
       "category": "Family Terms",
       "generated_at": "2026-10-07T04:52:32.234385"
+    },
+    {
+      "english": "A lovely meeting, today.",
+      "vietnamese": "Một cuộc gặp, thật vui.",
+      "transliteration": "Mot cuoc gap, that vui.",
+      "category": "Greetings",
+      "generated_at": "2026-10-07T19:46:41.457033"
+    },
+    {
+      "english": "So happy, to see you.",
+      "vietnamese": "Rất vui, được gặp bạn.",
+      "transliteration": "Rat vui, duoc gap ban.",
+      "category": "Greetings",
+      "generated_at": "2026-10-07T19:46:41.457044"
+    },
+    {
+      "english": "A wonderful moment, now.",
+      "vietnamese": "Khoảnh khắc, thật tuyệt vời.",
+      "transliteration": "Khoanh khac, that tuyet voi.",
+      "category": "Greetings",
+      "generated_at": "2026-10-07T19:46:41.457045"
+    },
+    {
+      "english": "Welcome, my friend.",
+      "vietnamese": "Chào mừng, bạn của tôi.",
+      "transliteration": "Chao mung, ban cua toi.",
+      "category": "Greetings",
+      "generated_at": "2026-10-07T19:46:41.457046"
+    },
+    {
+      "english": "What a pleasant, surprise.",
+      "vietnamese": "Thật là, một bất ngờ.",
+      "transliteration": "That la, mot bat ngo.",
+      "category": "Greetings",
+      "generated_at": "2026-10-07T19:46:41.457047"
     }
   ],
-  "last_updated": "2026-10-07T04:52:32.234387"
+  "last_updated": "2026-10-07T19:46:41.457048"
 }
