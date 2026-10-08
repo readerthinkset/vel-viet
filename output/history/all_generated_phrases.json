@@ -18899,7 +18899,42 @@
       "transliteration": "Kha hai long, lam tot lam.",
       "category": "Feelings",
       "generated_at": "2026-10-08T18:45:04.913965"
+    },
+    {
+      "english": "My appetite, is calling.",
+      "vietnamese": "Bụng tôi, đang reo.",
+      "transliteration": "Bung toi, dang reo.",
+      "category": "Restaurant",
+      "generated_at": "2026-10-08T19:42:03.162143"
+    },
+    {
+      "english": "This flavor, intrigues me.",
+      "vietnamese": "Vị này, làm tôi tò mò.",
+      "transliteration": "Vi nay, lam toi to mo.",
+      "category": "Restaurant",
+      "generated_at": "2026-10-08T19:42:03.162152"
+    },
+    {
+      "english": "What's the freshest, catch today?",
+      "vietnamese": "Hôm nay, có gì tươi nhất?",
+      "transliteration": "Hom nay, co gi tuoi nhat?",
+      "category": "Restaurant",
+      "generated_at": "2026-10-08T19:42:03.162153"
+    },
+    {
+      "english": "I'm curious, about this.",
+      "vietnamese": "Tôi tò mò, về món này.",
+      "transliteration": "Toi to mo, ve mon nay.",
+      "category": "Restaurant",
+      "generated_at": "2026-10-08T19:42:03.162156"
+    },
+    {
+      "english": "That sounds, absolutely delicious.",
+      "vietnamese": "Nghe thật, là hấp dẫn.",
+      "transliteration": "Nghe that, la hap dan.",
+      "category": "Restaurant",
+      "generated_at": "2026-10-08T19:42:03.162156"
     }
   ],
-  "last_updated": "2026-10-08T18:45:04.913968"
+  "last_updated": "2026-10-08T19:42:03.162157"
 }
