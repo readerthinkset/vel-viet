@@ -18934,7 +18934,42 @@
       "transliteration": "Nghe that, la hap dan.",
       "category": "Restaurant",
       "generated_at": "2026-10-08T19:42:03.162156"
+    },
+    {
+      "english": "Walk this way, past the bright flowers.",
+      "vietnamese": "Đi hướng này, qua mấy bông hoa rực rỡ.",
+      "transliteration": "Dee huong nai, qua may bong hoa ruc ro.",
+      "category": "Directions",
+      "generated_at": "2026-10-08T21:42:38.735326"
+    },
+    {
+      "english": "Follow the river, until the old pier.",
+      "vietnamese": "Đi theo sông, đến bến tàu cũ.",
+      "transliteration": "Dee theo song, den ben tau cu.",
+      "category": "Directions",
+      "generated_at": "2026-10-08T21:42:38.735337"
+    },
+    {
+      "english": "Turn left, at the baker's shop.",
+      "vietnamese": "Rẽ trái, ở tiệm bánh mì.",
+      "transliteration": "Re trai, o tiem banh mi.",
+      "category": "Directions",
+      "generated_at": "2026-10-08T21:42:38.735339"
+    },
+    {
+      "english": "Keep going straight, towards the tall building.",
+      "vietnamese": "Cứ đi thẳng, về phía tòa nhà cao.",
+      "transliteration": "Cu dee thang, ve phia toa nha cao.",
+      "category": "Directions",
+      "generated_at": "2026-10-08T21:42:38.735341"
+    },
+    {
+      "english": "You'll see it, by the colorful kites.",
+      "vietnamese": "Bạn sẽ thấy, cạnh mấy chiếc diều màu sắc.",
+      "transliteration": "Ban se thay, canh may chiec dieu mau sac.",
+      "category": "Directions",
+      "generated_at": "2026-10-08T21:42:38.735342"
     }
   ],
-  "last_updated": "2026-10-08T19:42:03.162157"
+  "last_updated": "2026-10-08T21:42:38.735343"
 }
