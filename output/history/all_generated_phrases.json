@@ -18969,7 +18969,42 @@
       "transliteration": "Ban se thay, canh may chiec dieu mau sac.",
       "category": "Directions",
       "generated_at": "2026-10-08T21:42:38.735342"
+    },
+    {
+      "english": "A sudden gust, shakes the trees.",
+      "vietnamese": "Một cơn gió mạnh, rung cây.",
+      "transliteration": "Mot con gio manh, rung cay.",
+      "category": "Weather",
+      "generated_at": "2026-10-09T00:01:21.377126"
+    },
+    {
+      "english": "The sun blazes, hot and bright.",
+      "vietnamese": "Mặt trời chói chang, nóng và sáng.",
+      "transliteration": "Mat troi choi chang, nong va sang.",
+      "category": "Weather",
+      "generated_at": "2026-10-09T00:01:21.377137"
+    },
+    {
+      "english": "Heavy raindrops, patter down.",
+      "vietnamese": "Hạt mưa nặng hạt, rơi lộp bộp.",
+      "transliteration": "Hat mua nang hat, roi lop bopp.",
+      "category": "Weather",
+      "generated_at": "2026-10-09T00:01:21.377139"
+    },
+    {
+      "english": "A thick fog, hides the road.",
+      "vietnamese": "Sương mù dày đặc, che lối đi.",
+      "transliteration": "Suong mu day dac, che loi di.",
+      "category": "Weather",
+      "generated_at": "2026-10-09T00:01:21.377141"
+    },
+    {
+      "english": "The air is humid, sticky feeling.",
+      "vietnamese": "Không khí ẩm ướt, cảm giác dính.",
+      "transliteration": "Khong khi am uot, cam giac dinh.",
+      "category": "Weather",
+      "generated_at": "2026-10-09T00:01:21.377142"
     }
   ],
-  "last_updated": "2026-10-08T21:42:38.735343"
+  "last_updated": "2026-10-09T00:01:21.377144"
 }
