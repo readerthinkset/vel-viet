@@ -19074,7 +19074,42 @@
       "transliteration": "Ngay cua ban, the nao?",
       "category": "Common Expressions",
       "generated_at": "2026-10-09T18:16:06.690611"
+    },
+    {
+      "english": "Soft breeze, rustles leaves.",
+      "vietnamese": "Gió nhẹ, xào xạc lá.",
+      "transliteration": "Gió nhẹ, xào xạc lá.",
+      "category": "Nature",
+      "generated_at": "2026-10-09T19:18:23.923531"
+    },
+    {
+      "english": "Tiny sprout, reaches sky.",
+      "vietnamese": "Mầm nhỏ, vươn trời.",
+      "transliteration": "Mầm nhỏ, vươn trời.",
+      "category": "Nature",
+      "generated_at": "2026-10-09T19:18:23.923540"
+    },
+    {
+      "english": "Bright star, twinkles far.",
+      "vietnamese": "Sao sáng, nhấp nháy xa.",
+      "transliteration": "Sao sáng, nhấp nháy xa.",
+      "category": "Nature",
+      "generated_at": "2026-10-09T19:18:23.923542"
+    },
+    {
+      "english": "Cool water, flows down.",
+      "vietnamese": "Nước mát, chảy xuống.",
+      "transliteration": "Nước mát, chảy xuống.",
+      "category": "Nature",
+      "generated_at": "2026-10-09T19:18:23.923543"
+    },
+    {
+      "english": "Dense fog, hugs hills.",
+      "vietnamese": "Sương dày, ôm đồi.",
+      "transliteration": "Sương dày, ôm đồi.",
+      "category": "Nature",
+      "generated_at": "2026-10-09T19:18:23.923544"
     }
   ],
-  "last_updated": "2026-10-09T18:16:06.690613"
+  "last_updated": "2026-10-09T19:18:23.923546"
 }
