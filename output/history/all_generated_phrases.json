@@ -19284,7 +19284,42 @@
       "transliteration": "Su am ap, cua anh, om lay.",
       "category": "Relationships",
       "generated_at": "2026-10-10T18:15:06.092430"
+    },
+    {
+      "english": "First light, paints the room.",
+      "vietnamese": "Ánh sáng đầu tiên, vẽ căn phòng.",
+      "transliteration": "Anh sang dau tien, ve can phong.",
+      "category": "Daily Routine",
+      "generated_at": "2026-10-10T20:26:47.990268"
+    },
+    {
+      "english": "Coffee brewing, aroma fills.",
+      "vietnamese": "Cà phê pha, hương thơm đầy.",
+      "transliteration": "Ca phe pha, huong thom day.",
+      "category": "Daily Routine",
+      "generated_at": "2026-10-10T20:26:47.990277"
+    },
+    {
+      "english": "Journal open, words flow.",
+      "vietnamese": "Nhật ký mở, chữ tuôn.",
+      "transliteration": "Nhat ky mo, chu tuon.",
+      "category": "Daily Routine",
+      "generated_at": "2026-10-10T20:26:47.990278"
+    },
+    {
+      "english": "Quiet steps, on the floor.",
+      "vietnamese": "Bước chân nhẹ, trên sàn.",
+      "transliteration": "Buoc chan nhe, tren san.",
+      "category": "Daily Routine",
+      "generated_at": "2026-10-10T20:26:47.990279"
+    },
+    {
+      "english": "Sky is pale, morning comes.",
+      "vietnamese": "Trời nhạt màu, sáng đến.",
+      "transliteration": "Troi nhat mau, sang den.",
+      "category": "Daily Routine",
+      "generated_at": "2026-10-10T20:26:47.990280"
     }
   ],
-  "last_updated": "2026-10-10T18:15:06.092432"
+  "last_updated": "2026-10-10T20:26:47.990281"
 }
