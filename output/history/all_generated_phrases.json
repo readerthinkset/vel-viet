@@ -19354,7 +19354,42 @@
       "transliteration": "The gioi mo ra, voi moi am thanh.",
       "category": "Education",
       "generated_at": "2026-10-10T23:00:15.436753"
+    },
+    {
+      "english": "Listen closely, to the breeze.",
+      "vietnamese": "Nghe thật kỹ, làn gió.",
+      "transliteration": "Ngay thut kee, la gnaw.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-11T04:37:27.311994"
+    },
+    {
+      "english": "Feel the sunlight, on your face.",
+      "vietnamese": "Cảm nhận nắng, trên mặt.",
+      "transliteration": "Cam nhan nang, tren mat.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-11T04:37:27.312005"
+    },
+    {
+      "english": "Notice the world, waking up.",
+      "vietnamese": "Quan sát thế giới, thức dậy.",
+      "transliteration": "Quan sat the zoi, thuc zay.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-11T04:37:27.312007"
+    },
+    {
+      "english": "Deep breath in, hold it.",
+      "vietnamese": "Hít sâu vào, giữ lại.",
+      "transliteration": "Hit sau vao, zoo lai.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-11T04:37:27.312008"
+    },
+    {
+      "english": "Gentle breath out, let go.",
+      "vietnamese": "Thở nhẹ ra, buông đi.",
+      "transliteration": "Thaw nhay ra, boong dee.",
+      "category": "Mindfulness",
+      "generated_at": "2026-10-11T04:37:27.312009"
     }
   ],
-  "last_updated": "2026-10-10T23:00:15.436756"
+  "last_updated": "2026-10-11T04:37:27.312011"
 }
