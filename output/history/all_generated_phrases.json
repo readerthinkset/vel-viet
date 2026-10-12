@@ -19599,7 +19599,42 @@
       "transliteration": "Nau dat, dat dai mau mo.",
       "category": "Colors",
       "generated_at": "2026-10-12T21:11:01.416561"
+    },
+    {
+      "english": "The cat, naps in sunbeam.",
+      "vietnamese": "Con mèo, ngủ dưới nắng.",
+      "transliteration": "Con meo, ngu duoi nang.",
+      "category": "Animals",
+      "generated_at": "2026-10-12T21:59:49.309705"
+    },
+    {
+      "english": "A playful puppy, chases its tail.",
+      "vietnamese": "Cún con, đuổi theo đuôi.",
+      "transliteration": "Cun con, duoi theo duoi.",
+      "category": "Animals",
+      "generated_at": "2026-10-12T21:59:49.309719"
+    },
+    {
+      "english": "The wise owl, watches night.",
+      "vietnamese": "Cú già, canh đêm.",
+      "transliteration": "Cu gia, canh dem.",
+      "category": "Animals",
+      "generated_at": "2026-10-12T21:59:49.309720"
+    },
+    {
+      "english": "A tiny ladybug, climbs a leaf.",
+      "vietnamese": "Bọ rùa nhỏ, leo lá.",
+      "transliteration": "Bo rua nho, leo la.",
+      "category": "Animals",
+      "generated_at": "2026-10-12T21:59:49.309721"
+    },
+    {
+      "english": "The strong bear, hibernates soundly.",
+      "vietnamese": "Gấu to, ngủ đông say.",
+      "transliteration": "Gau to, ngu dong say.",
+      "category": "Animals",
+      "generated_at": "2026-10-12T21:59:49.309722"
     }
   ],
-  "last_updated": "2026-10-12T21:11:01.416563"
+  "last_updated": "2026-10-12T21:59:49.309724"
 }
