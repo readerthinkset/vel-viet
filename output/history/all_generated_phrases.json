@@ -19564,7 +19564,42 @@
       "transliteration": "Nuoc cot dua, ngot mat.",
       "category": "Food",
       "generated_at": "2026-10-12T04:53:03.630358"
+    },
+    {
+      "english": "Sky blue, a robin's egg.",
+      "vietnamese": "Xanh da trời, trứng chim.",
+      "transliteration": "Xanh da troi, trung chim.",
+      "category": "Colors",
+      "generated_at": "2026-10-12T21:11:01.416548"
+    },
+    {
+      "english": "Forest green, mossy rocks.",
+      "vietnamese": "Xanh rừng, đá phủ rêu.",
+      "transliteration": "Xanh rung, da phu reu.",
+      "category": "Colors",
+      "generated_at": "2026-10-12T21:11:01.416558"
+    },
+    {
+      "english": "Sunset orange, gentle warmth.",
+      "vietnamese": "Cam hoàng hôn, dịu dàng ấm áp.",
+      "transliteration": "Cam hoang hon, diu dang am ap.",
+      "category": "Colors",
+      "generated_at": "2026-10-12T21:11:01.416560"
+    },
+    {
+      "english": "Ocean blue, deep secrets.",
+      "vietnamese": "Xanh biển, bí ẩn sâu thẳm.",
+      "transliteration": "Xanh bien, bi an sau tham.",
+      "category": "Colors",
+      "generated_at": "2026-10-12T21:11:01.416561"
+    },
+    {
+      "english": "Earth brown, rich soil.",
+      "vietnamese": "Nâu đất, đất đai màu mỡ.",
+      "transliteration": "Nau dat, dat dai mau mo.",
+      "category": "Colors",
+      "generated_at": "2026-10-12T21:11:01.416561"
     }
   ],
-  "last_updated": "2026-10-12T04:53:03.630360"
+  "last_updated": "2026-10-12T21:11:01.416563"
 }
