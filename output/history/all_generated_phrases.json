@@ -19809,7 +19809,42 @@
       "transliteration": "Duoi nhe nhang, co the vui.",
       "category": "Health",
       "generated_at": "2026-10-13T21:42:02.992501"
+    },
+    {
+      "english": "Let the vowels sing, consonants click.",
+      "vietnamese": "Hãy để nguyên âm hát, phụ âm vang.",
+      "transliteration": "Hai de nguyen am hat, phu am vang.",
+      "category": "Confidence",
+      "generated_at": "2026-10-13T23:28:45.080441"
+    },
+    {
+      "english": "You understand, you speak.",
+      "vietnamese": "Bạn hiểu, bạn nói.",
+      "transliteration": "Ban hieu, ban noi.",
+      "category": "Confidence",
+      "generated_at": "2026-10-13T23:28:45.080449"
+    },
+    {
+      "english": "A new sound, a fresh start.",
+      "vietnamese": "Một âm thanh mới, một khởi đầu.",
+      "transliteration": "Mot am thanh moi, mot khoi dau.",
+      "category": "Confidence",
+      "generated_at": "2026-10-13T23:28:45.080451"
+    },
+    {
+      "english": "Listen close, reply with ease.",
+      "vietnamese": "Nghe kỹ, trả lời tự nhiên.",
+      "transliteration": "Nghe ky, tra loi tu nhien.",
+      "category": "Confidence",
+      "generated_at": "2026-10-13T23:28:45.080452"
+    },
+    {
+      "english": "Feel the tone, find your way.",
+      "vietnamese": "Cảm nhận thanh điệu, tìm lối đi.",
+      "transliteration": "Cam nhan thanh dieu, tim loi di.",
+      "category": "Confidence",
+      "generated_at": "2026-10-13T23:28:45.080454"
     }
   ],
-  "last_updated": "2026-10-13T21:42:02.992503"
+  "last_updated": "2026-10-13T23:28:45.080456"
 }
