@@ -19844,7 +19844,42 @@
       "transliteration": "Cam nhan thanh dieu, tim loi di.",
       "category": "Confidence",
       "generated_at": "2026-10-13T23:28:45.080454"
+    },
+    {
+      "english": "This soup, warms my soul.",
+      "vietnamese": "Món súp này, ấm lòng tôi.",
+      "transliteration": "Mon soop nai, am long toi.",
+      "category": "Restaurant",
+      "generated_at": "2026-10-14T00:11:01.752386"
+    },
+    {
+      "english": "My tastebuds, are dancing.",
+      "vietnamese": "Vị giác, đang nhảy múa.",
+      "transliteration": "Vi giac, dang nhay mua.",
+      "category": "Restaurant",
+      "generated_at": "2026-10-14T00:11:01.752397"
+    },
+    {
+      "english": "What's, the house, specialty?",
+      "vietnamese": "Món đặc sản, quán là gì?",
+      "transliteration": "Mon dac san, quan la gi?",
+      "category": "Restaurant",
+      "generated_at": "2026-10-14T00:11:01.752399"
+    },
+    {
+      "english": "This sauce, is a revelation.",
+      "vietnamese": "Nước sốt, thật bất ngờ.",
+      "transliteration": "Nuoc sot, that bat ngo.",
+      "category": "Restaurant",
+      "generated_at": "2026-10-14T00:11:01.752401"
+    },
+    {
+      "english": "I'll try, that surprise, option.",
+      "vietnamese": "Tôi thử, món bất ngờ nhé.",
+      "transliteration": "Toi thu, mon bat ngo nhe.",
+      "category": "Restaurant",
+      "generated_at": "2026-10-14T00:11:01.752402"
     }
   ],
-  "last_updated": "2026-10-13T23:28:45.080456"
+  "last_updated": "2026-10-14T00:11:01.752403"
 }
