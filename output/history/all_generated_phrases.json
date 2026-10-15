@@ -20194,7 +20194,42 @@
       "transliteration": "Sam xa, am i vang.",
       "category": "Nature",
       "generated_at": "2026-10-15T20:09:39.337476"
+    },
+    {
+      "english": "Eyes flutter, day awakens.",
+      "vietnamese": "Mắt chớp, ngày tỉnh giấc.",
+      "transliteration": "Mat chop, ngay tinh giac.",
+      "category": "Daily Routine",
+      "generated_at": "2026-10-15T22:43:46.414287"
+    },
+    {
+      "english": "Shadows fade, light returns.",
+      "vietnamese": "Bóng tối nhạt, ánh sáng về.",
+      "transliteration": "Bong toi nhat, anh sang ve.",
+      "category": "Daily Routine",
+      "generated_at": "2026-10-15T22:43:46.414300"
+    },
+    {
+      "english": "Cool air, on my face.",
+      "vietnamese": "Không khí mát, trên mặt.",
+      "transliteration": "Khong khi mat, tren mat.",
+      "category": "Daily Routine",
+      "generated_at": "2026-10-15T22:43:46.414302"
+    },
+    {
+      "english": "A soft yawn, day starts.",
+      "vietnamese": "Ngáp nhẹ, ngày bắt đầu.",
+      "transliteration": "Ngap nhe, ngay bat dau.",
+      "category": "Daily Routine",
+      "generated_at": "2026-10-15T22:43:46.414303"
+    },
+    {
+      "english": "World outside, begins to stir.",
+      "vietnamese": "Thế giới ngoài, bắt đầu nhộn nhịp.",
+      "transliteration": "The gioi ngoai, bat dau nhon nhiep.",
+      "category": "Daily Routine",
+      "generated_at": "2026-10-15T22:43:46.414304"
     }
   ],
-  "last_updated": "2026-10-15T20:09:39.337478"
+  "last_updated": "2026-10-15T22:43:46.414306"
 }
