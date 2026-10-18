@@ -20579,7 +20579,42 @@
       "transliteration": "Ban say dee kwa, kay tray ree rao.",
       "category": "Directions",
       "generated_at": "2026-10-18T03:32:37.911368"
+    },
+    {
+      "english": "Silicon whispers, secrets held.",
+      "vietnamese": "Silicon thì thầm, bí mật giữ.",
+      "transliteration": "Silicon thi tham, bi mat giu.",
+      "category": "Technology",
+      "generated_at": "2026-10-18T15:44:02.871137"
+    },
+    {
+      "english": "Data flows, a silent river.",
+      "vietnamese": "Dữ liệu chảy, sông lặng lẽ.",
+      "transliteration": "Du lieu chay, song lang le.",
+      "category": "Technology",
+      "generated_at": "2026-10-18T15:44:02.871150"
+    },
+    {
+      "english": "Screens glow, stories unfold.",
+      "vietnamese": "Màn hình sáng, chuyện mở ra.",
+      "transliteration": "Man hinh sang, chuyen mo ra.",
+      "category": "Technology",
+      "generated_at": "2026-10-18T15:44:02.871152"
+    },
+    {
+      "english": "Networks weave, worlds connect.",
+      "vietnamese": "Mạng đan kết, thế giới nối.",
+      "transliteration": "Mang dan ket, the gioi noi.",
+      "category": "Technology",
+      "generated_at": "2026-10-18T15:44:02.871154"
+    },
+    {
+      "english": "Algorithms learn, patterns shown.",
+      "vietnamese": "Thuật toán học, mẫu hình hiện.",
+      "transliteration": "Thuat toan hoc, mau hinh hien.",
+      "category": "Technology",
+      "generated_at": "2026-10-18T15:44:02.871155"
     }
   ],
-  "last_updated": "2026-10-18T03:32:37.911370"
+  "last_updated": "2026-10-18T15:44:02.871156"
 }
