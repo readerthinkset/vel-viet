@@ -2,11 +2,11 @@ name: Velocity Vietnamese - Daily 5x Upload
 
 on:
   schedule:
-    - cron: '0 12 * * *'
-    - cron: '0 14 * * *'
-    - cron: '0 17 * * *'
-    - cron: '0 20 * * *'
-    - cron: '0 0 * * *'
+    - cron: '38 12 * * *'
+    - cron: '38 14 * * *'
+    - cron: '38 17 * * *'
+    - cron: '38 20 * * *'
+    - cron: '38 0 * * *'
 
   workflow_dispatch:
 
