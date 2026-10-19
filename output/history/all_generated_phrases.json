@@ -20824,7 +20824,42 @@
       "transliteration": "Chay mau dot ngot. Lam on, cam mau.",
       "category": "Emergency",
       "generated_at": "2026-10-19T20:08:30.807131"
+    },
+    {
+      "english": "Sweet sticky rice, warm hug.",
+      "vietnamese": "Xôi ngọt, ấm áp.",
+      "transliteration": "Xoi ngot, am ap.",
+      "category": "Food",
+      "generated_at": "2026-10-19T21:45:20.065926"
+    },
+    {
+      "english": "Spicy broth, wake up!",
+      "vietnamese": "Nước dùng cay, tỉnh táo!",
+      "transliteration": "Nuoc dung cay, tinh tao!",
+      "category": "Food",
+      "generated_at": "2026-10-19T21:45:20.065938"
+    },
+    {
+      "english": "Tender beef, melts slow.",
+      "vietnamese": "Thịt bò mềm, tan chảy.",
+      "transliteration": "Thit bo mem, tan chay.",
+      "category": "Food",
+      "generated_at": "2026-10-19T21:45:20.065940"
+    },
+    {
+      "english": "Green papaya salad, crisp crunch.",
+      "vietnamese": "Gỏi đu đủ, giòn rụm.",
+      "transliteration": "Goi du du, gion rum.",
+      "category": "Food",
+      "generated_at": "2026-10-19T21:45:20.065942"
+    },
+    {
+      "english": "Fresh herbs, clean taste.",
+      "vietnamese": "Rau thơm tươi, vị thanh.",
+      "transliteration": "Rau thom tuoi, vi thanh.",
+      "category": "Food",
+      "generated_at": "2026-10-19T21:45:20.065943"
     }
   ],
-  "last_updated": "2026-10-19T20:08:30.807132"
+  "last_updated": "2026-10-19T21:45:20.065945"
 }
