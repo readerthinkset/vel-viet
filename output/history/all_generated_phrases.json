@@ -20789,7 +20789,42 @@
       "transliteration": "Suy nghi cua ta, thuong trung khop.",
       "category": "Relationships",
       "generated_at": "2026-10-19T18:50:38.299702"
+    },
+    {
+      "english": "Trouble, I need, a doctor, fast.",
+      "vietnamese": "Khó khăn, tôi cần, bác sĩ, gấp.",
+      "transliteration": "Kho khan, toi can, bac si, gap.",
+      "category": "Emergency",
+      "generated_at": "2026-10-19T20:08:30.807114"
+    },
+    {
+      "english": "This way, is blocked. What now?",
+      "vietnamese": "Lối này, bị chặn. Sao đây?",
+      "transliteration": "Loi nay, bi chan. Sao day?",
+      "category": "Emergency",
+      "generated_at": "2026-10-19T20:08:30.807126"
+    },
+    {
+      "english": "My breath, feels short. Help!",
+      "vietnamese": "Hơi thở, tôi gấp. Cứu!",
+      "transliteration": "Hoi tho, toi gap. Cuu!",
+      "category": "Emergency",
+      "generated_at": "2026-10-19T20:08:30.807128"
+    },
+    {
+      "english": "Feeling weak, very faint.",
+      "vietnamese": "Yếu quá, sắp ngất.",
+      "transliteration": "Yeu qua, sap ngat.",
+      "category": "Emergency",
+      "generated_at": "2026-10-19T20:08:30.807129"
+    },
+    {
+      "english": "Sudden bleeding. Stop it, please.",
+      "vietnamese": "Chảy máu đột ngột. Làm ơn, cầm máu.",
+      "transliteration": "Chay mau dot ngot. Lam on, cam mau.",
+      "category": "Emergency",
+      "generated_at": "2026-10-19T20:08:30.807131"
     }
   ],
-  "last_updated": "2026-10-19T18:50:38.299704"
+  "last_updated": "2026-10-19T20:08:30.807132"
 }
