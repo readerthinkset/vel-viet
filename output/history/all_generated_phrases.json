@@ -21034,7 +21034,42 @@
       "transliteration": "Chuyen do xa lam roi.",
       "category": "Time",
       "generated_at": "2026-10-20T20:53:00.077066"
+    },
+    {
+      "english": "Moss hugs, the old stone.",
+      "vietnamese": "Rêu bám, lấy đá cũ.",
+      "transliteration": "Reu bam, lay da cu.",
+      "category": "Nature",
+      "generated_at": "2026-10-20T23:23:24.931123"
+    },
+    {
+      "english": "Sunlight dapples, forest floor.",
+      "vietnamese": "Nắng lốm đốm, sàn rừng.",
+      "transliteration": "Nang lom dom, san rung.",
+      "category": "Nature",
+      "generated_at": "2026-10-20T23:23:24.931132"
+    },
+    {
+      "english": "Birdsong echoes, morning air.",
+      "vietnamese": "Chim hót vang, không khí mai.",
+      "transliteration": "Chim hot vang, khong khi mai.",
+      "category": "Nature",
+      "generated_at": "2026-10-20T23:23:24.931133"
+    },
+    {
+      "english": "Butterflies flutter, bright wings.",
+      "vietnamese": "Bướm lượn bay, cánh tươi.",
+      "transliteration": "Buom luon bay, canh tuoi.",
+      "category": "Nature",
+      "generated_at": "2026-10-20T23:23:24.931134"
+    },
+    {
+      "english": "Clouds drift, lazy shapes.",
+      "vietnamese": "Mây trôi lững, hình dáng ngây.",
+      "transliteration": "May troi lung, hinh dang ngay.",
+      "category": "Nature",
+      "generated_at": "2026-10-20T23:23:24.931135"
     }
   ],
-  "last_updated": "2026-10-20T20:53:00.077068"
+  "last_updated": "2026-10-20T23:23:24.931136"
 }
