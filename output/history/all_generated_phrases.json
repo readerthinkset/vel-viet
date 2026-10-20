@@ -20964,7 +20964,42 @@
       "transliteration": "Hoang ngoc, nang mat troi, dong chai.",
       "category": "Colors",
       "generated_at": "2026-10-20T17:30:54.683608"
+    },
+    {
+      "english": "What's new, on the menu?",
+      "vietnamese": "Món mới, hôm nay, có gì?",
+      "transliteration": "Mon moi, hom nay, co gi?",
+      "category": "Restaurant",
+      "generated_at": "2026-10-20T18:40:58.152136"
+    },
+    {
+      "english": "This aroma, is captivating.",
+      "vietnamese": "Mùi hương này, thật quyến rũ.",
+      "transliteration": "Mui huong nay, that quyen ru.",
+      "category": "Restaurant",
+      "generated_at": "2026-10-20T18:40:58.152145"
+    },
+    {
+      "english": "Tell me, about this.",
+      "vietnamese": "Cho tôi, biết về món này.",
+      "transliteration": "Cho toi, biet ve mon nay.",
+      "category": "Restaurant",
+      "generated_at": "2026-10-20T18:40:58.152147"
+    },
+    {
+      "english": "I’m eager, to taste it.",
+      "vietnamese": "Tôi rất, muốn nếm thử.",
+      "transliteration": "Toi rat, muon nem thu.",
+      "category": "Restaurant",
+      "generated_at": "2026-10-20T18:40:58.152148"
+    },
+    {
+      "english": "A little spice, perhaps?",
+      "vietnamese": "Cay một, chút thôi, nhé?",
+      "transliteration": "Cay mot, chut thoi, nhe?",
+      "category": "Restaurant",
+      "generated_at": "2026-10-20T18:40:58.152150"
     }
   ],
-  "last_updated": "2026-10-20T17:30:54.683609"
+  "last_updated": "2026-10-20T18:40:58.152151"
 }
