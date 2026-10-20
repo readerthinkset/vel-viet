@@ -20999,7 +20999,42 @@
       "transliteration": "Cay mot, chut thoi, nhe?",
       "category": "Restaurant",
       "generated_at": "2026-10-20T18:40:58.152150"
+    },
+    {
+      "english": "Just a little longer.",
+      "vietnamese": "Chỉ một chút thôi ạ.",
+      "transliteration": "Chi mot chut thoi a.",
+      "category": "Time",
+      "generated_at": "2026-10-20T20:53:00.077050"
+    },
+    {
+      "english": "Plenty of time.",
+      "vietnamese": "Thời gian còn nhiều lắm.",
+      "transliteration": "Thoi gian con nhieu lam.",
+      "category": "Time",
+      "generated_at": "2026-10-20T20:53:00.077061"
+    },
+    {
+      "english": "Before it's dark.",
+      "vietnamese": "Trước khi trời tối.",
+      "transliteration": "Truoc khi troi toi.",
+      "category": "Time",
+      "generated_at": "2026-10-20T20:53:00.077064"
+    },
+    {
+      "english": "After that, we'll see.",
+      "vietnamese": "Sau đó, tính tiếp nhé.",
+      "transliteration": "Sau do, tinh tiep nhe.",
+      "category": "Time",
+      "generated_at": "2026-10-20T20:53:00.077065"
+    },
+    {
+      "english": "That was ages ago.",
+      "vietnamese": "Chuyện đó xa lắm rồi.",
+      "transliteration": "Chuyen do xa lam roi.",
+      "category": "Time",
+      "generated_at": "2026-10-20T20:53:00.077066"
     }
   ],
-  "last_updated": "2026-10-20T18:40:58.152151"
+  "last_updated": "2026-10-20T20:53:00.077068"
 }
