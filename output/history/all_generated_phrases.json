@@ -21664,7 +21664,42 @@
       "transliteration": "Luyen nho, tien lon.",
       "category": "Education",
       "generated_at": "2026-10-25T05:13:58.303868"
+    },
+    {
+      "english": "Help! A stranger, approached me.",
+      "vietnamese": "Cứu tôi! Một người lạ, lại gần.",
+      "transliteration": "Cuu toi! Mot nguoi la, lai gan.",
+      "category": "Emergency",
+      "generated_at": "2026-10-25T16:48:25.239585"
+    },
+    {
+      "english": "My vision, is blurry. Help?",
+      "vietnamese": "Mắt tôi, nhìn mờ. Giúp với?",
+      "transliteration": "Mat toi, nhin mo. Giup voi?",
+      "category": "Emergency",
+      "generated_at": "2026-10-25T16:48:25.239597"
+    },
+    {
+      "english": "I think, I'm poisoned. What to do?",
+      "vietnamese": "Tôi nghĩ, bị ngộ độc. Làm sao?",
+      "transliteration": "Toi nghi, bi ngo doc. Lam sao?",
+      "category": "Emergency",
+      "generated_at": "2026-10-25T16:48:25.239599"
+    },
+    {
+      "english": "Sudden noise, startled me. Okay?",
+      "vietnamese": "Tiếng động, bất ngờ. Không sao?",
+      "transliteration": "Tien dong, bat ngo. Khong sao?",
+      "category": "Emergency",
+      "generated_at": "2026-10-25T16:48:25.239600"
+    },
+    {
+      "english": "My wallet, has vanished. Oh no!",
+      "vietnamese": "Ví tiền, biến mất. Trời ơi!",
+      "transliteration": "Vi tien, bien mat. Troi oi!",
+      "category": "Emergency",
+      "generated_at": "2026-10-25T16:48:25.239601"
     }
   ],
-  "last_updated": "2026-10-25T05:13:58.303870"
+  "last_updated": "2026-10-25T16:48:25.239602"
 }
