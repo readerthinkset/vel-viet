@@ -21734,7 +21734,42 @@
       "transliteration": "Toi thich, cai ao co hoa van kia.",
       "category": "Clothes",
       "generated_at": "2026-10-25T17:47:41.551895"
+    },
+    {
+      "english": "Salty shrimp paste, strong flavor.",
+      "vietnamese": "Mắm tôm, đậm đà.",
+      "transliteration": "Mum tom, dum da.",
+      "category": "Food",
+      "generated_at": "2026-10-25T19:56:40.067561"
+    },
+    {
+      "english": "Banh mi, a whole meal.",
+      "vietnamese": "Bánh mì, no cả bữa.",
+      "transliteration": "Banh mee, no ca bua.",
+      "category": "Food",
+      "generated_at": "2026-10-25T19:56:40.067568"
+    },
+    {
+      "english": "Cool lotus tea, refreshing break.",
+      "vietnamese": "Trà sen, giải khát mát.",
+      "transliteration": "Tra sen, giai khat mat.",
+      "category": "Food",
+      "generated_at": "2026-10-25T19:56:40.067569"
+    },
+    {
+      "english": "Savory pancake, crispy edge.",
+      "vietnamese": "Bánh xèo, giòn rụm.",
+      "transliteration": "Banh xeo, jon rum.",
+      "category": "Food",
+      "generated_at": "2026-10-25T19:56:40.067569"
+    },
+    {
+      "english": "Sweetened red bean, creamy filling.",
+      "vietnamese": "Đậu đỏ ngọt, béo ngậy.",
+      "transliteration": "Dau do ngot, beo ngay.",
+      "category": "Food",
+      "generated_at": "2026-10-25T19:56:40.067570"
     }
   ],
-  "last_updated": "2026-10-25T17:47:41.551897"
+  "last_updated": "2026-10-25T19:56:40.067571"
 }
