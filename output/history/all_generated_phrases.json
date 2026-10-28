@@ -22084,7 +22084,42 @@
       "transliteration": "Khoanh khac ngan.",
       "category": "Time",
       "generated_at": "2026-10-27T21:29:08.379706"
+    },
+    {
+      "english": "Sun's up, let's learn.",
+      "vietnamese": "Nắng lên, ta học nào.",
+      "transliteration": "Nang len, ta hoc nao.",
+      "category": "Greetings",
+      "generated_at": "2026-10-27T23:59:18.745930"
+    },
+    {
+      "english": "Ready for some words?",
+      "vietnamese": "Sẵn sàng với vài từ?",
+      "transliteration": "San sang voi vai tu?",
+      "category": "Greetings",
+      "generated_at": "2026-10-27T23:59:18.745941"
+    },
+    {
+      "english": "New day, new sounds.",
+      "vietnamese": "Ngày mới, âm thanh mới.",
+      "transliteration": "Ngay moi, am thanh moi.",
+      "category": "Greetings",
+      "generated_at": "2026-10-27T23:59:18.745942"
+    },
+    {
+      "english": "Let's chat, shall we?",
+      "vietnamese": "Mình trò chuyện nhé?",
+      "transliteration": "Minh tro chuyen nhe?",
+      "category": "Greetings",
+      "generated_at": "2026-10-27T23:59:18.745943"
+    },
+    {
+      "english": "Warm welcome, dear one.",
+      "vietnamese": "Chào mừng nồng nhiệt, bạn yêu.",
+      "transliteration": "Chao mung nong nhiet, ban yeu.",
+      "category": "Greetings",
+      "generated_at": "2026-10-27T23:59:18.745944"
     }
   ],
-  "last_updated": "2026-10-27T21:29:08.379708"
+  "last_updated": "2026-10-27T23:59:18.745945"
 }
