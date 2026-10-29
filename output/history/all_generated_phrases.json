@@ -22329,7 +22329,42 @@
       "transliteration": "Mui thom, tuyet voi qua!",
       "category": "Restaurant",
       "generated_at": "2026-10-29T06:24:38.366190"
+    },
+    {
+      "english": "Wow, look, at that!",
+      "vietnamese": "Ồ, nhìn, kìa!",
+      "transliteration": "Oh, nhin, kia!",
+      "category": "Common Expressions",
+      "generated_at": "2026-10-29T18:39:27.875516"
+    },
+    {
+      "english": "That's, really neat.",
+      "vietnamese": "Thật, hay ghê.",
+      "transliteration": "That, hay ghe.",
+      "category": "Common Expressions",
+      "generated_at": "2026-10-29T18:39:27.875528"
+    },
+    {
+      "english": "I love, this feeling.",
+      "vietnamese": "Tôi thích, cảm giác này.",
+      "transliteration": "Toi thich, cam giac nay.",
+      "category": "Common Expressions",
+      "generated_at": "2026-10-29T18:39:27.875530"
+    },
+    {
+      "english": "Let's, have some fun.",
+      "vietnamese": "Ta đi, vui chơi.",
+      "transliteration": "Ta di, vui choi.",
+      "category": "Common Expressions",
+      "generated_at": "2026-10-29T18:39:27.875531"
+    },
+    {
+      "english": "This food, tastes amazing.",
+      "vietnamese": "Món này, ngon quá.",
+      "transliteration": "Mon nay, ngon qua.",
+      "category": "Common Expressions",
+      "generated_at": "2026-10-29T18:39:27.875532"
     }
   ],
-  "last_updated": "2026-10-29T06:24:38.366191"
+  "last_updated": "2026-10-29T18:39:27.875533"
 }
