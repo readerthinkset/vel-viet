@@ -22294,7 +22294,42 @@
       "transliteration": "Mahk kah lihk suh, voh noo koo-oy.",
       "category": "Purpose",
       "generated_at": "2026-10-29T00:22:22.748334"
+    },
+    {
+      "english": "What’s your most popular choice?",
+      "vietnamese": "Món nào, khách hay gọi nhất?",
+      "transliteration": "Mon nao, khach hay goi nhat?",
+      "category": "Restaurant",
+      "generated_at": "2026-10-29T06:24:38.366174"
+    },
+    {
+      "english": "Is this, very spicy?",
+      "vietnamese": "Món này, có cay lắm không?",
+      "transliteration": "Mon nay, co cay lam khong?",
+      "category": "Restaurant",
+      "generated_at": "2026-10-29T06:24:38.366187"
+    },
+    {
+      "english": "Could I get, a side of rice?",
+      "vietnamese": "Cho xin, một phần cơm, được không?",
+      "transliteration": "Cho xin, mot phan com, duoc khong?",
+      "category": "Restaurant",
+      "generated_at": "2026-10-29T06:24:38.366188"
+    },
+    {
+      "english": "What do you, recommend today?",
+      "vietnamese": "Hôm nay, quý khách, gợi ý gì?",
+      "transliteration": "Hom nay, quy khach, goi y gi?",
+      "category": "Restaurant",
+      "generated_at": "2026-10-29T06:24:38.366189"
+    },
+    {
+      "english": "This smells, wonderful!",
+      "vietnamese": "Mùi thơm, tuyệt vời quá!",
+      "transliteration": "Mui thom, tuyet voi qua!",
+      "category": "Restaurant",
+      "generated_at": "2026-10-29T06:24:38.366190"
     }
   ],
-  "last_updated": "2026-10-29T00:22:22.748336"
+  "last_updated": "2026-10-29T06:24:38.366191"
 }
