@@ -22609,7 +22609,42 @@
       "transliteration": "De khoanh khac, lang dong.",
       "category": "Patience",
       "generated_at": "2026-10-31T00:02:32.955607"
+    },
+    {
+      "english": "Money, flowing in.",
+      "vietnamese": "Tiền, vào như nước.",
+      "transliteration": "Tien, vao nhu nuoc.",
+      "category": "Finance",
+      "generated_at": "2026-10-31T06:14:04.103778"
+    },
+    {
+      "english": "Invest, plant a seed.",
+      "vietnamese": "Đầu tư, gieo mầm.",
+      "transliteration": "Dau tu, gieo mam.",
+      "category": "Finance",
+      "generated_at": "2026-10-31T06:14:04.103792"
+    },
+    {
+      "english": "Save, a little bit.",
+      "vietnamese": "Tiết kiệm, từng chút.",
+      "transliteration": "Tiet kiem, tung chut.",
+      "category": "Finance",
+      "generated_at": "2026-10-31T06:14:04.103794"
+    },
+    {
+      "english": "Budget, master your flow.",
+      "vietnamese": "Ngân sách, làm chủ dòng tiền.",
+      "transliteration": "Ngan sach, lam chu dong tien.",
+      "category": "Finance",
+      "generated_at": "2026-10-31T06:14:04.103796"
+    },
+    {
+      "english": "Future, secured now.",
+      "vietnamese": "Tương lai, vững vàng hôm nay.",
+      "transliteration": "Tuong lai, vung vang hom nay.",
+      "category": "Finance",
+      "generated_at": "2026-10-31T06:14:04.103798"
     }
   ],
-  "last_updated": "2026-10-31T00:02:32.955609"
+  "last_updated": "2026-10-31T06:14:04.103800"
 }
