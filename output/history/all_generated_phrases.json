@@ -22819,7 +22819,42 @@
       "transliteration": "Mang lai su an ui, nhu lan gio nhe.",
       "category": "Kindness",
       "generated_at": "2026-11-01T06:47:02.372924"
+    },
+    {
+      "english": "Spicy soup, warm heart.",
+      "vietnamese": "Canh cay, ấm lòng.",
+      "transliteration": "Canh cay, am long.",
+      "category": "Food",
+      "generated_at": "2026-11-01T18:05:58.637695"
+    },
+    {
+      "english": "Crispy pancakes, savory delight.",
+      "vietnamese": "Bánh xèo, ngon tuyệt.",
+      "transliteration": "Banh xeo, ngon tuyet.",
+      "category": "Food",
+      "generated_at": "2026-11-01T18:05:58.637705"
+    },
+    {
+      "english": "Sweet pudding, cool cream.",
+      "vietnamese": "Chè, kem mát.",
+      "transliteration": "Che, kem mat.",
+      "category": "Food",
+      "generated_at": "2026-11-01T18:05:58.637707"
+    },
+    {
+      "english": "Juicy watermelon, summer joy.",
+      "vietnamese": "Dưa hấu mọng, vui hè.",
+      "transliteration": "Duahau mong, vui he.",
+      "category": "Food",
+      "generated_at": "2026-11-01T18:05:58.637708"
+    },
+    {
+      "english": "Grilled pork, smoky scent.",
+      "vietnamese": "Thịt nướng, thơm khói.",
+      "transliteration": "Thit nuong, thom khoi.",
+      "category": "Food",
+      "generated_at": "2026-11-01T18:05:58.637710"
     }
   ],
-  "last_updated": "2026-11-01T06:47:02.372926"
+  "last_updated": "2026-11-01T18:05:58.637712"
 }
