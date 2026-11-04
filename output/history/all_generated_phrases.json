@@ -23379,7 +23379,42 @@
       "transliteration": "De lo lang nghi ngoi, hy vong van con.",
       "category": "Hope",
       "generated_at": "2026-11-04T20:00:48.383359"
+    },
+    {
+      "english": "How much for this one, please, today.",
+      "vietnamese": "Cái này giá bao nhiêu, cho tôi hỏi, hôm nay.",
+      "transliteration": "Cai nay gia bao nhieu, cho toi hoi, hom nay.",
+      "category": "Shopping",
+      "generated_at": "2026-11-04T20:55:16.900646"
+    },
+    {
+      "english": "Do you have smaller sizes, in stock?",
+      "vietnamese": "Anh chị có size nhỏ hơn, còn hàng không?",
+      "transliteration": "Anh chi co size nho hon, con hang khong?",
+      "category": "Shopping",
+      "generated_at": "2026-11-04T20:55:16.900659"
+    },
+    {
+      "english": "Can I try it on, right here?",
+      "vietnamese": "Cho tôi thử ngay tại đây, được không?",
+      "transliteration": "Cho toi thu ngay tai day, duoc khong?",
+      "category": "Shopping",
+      "generated_at": "2026-11-04T20:55:16.900662"
+    },
+    {
+      "english": "Does it come in a gift box, too?",
+      "vietnamese": "Có gói quà, cho tôi luôn, được không?",
+      "transliteration": "Co goi qua, cho toi luon, duoc khong?",
+      "category": "Shopping",
+      "generated_at": "2026-11-04T20:55:16.900663"
+    },
+    {
+      "english": "Is there a warranty, for this product?",
+      "vietnamese": "Sản phẩm này có bảo hành, không ạ?",
+      "transliteration": "San pham nay co bao hanh, khong a?",
+      "category": "Shopping",
+      "generated_at": "2026-11-04T20:55:16.900665"
     }
   ],
-  "last_updated": "2026-11-04T20:00:48.383361"
+  "last_updated": "2026-11-04T20:55:16.900667"
 }
