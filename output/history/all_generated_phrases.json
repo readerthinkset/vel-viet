@@ -23309,7 +23309,42 @@
       "transliteration": "Lam ro muc tieu, hanh dong tu tin",
       "category": "Work",
       "generated_at": "2026-11-04T00:53:00.323328"
+    },
+    {
+      "english": "Scan, then open the payment page",
+      "vietnamese": "Quét mã, rồi mở trang thanh toán",
+      "transliteration": "Quat ma, roi mo trang thanh toan",
+      "category": "Technology",
+      "generated_at": "2026-11-04T06:56:59.395689"
+    },
+    {
+      "english": "Swipe, and photos sync across devices",
+      "vietnamese": "Vuốt nhẹ, ảnh tự đồng bộ giữa máy",
+      "transliteration": "Vuốt nhẹ, anh tu dong bo giua may",
+      "category": "Technology",
+      "generated_at": "2026-11-04T06:56:59.395700"
+    },
+    {
+      "english": "Press start, the download begins quietly",
+      "vietnamese": "Nhấn bắt đầu, tải xuống bắt đầu lặng lẽ",
+      "transliteration": "Nhan bat dau, tai xuong bat dau lang le",
+      "category": "Technology",
+      "generated_at": "2026-11-04T06:56:59.395702"
+    },
+    {
+      "english": "Update now, fix bugs and improve speed",
+      "vietnamese": "Cập nhật ngay, sửa lỗi và tăng tốc",
+      "transliteration": "Cap nhat ngay, sua loi va tang toc",
+      "category": "Technology",
+      "generated_at": "2026-11-04T06:56:59.395704"
+    },
+    {
+      "english": "Charge it, and power returns in minutes",
+      "vietnamese": "Sạc vào đi, pin đầy lại trong vài phút",
+      "transliteration": "Sac vao di, pin day lai trong vai phut",
+      "category": "Technology",
+      "generated_at": "2026-11-04T06:56:59.395706"
     }
   ],
-  "last_updated": "2026-11-04T00:53:00.323330"
+  "last_updated": "2026-11-04T06:56:59.395707"
 }
