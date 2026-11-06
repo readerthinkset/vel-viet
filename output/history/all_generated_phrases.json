@@ -23729,7 +23729,42 @@
       "transliteration": "Cười trước đi, lo âu sẽ lùi xa",
       "category": "Kindness",
       "generated_at": "2026-11-06T19:40:48.616635"
+    },
+    {
+      "english": "Excuse me, can I see the menu please?",
+      "vietnamese": "Xin lỗi, cho tôi xem menu được không?",
+      "transliteration": "Xin loi, cho toi xem menu duoc khong?",
+      "category": "Restaurant",
+      "generated_at": "2026-11-06T20:31:47.091014"
+    },
+    {
+      "english": "I’d like to start, with something light.",
+      "vietnamese": "Tôi muốn bắt đầu, với món nhẹ nhàng.",
+      "transliteration": "Toi muon bat dau, voi mon nhe nhang.",
+      "category": "Restaurant",
+      "generated_at": "2026-11-06T20:31:47.091024"
+    },
+    {
+      "english": "Is there a vegetarian option, today?",
+      "vietnamese": "Hôm nay có món chay nào không?",
+      "transliteration": "Hom nay co mon chay nao khong?",
+      "category": "Restaurant",
+      "generated_at": "2026-11-06T20:31:47.091026"
+    },
+    {
+      "english": "What comes with this dish, exactly?",
+      "vietnamese": "Món này, đi kèm những gì vậy?",
+      "transliteration": "Mon nay, di kem nhung gi vay?",
+      "category": "Restaurant",
+      "generated_at": "2026-11-06T20:31:47.091027"
+    },
+    {
+      "english": "May I taste the broth, before ordering?",
+      "vietnamese": "Cho tôi thử nước dùng, trước khi gọi món nhé?",
+      "transliteration": "Cho toi thu nuoc dung, truoc khi goi mon nhe?",
+      "category": "Restaurant",
+      "generated_at": "2026-11-06T20:31:47.091028"
     }
   ],
-  "last_updated": "2026-11-06T19:40:48.616637"
+  "last_updated": "2026-11-06T20:31:47.091030"
 }
