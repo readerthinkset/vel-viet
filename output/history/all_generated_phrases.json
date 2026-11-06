@@ -23624,7 +23624,42 @@
       "transliteration": "Mua tanh, khong khi thom sach.",
       "category": "Nature",
       "generated_at": "2026-11-05T22:50:56.439154"
+    },
+    {
+      "english": "I cut my hand, it won’t stop bleeding.",
+      "vietnamese": "Tôi bị cắt tay, máu không ngừng chảy.",
+      "transliteration": "Toi bi cat tay, mau khong ngung chay.",
+      "category": "Emergency",
+      "generated_at": "2026-11-06T01:10:01.419070"
+    },
+    {
+      "english": "Strong stomach cramps, I need a doctor now.",
+      "vietnamese": "Đau quặn bụng dữ dội, tôi cần bác sĩ ngay.",
+      "transliteration": "Dau quan bung du doi, toi can bac si ngay.",
+      "category": "Emergency",
+      "generated_at": "2026-11-06T01:10:01.419079"
+    },
+    {
+      "english": "I think I swallowed a chemical, please call help.",
+      "vietnamese": "Tôi nghĩ mình nuốt hóa chất, xin gọi giúp.",
+      "transliteration": "Toi nghi minh nuot hoa chat, xin goi giup.",
+      "category": "Emergency",
+      "generated_at": "2026-11-06T01:10:01.419081"
+    },
+    {
+      "english": "My chest hurts, I can’t catch my breath.",
+      "vietnamese": "Tôi đau ngực, tôi không thở nổi.",
+      "transliteration": "Toi dau nguc, toi khong tho noi.",
+      "category": "Emergency",
+      "generated_at": "2026-11-06T01:10:01.419082"
+    },
+    {
+      "english": "I’m in shock, please keep me warm.",
+      "vietnamese": "Tôi đang hoảng loạn, xin giữ tôi ấm.",
+      "transliteration": "Toi dang hoang loan, xin giu toi am.",
+      "category": "Emergency",
+      "generated_at": "2026-11-06T01:10:01.419083"
     }
   ],
-  "last_updated": "2026-11-05T22:50:56.439156"
+  "last_updated": "2026-11-06T01:10:01.419085"
 }
