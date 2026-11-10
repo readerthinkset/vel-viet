@@ -24611,7 +24611,42 @@
       "transliteration": "tôi hít vào bình yên, rồi thả lỏng",
       "category": "Joy",
       "generated_at": "2026-11-10T20:40:46.041647"
+    },
+    {
+      "english": "Thank you for being here with me.",
+      "vietnamese": "Cảm ơn vì đã ở đây cùng mình.",
+      "transliteration": "Cam on vi da o day cung minh",
+      "category": "Gratitude",
+      "generated_at": "2026-11-10T22:17:27.847618"
+    },
+    {
+      "english": "I really appreciate your time today.",
+      "vietnamese": "Mình thật sự trân trọng thời gian của bạn.",
+      "transliteration": "Minh that su tran trong thoi gian cua ban",
+      "category": "Gratitude",
+      "generated_at": "2026-11-10T22:17:27.847632"
+    },
+    {
+      "english": "Thanks for listening to me so kindly.",
+      "vietnamese": "Cảm ơn vì đã lắng nghe mình tử tế.",
+      "transliteration": "Cam on vi da lang nghe minh tu te",
+      "category": "Gratitude",
+      "generated_at": "2026-11-10T22:17:27.847633"
+    },
+    {
+      "english": "Your support means so much to me.",
+      "vietnamese": "Sự ủng hộ của bạn quan trọng với mình lắm.",
+      "transliteration": "Su ung ho cua ban quan trong voi minh lam",
+      "category": "Gratitude",
+      "generated_at": "2026-11-10T22:17:27.847634"
+    },
+    {
+      "english": "I feel grateful for your help today.",
+      "vietnamese": "Mình cảm thấy biết ơn vì bạn đã giúp mình.",
+      "transliteration": "Minh cam thay biet on vi ban da giup minh",
+      "category": "Gratitude",
+      "generated_at": "2026-11-10T22:17:27.847635"
     }
   ],
-  "last_updated": "2026-11-10T20:40:46.041648"
+  "last_updated": "2026-11-10T22:17:27.847636"
 }
