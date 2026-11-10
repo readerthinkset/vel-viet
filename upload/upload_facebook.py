@@ -59,12 +59,13 @@ def _post_pinned_comment(video_id, description, access_token, page_id):
             print(f"[facebook] Pin attempt error: {e}")
 
 
-def upload_to_facebook(video_path, description, title="VELOCITY VIETNAMESE"):
+def upload_to_facebook(video_path, description, title="Velocity lesson"):
     print("\n" + "=" * 60)
     print("FACEBOOK UPLOAD STARTING")
     print("=" * 60)
 
-    access_token = os.getenv('FACEBOOK_ACCESS_TOKEN') or os.getenv('FB_ACCESS_TOKEN')
+    access_token = (os.getenv('FACEBOOK_ACCESS_TOKEN') or os.getenv('FB_ACCESS_TOKEN')
+                    or os.getenv('FB_PAGE_ACCESS_TOKEN'))
     page_id = os.getenv('FACEBOOK_PAGE_ID') or os.getenv('FB_PAGE_ID')
 
     print(f"[facebook] Page ID: {'set' if page_id else 'MISSING'}")
@@ -148,7 +149,8 @@ def upload_to_facebook_story(video_path):
     print("FACEBOOK STORY UPLOAD STARTING")
     print("=" * 60)
 
-    access_token = os.getenv('FACEBOOK_ACCESS_TOKEN') or os.getenv('FB_ACCESS_TOKEN')
+    access_token = (os.getenv('FACEBOOK_ACCESS_TOKEN') or os.getenv('FB_ACCESS_TOKEN')
+                    or os.getenv('FB_PAGE_ACCESS_TOKEN'))
     page_id = os.getenv('FACEBOOK_PAGE_ID') or os.getenv('FB_PAGE_ID')
     if not access_token or not page_id:
         raise ValueError("Missing FACEBOOK_ACCESS_TOKEN or FACEBOOK_PAGE_ID")

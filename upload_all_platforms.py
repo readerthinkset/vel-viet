@@ -1,4 +1,4 @@
-"""Publish the latest Velocity Vietnamese lesson to every connected platform."""
+"""Publish the latest Velocity lesson to every connected platform."""
 
 from __future__ import annotations
 
@@ -14,19 +14,19 @@ from dotenv import load_dotenv
 ROOT = Path(__file__).resolve().parent
 UPLOAD_DIR = ROOT / "upload"
 sys.path.insert(0, str(UPLOAD_DIR))
+sys.path.insert(0, str(ROOT))
 
 if sys.platform == "win32":
     sys.stdout.reconfigure(encoding="utf-8")
 
 load_dotenv(ROOT / ".env")
 
-BRAND = "VELOCITY VIETNAMESE"
-HANDLE = "@velocityvietnamese"
-HASHTAGS = [
-    "#learnvietnamese", "#vietnameselessons", "#vietnameseforbeginners",
-    "#languagelearning", "#vietnamesevocabulary", "#velocityvietnamese",
-    "#dailyvietnamese", "#vietnamese", "#learnlanguages", "#speakvietnamese",
-]
+import config
+
+BRAND = config.BRAND
+HANDLE = config.HANDLE
+HASHTAGS = config.HASHTAGS
+LANG_NAME = config.LANGUAGE["name"]
 
 uploaders = {
     "facebook": ("upload_facebook", "upload_to_facebook"),
@@ -49,6 +49,14 @@ CREDS = {
     "threads": ["THREADS_ACCESS_TOKEN", "THREADS_USER_ID"],
     "tiktok": ["TIKTOK_ACCESS_TOKEN"],
 }
+
+
+def _env(*names):
+    for name in names:
+        value = os.getenv(name, "").strip()
+        if value:
+            return value
+    return ""
 
 DISPLAY = {
     "facebook": "Facebook", "instagram": "Instagram", "youtube": "YouTube", "vk": "VK",
@@ -88,7 +96,7 @@ def load_lesson(folder: Path) -> dict:
         "folder": folder,
         "video": folder / "final_reel.mp4",
         "thumbnail": folder / "thumbnail.jpg",
-        "category": meta.get("category_english", "Vietnamese"),
+        "category": meta.get("category_english", LANG_NAME),
         "category_native": meta.get("category_native", ""),
         "phrases": meta.get("phrases", []),
         "hashtags": meta.get("hashtags", HASHTAGS),
@@ -100,7 +108,7 @@ def phrase_block(phrases: list, count: int) -> list[str]:
     lines = []
     for i, p in enumerate(phrases[:count], 1):
         lines.append(f"{i}. {p.get('english', '')}")
-        lines.append(f"   {p.get('vietnamese', '')}")
+        lines.append(f"   {p.get('native', '')}")
         if p.get("transliteration"):
             lines.append(f"   [{p['transliteration']}]")
         lines.append("")
@@ -110,7 +118,7 @@ def phrase_block(phrases: list, count: int) -> list[str]:
 def long_caption(lesson: dict) -> str:
     cat = lesson["category"]
     lines = [
-        f"Learn Vietnamese with {BRAND}!",
+        f"Learn {LANG_NAME} with {BRAND}!",
         "",
         f"Today's lesson: {cat}" + (f" · {lesson['category_native']}" if lesson["category_native"] else ""),
         "",
@@ -120,7 +128,7 @@ def long_caption(lesson: dict) -> str:
     lines += phrase_block(lesson["phrases"], 5)
     lines += [
         "Save this lesson and practice tomorrow.",
-        f"Follow {HANDLE} for a new Vietnamese lesson every day.",
+        f"Follow {HANDLE} for a new {LANG_NAME} lesson every day.",
         "",
         " ".join(lesson["hashtags"]),
     ]
@@ -129,9 +137,9 @@ def long_caption(lesson: dict) -> str:
 
 def short_caption(lesson: dict) -> str:
     p = lesson["phrases"]
-    pairs = [f"{x.get('english', '')} = {x.get('vietnamese', '')}" for x in p[:2]]
-    text = f"Learn Vietnamese: {' | '.join(pairs)}"
-    tags = " #learnvietnamese #velocityvietnamese"
+    pairs = [f"{x.get('english', '')} = {x.get('native', '')}" for x in p[:2]]
+    text = f"Learn {LANG_NAME}: {' | '.join(pairs)}"
+    tags = " " + " ".join(lesson["hashtags"][:2])
     if len(text) + len(tags) > 278:
         text = text[: 278 - len(tags) - 1].rstrip(" |") + "…"
     return text + tags
@@ -140,13 +148,30 @@ def short_caption(lesson: dict) -> str:
 def threads_caption(lesson: dict) -> str:
     lines = [f"{BRAND} · {lesson['category']}", ""]
     for p in lesson["phrases"][:3]:
-        lines.append(f"{p.get('english', '')} → {p.get('vietnamese', '')}")
+        lines.append(f"{p.get('english', '')} → {p.get('native', '')}")
     lines += ["", f"New lesson every day {HANDLE}", "", " ".join(lesson["hashtags"][:5])]
     text = "\n".join(lines)
     return text[:495]
 
 
 def missing_creds(platform: str) -> list[str]:
+    if platform == "facebook":
+        token = _env("FACEBOOK_ACCESS_TOKEN", "FB_PAGE_ACCESS_TOKEN", "FB_ACCESS_TOKEN")
+        page = _env("FACEBOOK_PAGE_ID", "FB_PAGE_ID")
+        return [name for name, value in (("FACEBOOK_ACCESS_TOKEN", token), ("FACEBOOK_PAGE_ID", page)) if not value]
+    if platform == "instagram":
+        return [] if _env("INSTAGRAM_ACCESS_TOKEN", "IG_ACCESS_TOKEN") else ["INSTAGRAM_ACCESS_TOKEN"]
+    if platform == "youtube":
+        return [] if all(_env(a, b) for a, b in (
+            ("YT_CLIENT_ID", "YOUTUBE_CLIENT_ID"),
+            ("YT_CLIENT_SECRET", "YOUTUBE_CLIENT_SECRET"),
+            ("YT_REFRESH_TOKEN", "YOUTUBE_REFRESH_TOKEN"),
+        )) else ["YT_CLIENT_ID"]
+    if platform == "telegram":
+        return [name for name, value in (
+            ("TELEGRAM_BOT_TOKEN", _env("TELEGRAM_BOT_TOKEN")),
+            ("TELEGRAM_CHANNEL_ID", _env("TELEGRAM_CHANNEL_ID", "TELEGRAM_CHAT_ID", "CHAT_ID")),
+        ) if not value]
     return [k for k in CREDS[platform] if not os.getenv(k, "").strip()]
 
 
@@ -202,7 +227,7 @@ def upload_to_all(lesson: dict, dry_run: bool = False) -> dict:
             result = None
             if platform == "facebook":
                 result = func(video_path=str(lesson["video"]), description=caption,
-                              title=f"Vietnamese: {lesson['category']}")
+                              title=f"{LANG_NAME}: {lesson['category']}")
             elif platform == "instagram":
                 result = func(video_path=str(lesson["video"]), caption=caption, is_story=False)
             elif platform == "youtube":
@@ -215,7 +240,7 @@ def upload_to_all(lesson: dict, dry_run: bool = False) -> dict:
                               description=yt_description, tags=yt_tags, category_id="22")
             elif platform == "vk":
                 result = func(video_path=str(lesson["video"]), description=caption,
-                              title=f"Vietnamese: {lesson['category']}")
+                              title=f"{LANG_NAME}: {lesson['category']}")
             elif platform == "telegram":
                 result = func(video_path=str(lesson["video"]), caption=caption)
             elif platform == "twitter":

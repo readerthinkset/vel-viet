@@ -99,7 +99,10 @@ async def _synth_with_retry(text: str, voices: list[str], out_path: Path, rate: 
 
 
 def map_word_timings(text: str, boundaries: list, duration: float) -> list:
-    words = text.split()
+    if config.LANGUAGE.get("char_tiles"):
+        words = [c for c in text if not c.isspace()]
+    else:
+        words = text.split()
     if not words:
         return []
 
@@ -128,6 +131,57 @@ def map_word_timings(text: str, boundaries: list, duration: float) -> list:
     return out
 
 
+def _gtts_sync(text: str, out_path: Path, lang_code: str):
+    from gtts import gTTS
+    gTTS(text=text, lang=lang_code).save(str(out_path))
+
+
+def _mms_sync(text: str, out_path: Path, lang_code: str):
+    from engine.mms_tts import generate_mms_audio
+    generate_mms_audio(text, out_path, lang_code)
+
+
+async def _synth_native(text: str, out_path: Path, semaphore):
+    lang = config.LANGUAGE
+    engine = lang.get("native_engine", "edge")
+    lang_code = lang.get("native_lang_code", lang["code"])
+
+    if engine == "edge":
+        return await _synth_with_retry(
+            text,
+            [lang["native_voice"], lang.get("native_fallback_voice", "")],
+            out_path, lang["native_rate"], lang["native_pitch"], semaphore,
+        )
+
+    last_error = None
+    providers = [engine] + [p for p in ("mms", "gtts") if p != engine]
+    for provider in providers:
+        for attempt in range(2):
+            try:
+                fn = _gtts_sync if provider == "gtts" else _mms_sync
+                await asyncio.to_thread(fn, text, out_path, lang_code)
+                duration = _audio_duration(out_path)
+                peak = _audio_peak(out_path)
+                if duration > 0.2 and peak > 0.01:
+                    return [], duration
+                raise RuntimeError(f"invalid audio (duration {duration:.2f}s, peak {peak:.3f})")
+            except Exception as exc:  # noqa: BLE001 - provider boundary
+                last_error = exc
+                print(f"  [tts] {provider} attempt {attempt + 1} failed: {exc}")
+                await asyncio.sleep(1.5 * (attempt + 1))
+
+    if lang.get("native_voice"):
+        try:
+            return await _synth_with_retry(
+                text,
+                [lang["native_voice"], lang.get("native_fallback_voice", "")],
+                out_path, lang["native_rate"], lang["native_pitch"], semaphore,
+            )
+        except Exception as exc:  # noqa: BLE001 - last resort
+            last_error = exc
+    raise RuntimeError(f"All native TTS providers failed for text: {text[:60]!r} ({last_error})")
+
+
 async def _synth_phrase(index: int, phrase: dict, audio_dir: Path, semaphore):
     lang = config.LANGUAGE
     en_path = audio_dir / f"en_{index}.mp3"
@@ -139,23 +193,20 @@ async def _synth_phrase(index: int, phrase: dict, audio_dir: Path, semaphore):
         [lang["english_voice"], lang.get("english_fallback_voice", "en-US-GuyNeural")],
         en_path, lang["english_rate"], lang["english_pitch"], semaphore,
     )
-    vi_bounds, vi_dur = await _synth_with_retry(
-        phrase["vietnamese"],
-        [lang["native_voice"], lang.get("native_fallback_voice", "vi-VN-NamMinhNeural")],
-        vi_path, lang["native_rate"], lang["native_pitch"], semaphore,
-    )
+
+    vi_bounds, vi_dur = await _synth_native(phrase["native"], vi_path, semaphore)
 
     return {
         "index": index,
         "english": phrase["english"],
-        "native": phrase["vietnamese"],
+        "native": phrase["native"],
         "transliteration": phrase.get("transliteration", ""),
         "en_path": en_path,
         "vi_path": vi_path,
         "en_duration": en_dur,
         "vi_duration": vi_dur,
         "en_words": map_word_timings(phrase["english"], en_bounds, en_dur),
-        "vi_words": map_word_timings(phrase["vietnamese"], vi_bounds, vi_dur),
+        "vi_words": map_word_timings(phrase["native"], vi_bounds, vi_dur),
     }
 
 

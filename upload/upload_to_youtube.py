@@ -1,6 +1,5 @@
 """
-YouTube Upload Script - VELOCITY VIETNAMESE
-Uses refresh token from GitHub Secrets to upload videos.
+YouTube Shorts uploader (refresh token from GitHub Secrets).
 """
 
 import os
@@ -20,10 +19,9 @@ def get_authenticated_service():
     client_secret = (os.getenv('YOUTUBE_CLIENT_SECRET') or os.getenv('YT_CLIENT_SECRET', '')).strip()
     refresh_token = (os.getenv('YOUTUBE_REFRESH_TOKEN') or os.getenv('YT_REFRESH_TOKEN', '')).strip()
 
-    def mask(s): return f"{s[:4]}...{s[-4:]}" if s and len(s) > 8 else "MISSING"
-    print(f"[youtube] Client ID: {mask(client_id)}")
-    print(f"[youtube] Client Secret: {mask(client_secret)}")
-    print(f"[youtube] Refresh Token: {mask(refresh_token)}")
+    print(f"[youtube] Client ID: {'set' if client_id else 'MISSING'}")
+    print(f"[youtube] Client Secret: {'set' if client_secret else 'MISSING'}")
+    print(f"[youtube] Refresh Token: {'set' if refresh_token else 'MISSING'}")
 
     if not all([client_id, client_secret, refresh_token]):
         raise ValueError(
@@ -57,56 +55,58 @@ def get_authenticated_service():
 
 
 def generate_video_metadata(category: str, num_phrases: int, phrases: list = None):
-    title = f"Vietnamese Learning: {num_phrases} Essential {category} Phrases"
+    import config
+
+    lang = config.LANGUAGE["name"]
+    brand = config.BRAND
+    title = f"{lang} Learning: {num_phrases} Essential {category} Phrases"
 
     description_lines = [
-        f"Learn Vietnamese with VELOCITY VIETNAMESE!",
+        f"Learn {lang} with {brand}!",
         f"",
         f"Category: {category}",
         f"",
-        f"Master Vietnamese one phrase at a time! Today's {category} lesson:",
+        f"Master {lang} one phrase at a time! Today's {category} lesson:",
         f""
     ]
 
     if phrases:
-        emojis = ["1", "2", "3", "4", "5"]
-        for i, phrase in enumerate(phrases[:5], 0):
-            emoji = emojis[i] if i < len(emojis) else f"{i+1}."
-            description_lines.append(f"{emoji}. {phrase['english']}")
-            description_lines.append(f"   {phrase.get('vietnamese', '')}")
+        for i, phrase in enumerate(phrases[:5], 1):
+            description_lines.append(f"{i}. {phrase['english']}")
+            description_lines.append(f"   {phrase.get('native', '')}")
             transliteration = phrase.get('transliteration') or ''
-            description_lines.append(f"   [{transliteration}]")
+            if transliteration:
+                description_lines.append(f"   [{transliteration}]")
             description_lines.append("")
 
     description_lines.extend([
         f"Tip: Repeat each phrase out loud 3 times!",
         f"Like this video if you learned something new!",
         f"Comment your favorite phrase below!",
-        f"Subscribe for daily Vietnamese lessons!",
+        f"Subscribe for daily {lang} lessons!",
         f"",
         f"Pronunciation Guide:",
         f"   The phonetic spelling in brackets helps you say it correctly!",
         f"",
-        f"#LearnVietnamese #VietnameseLessons #VietnameseForBeginners #LanguageLearning",
-        f"#Vietnamese #Education #Tutorial #DailyVietnamese #{category.replace(' ', '')}",
-        f"#VELOCITYVIETNAMESE #VietnamesePhrases #SpeakVietnamese"
+        " ".join(config.HASHTAGS[:6]),
+        f"#Education #Tutorial #{category.replace(' ', '')}",
     ])
 
     description = "\n".join(description_lines)
 
     tags = [
-        "learn vietnamese",
-        "vietnamese lessons",
-        "vietnamese for beginners",
-        "vietnamese phrases",
+        f"learn {lang.lower()}",
+        f"{lang.lower()} lessons",
+        f"{lang.lower()} for beginners",
+        f"{lang.lower()} phrases",
         "language learning",
-        "vietnamese tutorial",
-        "speak vietnamese",
+        f"{lang.lower()} tutorial",
+        f"speak {lang.lower()}",
         category.lower(),
         "education",
-        "daily vietnamese",
-        "velocity vietnamese",
-        "vietnamese learning"
+        f"daily {lang.lower()}",
+        brand.lower(),
+        f"{lang.lower()} learning",
     ]
 
     return title, description, tags
@@ -114,7 +114,7 @@ def generate_video_metadata(category: str, num_phrases: int, phrases: list = Non
 
 def upload_to_youtube(video_path, title, description, tags=None, category_id='22'):
     if tags is None:
-        tags = ['education', 'language learning', 'vietnamese']
+        tags = ['education', 'language learning']
     youtube = get_authenticated_service()
 
     body = {
@@ -165,9 +165,10 @@ def main():
         print("[youtube] No video found at final_video.mp4")
         return
 
-    title = "Learn Vietnamese Daily"
-    description = "#shorts #learnvietnamese #vietnamese #language #education"
-    tags = ['vietnamese', 'education', 'language learning']
+    import config
+    title = f"Learn {config.LANGUAGE['name']} Daily"
+    description = "#shorts #language #education"
+    tags = ['education', 'language learning']
 
     try:
         upload_to_youtube(

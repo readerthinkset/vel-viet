@@ -1,4 +1,4 @@
-"""Build one Velocity Vietnamese lesson reel end to end."""
+"""Build one Velocity lesson reel end to end."""
 
 from __future__ import annotations
 
@@ -23,7 +23,7 @@ def slugify(value: str) -> str:
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="Velocity Vietnamese motion reel builder")
+    parser = argparse.ArgumentParser(description=f"{config.BRAND} motion reel builder")
     parser.add_argument("--category", choices=CATEGORIES, help="lesson category")
     parser.add_argument("--phrases", type=int, default=5, help="number of phrases (default 5)")
     parser.add_argument("--skip-video", action="store_true", help="build phrases, audio and timeline only")
@@ -59,7 +59,7 @@ def main() -> int:
     phrases = content.generate_phrases(category, args.phrases)
     for i, phrase in enumerate(phrases, 1):
         print(f"      {i}. {phrase['english']}")
-        print(f"         {phrase['vietnamese']}  [{phrase.get('transliteration', '')}]")
+        print(f"         {phrase['native']}  [{phrase.get('transliteration', '')}]")
 
     print(f"\n[2/6] Voice + word clocks")
     clips = tts.synthesize_all(phrases, audio_dir)

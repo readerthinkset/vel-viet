@@ -27,14 +27,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Download phrase history (if exists)
-        uses: actions/download-artifact@v4
-        id: download-history
-        continue-on-error: true
-        with:
-          name: phrase-history
-          path: output/history/
-
       - name: Initialize history if not found
         run: |
           mkdir -p output/history
@@ -79,6 +71,15 @@ jobs:
           INSTAGRAM_ACCOUNT_ID: ${{ secrets.INSTAGRAM_ACCOUNT_ID }}
           FACEBOOK_ACCESS_TOKEN: ${{ secrets.FACEBOOK_ACCESS_TOKEN }}
           FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
+          FB_PAGE_ACCESS_TOKEN: ${{ secrets.FB_PAGE_ACCESS_TOKEN }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
           THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
           THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
           TIKTOK_ACCESS_TOKEN: ${{ secrets.TIKTOK_ACCESS_TOKEN }}
@@ -94,10 +95,12 @@ jobs:
           : > .env
           echo "AI_MODEL=${AI_MODEL_SECRET:-gemini-fast}" >> .env
           for key in POLLINATIONS_API_KEY YT_CLIENT_ID YT_CLIENT_SECRET YT_REFRESH_TOKEN \
-            INSTAGRAM_ACCESS_TOKEN INSTAGRAM_ACCOUNT_ID FACEBOOK_ACCESS_TOKEN FACEBOOK_PAGE_ID \
+            YOUTUBE_CLIENT_ID YOUTUBE_CLIENT_SECRET YOUTUBE_REFRESH_TOKEN \
+            INSTAGRAM_ACCESS_TOKEN INSTAGRAM_ACCOUNT_ID IG_ACCESS_TOKEN \
+            FACEBOOK_ACCESS_TOKEN FACEBOOK_PAGE_ID FB_PAGE_ACCESS_TOKEN FB_PAGE_ID META_ACCESS_TOKEN \
             THREADS_ACCESS_TOKEN THREADS_USER_ID TIKTOK_ACCESS_TOKEN TWITTER_API_KEY \
             TWITTER_API_SECRET TWITTER_ACCESS_TOKEN TWITTER_ACCESS_SECRET VK_ACCESS_TOKEN \
-            VK_GROUP_ID TELEGRAM_BOT_TOKEN TELEGRAM_CHANNEL_ID; do
+            VK_GROUP_ID TELEGRAM_BOT_TOKEN TELEGRAM_CHANNEL_ID TELEGRAM_CHAT_ID CHAT_ID; do
             value="$(printenv "$key" || true)"
             echo "$key=$value" >> .env
           done

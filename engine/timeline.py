@@ -49,7 +49,7 @@ def build_timeline(phrases: list, audio: list, category: str) -> dict:
         items.append({
             "index": clip["index"],
             "english": phrase["english"],
-            "native": phrase["vietnamese"],
+            "native": phrase["native"],
             "transliteration": phrase.get("transliteration", ""),
             "start": round(start, 3),
             "end": round(end, 3),
@@ -93,6 +93,7 @@ def build_timeline(phrases: list, audio: list, category: str) -> dict:
     return {
         "brand": config.BRAND,
         "brand_top": config.BRAND_LOCKUP_TOP,
+        "brand_bottom": config.BRAND_LOCKUP_BOTTOM,
         "handle": config.HANDLE,
         "mascot": config.MASCOT_NAME,
         "language": {
@@ -100,6 +101,8 @@ def build_timeline(phrases: list, audio: list, category: str) -> dict:
             "native": config.LANGUAGE["native_name"],
             "native_label": config.LANGUAGE["native_label"],
             "translit_label": config.LANGUAGE["translit_label"],
+            "rtl": config.LANGUAGE.get("rtl", False),
+            "char_tiles": config.LANGUAGE.get("char_tiles", False),
         },
         "category": {
             "english": category,

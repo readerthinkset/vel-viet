@@ -35,6 +35,8 @@
   $('lessonSub').textContent = `${cat.native} · ${T.phrases.length} phrases`;
   $('natLabelText').textContent = T.language.native_label;
   $('translitLabel').textContent = T.language.translit_label;
+  $('logoLang').textContent = T.brand_bottom || T.language.name.toUpperCase();
+  $('tagline').innerHTML = `Learn ${esc(T.language.name)} <b>in 60 seconds</b> a day`;
   $('streakVal').textContent = T.streak;
   $('outroStreak').textContent = `${T.streak} day streak`;
   $('outroXp').textContent = `+${T.xp} XP`;
@@ -241,7 +243,10 @@
 
   function layoutTiles(text) {
     const box = $('natText');
-    const words = String(text).split(/\s+/).filter(Boolean);
+    const words = T.language.char_tiles
+      ? Array.from(String(text).replace(/\s+/g, ''))
+      : String(text).split(/\s+/).filter(Boolean);
+    box.dir = T.language.rtl ? 'rtl' : 'ltr';
     box.classList.remove('lines');
     box.style.flexWrap = 'nowrap';
     box.innerHTML = words.map((w) => `<span class="tile"><span class="tile-bg">${esc(w)}</span></span>`).join('');

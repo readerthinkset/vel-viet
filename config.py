@@ -25,14 +25,18 @@ BRAND_LOCKUP_BOTTOM = "VIETNAMESE"
 HANDLE = "@velocityvietnamese"
 MASCOT_NAME = "Velo"
 
+# ==== LANGUAGE PACK START ====
 LANGUAGE = {
     "code": "vi",
     "name": "Vietnamese",
     "native_name": "Tiếng Việt",
+    "history_key": "vietnamese",
     "english_voice": "en-US-AvaNeural",
     "english_fallback_voice": "en-US-GuyNeural",
     "native_voice": "vi-VN-HoaiMyNeural",
     "native_fallback_voice": "vi-VN-NamMinhNeural",
+    "native_engine": "edge",
+    "native_lang_code": "vi",
     "english_rate": "-2%",
     "native_rate": "-6%",
     "english_pitch": "+0Hz",
@@ -41,7 +45,10 @@ LANGUAGE = {
     "translit_label": "SAY IT LIKE",
     "greeting": "Xin chào!",
     "encouragement": "Tuyệt vời!",
+    "rtl": False,
+    "script_font": "",
 }
+# ==== LANGUAGE PACK END ====
 
 AI_MODEL = os.getenv("AI_MODEL", "gemini-fast")
 POLLINATIONS_API_KEY = os.getenv("POLLINATIONS_API_KEY", "")
@@ -76,8 +83,9 @@ PINK = "#E056A0"
 PALETTE = [GREEN, BLUE, PURPLE, ORANGE, RED, YELLOW, TEAL, PINK]
 
 # ---------------------------------------------------------------- categories
-# (english, vietnamese, icon, accent)
+# (english, native, icon, accent)
 
+# ==== CATEGORY TABLE START ====
 CATEGORY_TABLE = [
     ("Greetings", "Lời Chào", "hand", BLUE),
     ("Basic Phrases", "Cụm Từ Cơ Bản", "chat", GREEN),
@@ -135,12 +143,14 @@ CATEGORY_TABLE = [
     ("Finance", "Tài Chính", "coin", GREEN),
     ("Relationships", "Mối Quan Hệ", "users", PINK),
 ]
+# ==== CATEGORY TABLE END ====
 
 CATEGORIES = [c[0] for c in CATEGORY_TABLE]
 CATEGORIES_NATIVE = {c[0]: c[1] for c in CATEGORY_TABLE}
 CATEGORY_META = {c[0]: {"native": c[1], "icon": c[2], "accent": c[3]} for c in CATEGORY_TABLE}
 MAX_RECENT_CATEGORIES = 25
 
+# ==== HASHTAGS START ====
 HASHTAGS = [
     "#learnvietnamese",
     "#vietnameselessons",
@@ -155,3 +165,4 @@ HASHTAGS = [
     "#bilingual",
     "#languagetips",
 ]
+# ==== HASHTAGS END ====

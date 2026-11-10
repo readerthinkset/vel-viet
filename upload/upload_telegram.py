@@ -11,7 +11,7 @@ load_dotenv()
 
 def upload_to_telegram(video_path, caption):
     bot_token = os.getenv('TELEGRAM_BOT_TOKEN')
-    channel_id = os.getenv('TELEGRAM_CHANNEL_ID') or os.getenv('TELEGRAM_CHAT_ID')
+    channel_id = os.getenv('TELEGRAM_CHANNEL_ID') or os.getenv('TELEGRAM_CHAT_ID') or os.getenv('CHAT_ID')
 
     def mask(s): return f"{s[:4]}...{s[-4:]}" if s and len(s) > 8 else ("PLACEHOLDER (***)" if s == "***" else "MISSING")
     print(f"[telegram] Bot Token: {mask(bot_token)}")

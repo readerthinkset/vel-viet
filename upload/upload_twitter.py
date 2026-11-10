@@ -90,6 +90,6 @@ def upload_to_twitter(video_path, caption):
 if __name__ == '__main__':
     video_file = Path('final_video.mp4')
     if video_file.exists():
-        upload_to_twitter(video_file, "Test Upload #LearnVietnamese")
+        upload_to_twitter(video_file, "Test Upload #LanguageLearning")
     else:
         print("No test video found.")

@@ -24,6 +24,7 @@ def _open_page(browser, timeline: dict, width: int = config.VIDEO_WIDTH, height:
     page.add_init_script(script)
     page.goto(_scene_uri(), wait_until="load")
     page.wait_for_function("window.sceneReady === true", timeout=90000)
+    page.evaluate("() => document.fonts.ready")
     return page
 
 

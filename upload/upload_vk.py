@@ -39,14 +39,15 @@ def upload_to_vk(video_path, description="", title=""):
         vk = vk_session.get_api()
         upload = vk_api.VkUpload(vk_session)
 
-        message = description if description else "Learn Vietnamese with VELOCITY VIETNAMESE!"
+        import config
+        message = description if description else f"Learn {config.LANGUAGE['name']} with {config.BRAND}!"
         if not message.strip():
             message = "New video!"
 
         print("Uploading video to VK...")
         video = upload.video(
             video_file=str(video_path),
-            name=title or 'VELOCITY VIETNAMESE',
+            name=title or config.BRAND,
             description=description[:220] if description else '',
             group_id=group_id_int,
             wallpost=0
@@ -89,8 +90,9 @@ def main():
         print("Usage: python upload_vk.py <video_path> [description] [title]")
         sys.exit(1)
     video_path = sys.argv[1]
-    description = sys.argv[2] if len(sys.argv) > 2 else "Learn Vietnamese with VELOCITY VIETNAMESE!"
-    title = sys.argv[3] if len(sys.argv) > 3 else "VELOCITY VIETNAMESE"
+    import config
+    description = sys.argv[2] if len(sys.argv) > 2 else f"Learn {config.LANGUAGE['name']} with {config.BRAND}!"
+    title = sys.argv[3] if len(sys.argv) > 3 else config.BRAND
     try:
         result = upload_to_vk(video_path, description, title)
         print(f"Success! {result}")
