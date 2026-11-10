@@ -24506,7 +24506,42 @@
       "transliteration": "dung roi, ban tra loi chinh xac",
       "category": "Success",
       "generated_at": "2026-11-10T06:17:31.093449"
+    },
+    {
+      "english": "Where is the nearest bus stop?",
+      "vietnamese": "Xe buýt gần nhất ở đâu?",
+      "transliteration": "xe-buyt gan nhat o dau",
+      "category": "Travel",
+      "generated_at": "2026-11-10T08:30:41.729811"
+    },
+    {
+      "english": "How much is this ticket?",
+      "vietnamese": "Vé này bao nhiêu tiền?",
+      "transliteration": "ve nay bao nhieu tien",
+      "category": "Travel",
+      "generated_at": "2026-11-10T08:30:41.729824"
+    },
+    {
+      "english": "Is there a cheaper option?",
+      "vietnamese": "Có lựa chọn rẻ hơn không?",
+      "transliteration": "co lua chon re hon khong",
+      "category": "Travel",
+      "generated_at": "2026-11-10T08:30:41.729825"
+    },
+    {
+      "english": "Please show me on the map.",
+      "vietnamese": "Làm ơn chỉ tôi trên bản đồ.",
+      "transliteration": "lam on chi toi tren ban do",
+      "category": "Travel",
+      "generated_at": "2026-11-10T08:30:41.729826"
+    },
+    {
+      "english": "I’m looking for a train station.",
+      "vietnamese": "Tôi đang tìm ga tàu hỏa.",
+      "transliteration": "toi dang tim ga tau hoa",
+      "category": "Travel",
+      "generated_at": "2026-11-10T08:30:41.729826"
     }
   ],
-  "last_updated": "2026-11-10T06:17:31.093451"
+  "last_updated": "2026-11-10T08:30:41.729828"
 }
