@@ -24359,7 +24359,49 @@
       "transliteration": "Tac bong sach, dung day nhanh, giu tap trung",
       "category": "Sports",
       "generated_at": "2026-11-10T02:59:38.796941"
+    },
+    {
+      "english": "Listen carefully, speak wisely.",
+      "vietnamese": "Nghe kỹ, nói khôn.",
+      "transliteration": "Nghe ky, noi khon.",
+      "category": "Wisdom",
+      "generated_at": "2026-06-15T02:59:41.308080"
+    },
+    {
+      "english": "Every day, learn something new.",
+      "vietnamese": "Mỗi ngày, học điều mới.",
+      "transliteration": "Moi ngay, hoc dieu moi.",
+      "category": "Wisdom",
+      "generated_at": "2026-06-15T02:59:41.308088"
+    },
+    {
+      "english": "Observe well, understand deeply.",
+      "vietnamese": "Quan sát tốt, hiểu sâu.",
+      "transliteration": "Quan sat tot, hieu sau.",
+      "category": "Wisdom",
+      "generated_at": "2026-06-15T02:59:41.308092"
+    },
+    {
+      "english": "I want to book a room.",
+      "vietnamese": "Tôi muốn đặt phòng.",
+      "transliteration": "Toi muon dat phong.",
+      "category": "Travel",
+      "generated_at": "2026-11-10T07:08:36.794553"
+    },
+    {
+      "english": "Hello, good morning!",
+      "vietnamese": "Xin chào, buổi sáng!",
+      "transliteration": "Sin chow, bwoy sang!",
+      "category": "Travel",
+      "generated_at": "2026-11-10T07:52:15.341585"
+    },
+    {
+      "english": "Thank you very much.",
+      "vietnamese": "Cảm ơn bạn nhiều.",
+      "transliteration": "Cam uhn ban nyew.",
+      "category": "Travel",
+      "generated_at": "2026-11-10T07:52:15.341630"
     }
   ],
-  "last_updated": "2026-11-10T02:59:38.796943"
+  "last_updated": "2026-11-10T09:11:56.737331"
 }
