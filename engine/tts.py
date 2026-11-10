@@ -84,12 +84,18 @@ async def _try_voice(text: str, voice: str, out_path: Path, rate: str, pitch: st
 
 
 async def _synth_with_retry(text: str, voices: list[str], out_path: Path, rate: str, pitch: str, semaphore=None):
-    for voice in dict.fromkeys(voices):
+    combos = [(voice, rate, pitch) for voice in dict.fromkeys(voices)]
+    primary = voices[0]
+    if rate not in ("+0%", "0%") or pitch not in ("+0Hz", "0Hz"):
+        combos.append((primary, "+0%", "+0Hz"))
+    last_error = None
+    for voice, voice_rate, voice_pitch in combos:
         try:
-            return await _try_voice(text, voice, out_path, rate, pitch, semaphore, attempts=4)
-        except Exception as exc:  # noqa: BLE001 - try the fallback voice
-            print(f"  [tts] {voice} unavailable: {exc}")
-    raise RuntimeError(f"All voices failed for text: {text[:60]!r}")
+            return await _try_voice(text, voice, out_path, voice_rate, voice_pitch, semaphore, attempts=3)
+        except Exception as exc:  # noqa: BLE001 - try the next voice/setting
+            last_error = exc
+            print(f"  [tts] {voice} ({voice_rate}, {voice_pitch}) unavailable: {exc}")
+    raise RuntimeError(f"All voices failed for text: {text[:60]!r} ({last_error})")
 
 
 def map_word_timings(text: str, boundaries: list, duration: float) -> list:

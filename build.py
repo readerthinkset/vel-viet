@@ -66,6 +66,11 @@ def main() -> int:
 
     print(f"\n[3/6] Timeline")
     tl = timeline.build_timeline(phrases, clips, category)
+    while len(phrases) > 1 and tl["duration"] > config.MAX_REEL_DURATION:
+        dropped = phrases.pop()
+        clips.pop()
+        tl = timeline.build_timeline(phrases, clips, category)
+        print(f"      Trimmed '{dropped['english']}' to stay under {config.MAX_REEL_DURATION:.0f}s")
     timeline_path = lesson_dir / "timeline.json"
     timeline_path.write_text(json.dumps(tl, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"      {tl['duration']:.1f}s · {len(tl['phrases'])} phrases · {len(tl['sfx'])} sfx cues")

@@ -41,7 +41,7 @@ uploaders = {
 
 CREDS = {
     "facebook": ["FACEBOOK_ACCESS_TOKEN", "FACEBOOK_PAGE_ID"],
-    "instagram": ["INSTAGRAM_ACCESS_TOKEN", "INSTAGRAM_ACCOUNT_ID"],
+    "instagram": ["INSTAGRAM_ACCESS_TOKEN"],
     "youtube": ["YT_CLIENT_ID", "YT_CLIENT_SECRET", "YT_REFRESH_TOKEN"],
     "vk": ["VK_ACCESS_TOKEN", "VK_GROUP_ID"],
     "telegram": ["TELEGRAM_BOT_TOKEN", "TELEGRAM_CHANNEL_ID"],

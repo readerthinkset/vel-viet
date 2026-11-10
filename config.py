@@ -55,6 +55,7 @@ GAP_EN_NATIVE = 0.5
 NATIVE_CARD_LEAD = 0.35
 GAP_BEFORE_REPEAT = 0.8
 TAIL_HOLD = 1.4
+MAX_REEL_DURATION = 88.0
 
 # ---------------------------------------------------------------- palette
 

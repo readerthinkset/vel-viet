@@ -87,16 +87,81 @@ def _upload_uguu(file_path):
     return d['files'][0]['url']
 
 
+def _discover_ig_account():
+    tokens = []
+    for key in ('INSTAGRAM_ACCESS_TOKEN', 'IG_ACCESS_TOKEN', 'FACEBOOK_ACCESS_TOKEN', 'FB_ACCESS_TOKEN'):
+        value = (os.getenv(key) or '').strip()
+        if value and value not in tokens:
+            tokens.append(value)
+    page_ids = []
+    for key in ('FACEBOOK_PAGE_ID', 'FB_PAGE_ID'):
+        value = (os.getenv(key) or '').strip()
+        if value and value not in page_ids:
+            page_ids.append(value)
+
+    def _from_payload(payload):
+        ig = (payload or {}).get('instagram_business_account') or {}
+        return ig.get('id'), ig.get('username')
+
+    for token in tokens:
+        for page_id in page_ids:
+            try:
+                r = requests.get(
+                    f'https://graph.facebook.com/v21.0/{page_id}',
+                    params={'fields': 'instagram_business_account{id,username}', 'access_token': token},
+                    timeout=(10, 30),
+                )
+                if r.status_code == 200:
+                    account_id, username = _from_payload(r.json())
+                    if account_id:
+                        print(f"[instagram] Resolved linked IG account: {username or account_id}")
+                        return account_id, token
+            except Exception as exc:
+                print(f"[instagram] Page {page_id} lookup failed: {exc}")
+        for endpoint, params in (
+            ('https://graph.facebook.com/v21.0/me', {'fields': 'instagram_business_account{id,username}'}),
+            ('https://graph.facebook.com/v21.0/me/accounts', {'fields': 'instagram_business_account{id,username}'}),
+            ('https://graph.instagram.com/v21.0/me', {'fields': 'id,username'}),
+        ):
+            try:
+                r = requests.get(endpoint, params={**params, 'access_token': token}, timeout=(10, 30))
+                if r.status_code != 200:
+                    continue
+                data = r.json()
+                if 'data' in data:
+                    for page in data.get('data') or []:
+                        account_id, username = _from_payload(page)
+                        if account_id:
+                            print(f"[instagram] Resolved linked IG account: {username or account_id}")
+                            return account_id, token
+                else:
+                    account_id, username = _from_payload(data)
+                    if not account_id and data.get('id'):
+                        account_id, username = data['id'], data.get('username')
+                    if account_id:
+                        print(f"[instagram] Resolved IG account: {username or account_id}")
+                        return account_id, token
+            except Exception as exc:
+                print(f"[instagram] Lookup {endpoint.split('/v21.0/')[-1]} failed: {exc}")
+    return None, None
+
+
 def upload_to_instagram(video_path, caption, is_story=False):
     media_type = 'STORIES' if is_story else 'REELS'
     print("\n" + "=" * 60)
     print(f"INSTAGRAM {media_type} UPLOAD")
     print("=" * 60)
 
-    access_token = os.getenv('INSTAGRAM_ACCESS_TOKEN') or os.getenv('FACEBOOK_ACCESS_TOKEN')
+    access_token = (os.getenv('INSTAGRAM_ACCESS_TOKEN') or os.getenv('IG_ACCESS_TOKEN')
+                    or os.getenv('FACEBOOK_ACCESS_TOKEN') or os.getenv('FB_ACCESS_TOKEN'))
     user_id = os.getenv('INSTAGRAM_ACCOUNT_ID') or os.getenv('IG_USER_ID')
     if not access_token: raise ValueError("INSTAGRAM_ACCESS_TOKEN not set")
-    if not user_id: raise ValueError("INSTAGRAM_ACCOUNT_ID not set")
+    if not user_id:
+        user_id, discovered_token = _discover_ig_account()
+        if discovered_token:
+            access_token = discovered_token
+    if not user_id:
+        raise ValueError("Unable to resolve Instagram account id (link IG to the Facebook page or set INSTAGRAM_ACCOUNT_ID)")
 
     inp = Path(video_path)
     if not inp.exists(): raise FileNotFoundError(f"Video not found: {video_path}")

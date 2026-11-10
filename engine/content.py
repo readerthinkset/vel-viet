@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import random
+import time
 from datetime import datetime
 
 import requests
@@ -155,26 +156,49 @@ def _normalize_phrase(item):
     }
 
 
+def _history_keys(history):
+    used_en = set()
+    used_vi = set()
+    for p in history.get("phrases", []):
+        en = str(p.get("english", "")).lower().strip()
+        vi = str(p.get("vietnamese", "")).lower().strip()
+        if en:
+            used_en.add(en)
+        if vi:
+            used_vi.add(vi)
+    return used_en, used_vi
+
+
 def generate_phrases(category_english: str, num_phrases: int = 5) -> list:
     category_native = CATEGORIES_NATIVE[category_english]
     history = load_phrase_history()
+    used_en, used_vi = _history_keys(history)
     recent_english = [
         p["english"] for p in history["phrases"] if p.get("category") == category_english
     ][-30:]
 
+    models = [config.AI_MODEL]
+    if "gemini-fast" not in models:
+        models.append("gemini-fast")
+
     if config.POLLINATIONS_API_KEY:
-        for attempt in range(3):
+        for attempt in range(5):
+            model = models[0] if attempt < 3 else models[-1]
             try:
-                phrases = _request_phrases(category_english, category_native, recent_english, num_phrases, attempt)
+                phrases = _request_phrases(category_english, category_native, recent_english, num_phrases, attempt, model)
                 unique = []
                 for item in phrases:
                     p = _normalize_phrase(item)
                     if not p:
                         continue
-                    if is_phrase_used(p["english"]):
+                    key_en = p["english"].lower().strip()
+                    key_vi = p["vietnamese"].lower().strip()
+                    if key_en in used_en or key_vi in used_vi:
                         continue
-                    if any(p["english"].lower() == u["english"].lower() for u in unique):
+                    if any(key_en == u["english"].lower().strip() for u in unique):
                         continue
+                    used_en.add(key_en)
+                    used_vi.add(key_vi)
                     unique.append(p)
                     if len(unique) >= num_phrases:
                         break
@@ -183,19 +207,26 @@ def generate_phrases(category_english: str, num_phrases: int = 5) -> list:
                     return unique[:num_phrases]
                 print(f"[content] Attempt {attempt + 1}: only {len(unique)} fresh phrases (need {num_phrases})")
             except Exception as exc:  # noqa: BLE001 - network boundary
-                print(f"[content] Attempt {attempt + 1} failed: {exc}")
+                print(f"[content] Attempt {attempt + 1} failed ({model}): {exc}")
+            time.sleep(1.5 * (attempt + 1))
     else:
         print("[content] No POLLINATIONS_API_KEY, using fallback phrases")
 
-    fresh_fallback = [p for p in FALLBACK_PHRASES if not is_phrase_used(p["english"])]
+    fresh_fallback = []
+    for p in FALLBACK_PHRASES:
+        if p["english"].lower().strip() in used_en or p["vietnamese"].lower().strip() in used_vi:
+            continue
+        fresh_fallback.append(p)
+    if not fresh_fallback:
+        raise RuntimeError("Phrase API unavailable and no unused fallback phrases left; refusing to reuse phrases")
     chosen = fresh_fallback[:num_phrases]
     if len(chosen) < num_phrases:
-        chosen = FALLBACK_PHRASES[:num_phrases]
+        print(f"[content] Only {len(chosen)} fresh fallback phrases; building a shorter lesson")
     add_phrases_to_history(chosen, category_english)
     return chosen
 
 
-def _request_phrases(category_english, category_native, recent_english, num_phrases, attempt):
+def _request_phrases(category_english, category_native, recent_english, num_phrases, attempt, model=None):
     avoid = ""
     if recent_english:
         avoid = "\nDo NOT reuse any of these phrases:\n" + "\n".join(f"- {p}" for p in recent_english)
@@ -222,7 +253,7 @@ Return ONLY a JSON array:
             "Content-Type": "application/json",
         },
         json={
-            "model": config.AI_MODEL,
+            "model": model or config.AI_MODEL,
             "messages": [
                 {"role": "system", "content": "You are a Vietnamese teacher creating short, natural, varied bilingual phrases. Reply with JSON only."},
                 {"role": "user", "content": prompt},

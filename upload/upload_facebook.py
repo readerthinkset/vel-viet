@@ -67,9 +67,8 @@ def upload_to_facebook(video_path, description, title="VELOCITY VIETNAMESE"):
     access_token = os.getenv('FACEBOOK_ACCESS_TOKEN') or os.getenv('FB_ACCESS_TOKEN')
     page_id = os.getenv('FACEBOOK_PAGE_ID') or os.getenv('FB_PAGE_ID')
 
-    def mask(s): return f"{s[:4]}...{s[-4:]}" if s and len(s) > 8 else ("PLACEHOLDER (***)" if s == "***" else "MISSING")
-    print(f"[facebook] Page ID: {page_id}")
-    print(f"[facebook] Access Token: {mask(access_token)}")
+    print(f"[facebook] Page ID: {'set' if page_id else 'MISSING'}")
+    print(f"[facebook] Access Token: {'set' if access_token else 'MISSING'}")
 
     if not access_token:
         raise ValueError("FACEBOOK_ACCESS_TOKEN not set in environment variables")
