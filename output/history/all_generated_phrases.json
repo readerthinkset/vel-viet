@@ -24786,7 +24786,42 @@
       "transliteration": "Quán có món không chứa gluten không?",
       "category": "Restaurant",
       "generated_at": "2026-11-11T20:59:41.028527"
+    },
+    {
+      "english": "I wake up slowly, morning feels calm.",
+      "vietnamese": "Tôi thức dậy từ từ, sáng thật yên.",
+      "transliteration": "Toi thuc day tu tu, sang that yen.",
+      "category": "Daily Routine",
+      "generated_at": "2026-11-11T23:26:59.044178"
+    },
+    {
+      "english": "I check the time, then sit up.",
+      "vietnamese": "Tôi xem giờ, rồi ngồi dậy.",
+      "transliteration": "Toi xem gio, roi ngoi day.",
+      "category": "Daily Routine",
+      "generated_at": "2026-11-11T23:26:59.044189"
+    },
+    {
+      "english": "I listen, outside sounds are friendly.",
+      "vietnamese": "Tôi lắng nghe, ngoài kia rất dễ chịu.",
+      "transliteration": "Toi lang nghe, ngoai kia rat de chiu.",
+      "category": "Daily Routine",
+      "generated_at": "2026-11-11T23:26:59.044191"
+    },
+    {
+      "english": "I pull on clothes, feeling ready.",
+      "vietnamese": "Tôi mặc đồ vào, thấy sẵn sàng.",
+      "transliteration": "Toi mac do vao, thay san sang.",
+      "category": "Daily Routine",
+      "generated_at": "2026-11-11T23:26:59.044192"
+    },
+    {
+      "english": "I wash my hands, water wakes me.",
+      "vietnamese": "Tôi rửa tay, nước làm tôi tỉnh.",
+      "transliteration": "Toi rua tay, nuoc lam toi tinh.",
+      "category": "Daily Routine",
+      "generated_at": "2026-11-11T23:26:59.044194"
     }
   ],
-  "last_updated": "2026-11-11T20:59:41.028529"
+  "last_updated": "2026-11-11T23:26:59.044196"
 }
