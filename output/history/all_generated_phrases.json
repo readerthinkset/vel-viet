@@ -24681,7 +24681,42 @@
       "transliteration": "Hỏi vài câu đơn giản, rồi đi tiếp.",
       "category": "Purpose",
       "generated_at": "2026-11-11T00:33:43.345627"
+    },
+    {
+      "english": "Where can I find this item?",
+      "vietnamese": "Chị tìm món này ở đâu ạ?",
+      "transliteration": "Chi tìm món này ở đâu ạ?",
+      "category": "Shopping",
+      "generated_at": "2026-11-11T03:40:59.799098"
+    },
+    {
+      "english": "Do you have it in black?",
+      "vietnamese": "Anh",
+      "transliteration": "Anh/chị có màu đen không ạ?",
+      "category": "Shopping",
+      "generated_at": "2026-11-11T03:40:59.799112"
+    },
+    {
+      "english": "Is it handmade, or factory-made?",
+      "vietnamese": "Nó làm thủ công hay sản xuất ạ?",
+      "transliteration": "Nó làm thủ công hay sản xuất ạ?",
+      "category": "Shopping",
+      "generated_at": "2026-11-11T03:40:59.799114"
+    },
+    {
+      "english": "How long will it last?",
+      "vietnamese": "Dùng bền không, thưa anh",
+      "transliteration": "Dùng bền không, thưa anh/chị?",
+      "category": "Shopping",
+      "generated_at": "2026-11-11T03:40:59.799115"
+    },
+    {
+      "english": "Can I see the inside?",
+      "vietnamese": "Cho em xem bên trong được không ạ?",
+      "transliteration": "Cho em xem bên trong được không ạ?",
+      "category": "Shopping",
+      "generated_at": "2026-11-11T03:40:59.799116"
     }
   ],
-  "last_updated": "2026-11-11T00:33:43.345629"
+  "last_updated": "2026-11-11T03:40:59.799118"
 }
