@@ -24751,7 +24751,42 @@
       "transliteration": "Nghe lại nữa, rồi trả lời.",
       "category": "Education",
       "generated_at": "2026-11-11T19:14:19.884904"
+    },
+    {
+      "english": "We’re ready to order now, please.",
+      "vietnamese": "Chúng tôi sẵn sàng gọi món, làm ơn.",
+      "transliteration": "Chúng tôi sẵn sàng gọi món, làm ơn.",
+      "category": "Restaurant",
+      "generated_at": "2026-11-11T20:59:41.028511"
+    },
+    {
+      "english": "Do you have vegetarian options here?",
+      "vietnamese": "Ở đây có món chay không?",
+      "transliteration": "Ở đây có món chay không?",
+      "category": "Restaurant",
+      "generated_at": "2026-11-11T20:59:41.028522"
+    },
+    {
+      "english": "Can we get two bowls of pho?",
+      "vietnamese": "Cho tôi hai bát phở được không?",
+      "transliteration": "Cho tôi hai bát phở được không?",
+      "category": "Restaurant",
+      "generated_at": "2026-11-11T20:59:41.028524"
+    },
+    {
+      "english": "I’d like it not too spicy, please.",
+      "vietnamese": "Làm ơn, đừng cay quá.",
+      "transliteration": "Làm ơn, đừng cay quá.",
+      "category": "Restaurant",
+      "generated_at": "2026-11-11T20:59:41.028526"
+    },
+    {
+      "english": "Is there gluten-free food available?",
+      "vietnamese": "Quán có món không chứa gluten không?",
+      "transliteration": "Quán có món không chứa gluten không?",
+      "category": "Restaurant",
+      "generated_at": "2026-11-11T20:59:41.028527"
     }
   ],
-  "last_updated": "2026-11-11T19:14:19.884906"
+  "last_updated": "2026-11-11T20:59:41.028529"
 }
