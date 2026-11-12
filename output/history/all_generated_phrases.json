@@ -24856,7 +24856,42 @@
       "transliteration": "Uong pho, am ap trong tung ngup.",
       "category": "Culture",
       "generated_at": "2026-11-12T01:53:54.364970"
+    },
+    {
+      "english": "Can I help you with this?",
+      "vietnamese": "Tôi có thể giúp bạn không?",
+      "transliteration": "Toi co the giup ban khong?",
+      "category": "Kindness",
+      "generated_at": "2026-11-12T04:48:41.434196"
+    },
+    {
+      "english": "Thank you for being patient with me.",
+      "vietnamese": "Cảm ơn bạn đã kiên nhẫn với mình.",
+      "transliteration": "Cam on ban da kien nhan voi minh",
+      "category": "Kindness",
+      "generated_at": "2026-11-12T04:48:41.434213"
+    },
+    {
+      "english": "You did great, really proud of you.",
+      "vietnamese": "Bạn làm tốt lắm, mình tự hào.",
+      "transliteration": "Ban lam tot lam, minh tu hao",
+      "category": "Kindness",
+      "generated_at": "2026-11-12T04:48:41.434215"
+    },
+    {
+      "english": "Let’s talk calmly, everything will be fine.",
+      "vietnamese": "Mình nói chuyện bình tĩnh nhé, sẽ ổn.",
+      "transliteration": "Minh noi chuyen binh tinh nhe, se on",
+      "category": "Kindness",
+      "generated_at": "2026-11-12T04:48:41.434217"
+    },
+    {
+      "english": "I’m listening, take your time.",
+      "vietnamese": "Mình đang lắng nghe, bạn cứ từ từ.",
+      "transliteration": "Minh dang lang nghe, ban cu tu tu",
+      "category": "Kindness",
+      "generated_at": "2026-11-12T04:48:41.434218"
     }
   ],
-  "last_updated": "2026-11-12T01:53:54.364971"
+  "last_updated": "2026-11-12T04:48:41.434220"
 }
