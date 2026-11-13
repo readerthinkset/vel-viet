@@ -24996,7 +24996,42 @@
       "transliteration": "lung hoi cong de buoc giay",
       "category": "Body Parts",
       "generated_at": "2026-11-12T22:41:21.683068"
+    },
+    {
+      "english": "I want something light, please.",
+      "vietnamese": "Tôi muốn món gì nhẹ thôi.",
+      "transliteration": "Tôi muốn món gì nhẹ thôi.",
+      "category": "Food",
+      "generated_at": "2026-11-13T01:00:26.503620"
+    },
+    {
+      "english": "Can I get one bowl, please?",
+      "vietnamese": "Cho tôi một tô nhé.",
+      "transliteration": "Cho tôi một tô nhé.",
+      "category": "Food",
+      "generated_at": "2026-11-13T01:00:26.503633"
+    },
+    {
+      "english": "This tastes great, not too salty.",
+      "vietnamese": "Món này ngon, không mặn lắm.",
+      "transliteration": "Món này ngon, không mặn lắm.",
+      "category": "Food",
+      "generated_at": "2026-11-13T01:00:26.503635"
+    },
+    {
+      "english": "Do you have mild spice today?",
+      "vietnamese": "Hôm nay có cay nhẹ không?",
+      "transliteration": "Hôm nay có cay nhẹ không?",
+      "category": "Food",
+      "generated_at": "2026-11-13T01:00:26.503636"
+    },
+    {
+      "english": "I’ll try it, just a little.",
+      "vietnamese": "Cho tôi thử một chút.",
+      "transliteration": "Cho tôi thử một chút.",
+      "category": "Food",
+      "generated_at": "2026-11-13T01:00:26.503638"
     }
   ],
-  "last_updated": "2026-11-12T22:41:21.683071"
+  "last_updated": "2026-11-13T01:00:26.503640"
 }
