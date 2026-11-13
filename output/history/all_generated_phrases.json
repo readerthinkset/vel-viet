@@ -25031,7 +25031,42 @@
       "transliteration": "Cho tôi thử một chút.",
       "category": "Food",
       "generated_at": "2026-11-13T01:00:26.503638"
+    },
+    {
+      "english": "Hi, welcome to Vietnamese practice today.",
+      "vietnamese": "Chào bạn, chào mừng đến buổi học hôm nay.",
+      "transliteration": "Chào bạn, chào mừng đến buổi học hôm nay.",
+      "category": "Greetings",
+      "generated_at": "2026-11-13T03:59:32.609322"
+    },
+    {
+      "english": "Hello! How are you feeling today?",
+      "vietnamese": "Xin chào! Hôm nay bạn thế nào?",
+      "transliteration": "Xin chào! Hôm nay bạn thế nào?",
+      "category": "Greetings",
+      "generated_at": "2026-11-13T03:59:32.609337"
+    },
+    {
+      "english": "Nice to meet you, let’s begin.",
+      "vietnamese": "Rất vui được gặp bạn, bắt đầu thôi nhé.",
+      "transliteration": "Rất vui được gặp bạn, bắt đầu thôi nhé.",
+      "category": "Greetings",
+      "generated_at": "2026-11-13T03:59:32.609338"
+    },
+    {
+      "english": "Welcome in, we'll practice together.",
+      "vietnamese": "Chào mừng bạn, chúng ta luyện cùng nhau nhé.",
+      "transliteration": "Chào mừng bạn, chúng ta luyện cùng nhau nhé.",
+      "category": "Greetings",
+      "generated_at": "2026-11-13T03:59:32.609339"
+    },
+    {
+      "english": "Hi there, ready to learn Vietnamese?",
+      "vietnamese": "Chào bạn, sẵn sàng học tiếng Việt chưa?",
+      "transliteration": "Chào bạn, sẵn sàng học tiếng Việt chưa?",
+      "category": "Greetings",
+      "generated_at": "2026-11-13T03:59:32.609340"
     }
   ],
-  "last_updated": "2026-11-13T01:00:26.503640"
+  "last_updated": "2026-11-13T03:59:32.609342"
 }
