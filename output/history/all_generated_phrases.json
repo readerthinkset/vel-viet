@@ -25066,7 +25066,42 @@
       "transliteration": "Chào bạn, sẵn sàng học tiếng Việt chưa?",
       "category": "Greetings",
       "generated_at": "2026-11-13T03:59:32.609340"
+    },
+    {
+      "english": "Wishing you a joyful holiday season.",
+      "vietnamese": "Chúc bạn mùa lễ thật vui vẻ.",
+      "transliteration": "Chúc bạn mùa lễ thật vui vẻ.",
+      "category": "Holidays",
+      "generated_at": "2026-11-13T19:11:58.640876"
+    },
+    {
+      "english": "May your table be filled with love.",
+      "vietnamese": "Mong bàn tiệc đầy ắp yêu thương.",
+      "transliteration": "Mong bàn tiệc đầy ắp yêu thương.",
+      "category": "Holidays",
+      "generated_at": "2026-11-13T19:11:58.640888"
+    },
+    {
+      "english": "Enjoy every moment with your family.",
+      "vietnamese": "Hãy tận hưởng từng khoảnh khắc cùng gia đình.",
+      "transliteration": "Hãy tận hưởng từng khoảnh khắc cùng gia đình.",
+      "category": "Holidays",
+      "generated_at": "2026-11-13T19:11:58.640892"
+    },
+    {
+      "english": "Have a restful, peaceful holiday break.",
+      "vietnamese": "Chúc bạn kỳ nghỉ lễ yên bình, thư giãn.",
+      "transliteration": "Chúc bạn kỳ nghỉ lễ yên bình, thư giãn.",
+      "category": "Holidays",
+      "generated_at": "2026-11-13T19:11:58.640893"
+    },
+    {
+      "english": "Warm greetings to you, and yours.",
+      "vietnamese": "Gửi lời chúc ấm áp đến bạn và gia quyến.",
+      "transliteration": "Gửi lời chúc ấm áp đến bạn và gia quyến.",
+      "category": "Holidays",
+      "generated_at": "2026-11-13T19:11:58.640894"
     }
   ],
-  "last_updated": "2026-11-13T03:59:32.609342"
+  "last_updated": "2026-11-13T19:11:58.640896"
 }
