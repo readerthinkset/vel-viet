@@ -25276,7 +25276,42 @@
       "transliteration": "lam lai di, ban dang tien bo",
       "category": "Confidence",
       "generated_at": "2026-11-14T17:38:56.087052"
+    },
+    {
+      "english": "I like your red T-shirt today.",
+      "vietnamese": "Tôi thích áo thun đỏ của bạn hôm nay.",
+      "transliteration": "Toi thich ao thun do cua ban hom nay.",
+      "category": "Clothes",
+      "generated_at": "2026-11-14T18:55:21.832443"
+    },
+    {
+      "english": "These jeans look great on you.",
+      "vietnamese": "Quần jeans này nhìn bạn rất hợp.",
+      "transliteration": "Quan jeans nay nhin ban rat hop.",
+      "category": "Clothes",
+      "generated_at": "2026-11-14T18:55:21.832456"
+    },
+    {
+      "english": "That hoodie color is really cool.",
+      "vietnamese": "Màu áo hoodie đó trông thật ngầu.",
+      "transliteration": "Mau ao hoodie do trong that ngau.",
+      "category": "Clothes",
+      "generated_at": "2026-11-14T18:55:21.832458"
+    },
+    {
+      "english": "Can I try this leather belt?",
+      "vietnamese": "Cho tôi thử cái thắt lưng da này được không?",
+      "transliteration": "Cho toi thu cai that lung da nay duoc khong?",
+      "category": "Clothes",
+      "generated_at": "2026-11-14T18:55:21.832459"
+    },
+    {
+      "english": "My dress fits perfectly at work.",
+      "vietnamese": "Váy của tôi vừa vặn hoàn hảo chỗ làm.",
+      "transliteration": "Vay cua toi vua van hoan hao cho lam.",
+      "category": "Clothes",
+      "generated_at": "2026-11-14T18:55:21.832460"
     }
   ],
-  "last_updated": "2026-11-14T17:38:56.087053"
+  "last_updated": "2026-11-14T18:55:21.832462"
 }
