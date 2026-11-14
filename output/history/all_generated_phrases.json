@@ -25241,7 +25241,42 @@
       "transliteration": "mat troi lam am mat toi, tu tu",
       "category": "Nature",
       "generated_at": "2026-11-14T03:57:59.591177"
+    },
+    {
+      "english": "You’ve got this, keep going",
+      "vietnamese": "Bạn làm được, cứ tiếp tục thôi",
+      "transliteration": "ban lam duoc, cu tiep tuc thoi",
+      "category": "Confidence",
+      "generated_at": "2026-11-14T17:38:56.087034"
+    },
+    {
+      "english": "Slow down, you’ll sound clearer",
+      "vietnamese": "Chậm lại, bạn nghe rõ hơn",
+      "transliteration": "cham lai, ban nghe ro hon",
+      "category": "Confidence",
+      "generated_at": "2026-11-14T17:38:56.087049"
+    },
+    {
+      "english": "It’s okay to stumble, keep trying",
+      "vietnamese": "Không sao đâu, cứ thử tiếp",
+      "transliteration": "khong sao dau, cu thu tiep",
+      "category": "Confidence",
+      "generated_at": "2026-11-14T17:38:56.087050"
+    },
+    {
+      "english": "Trust the tone, it carries meaning",
+      "vietnamese": "Tin vào thanh điệu, nó mang nghĩa",
+      "transliteration": "tin vao thanh dieu, no mang nghia",
+      "category": "Confidence",
+      "generated_at": "2026-11-14T17:38:56.087051"
+    },
+    {
+      "english": "Again, you’re improving right now",
+      "vietnamese": "Làm lại đi, bạn đang tiến bộ",
+      "transliteration": "lam lai di, ban dang tien bo",
+      "category": "Confidence",
+      "generated_at": "2026-11-14T17:38:56.087052"
     }
   ],
-  "last_updated": "2026-11-14T03:57:59.591178"
+  "last_updated": "2026-11-14T17:38:56.087053"
 }
