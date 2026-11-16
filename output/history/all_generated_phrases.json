@@ -25521,7 +25521,42 @@
       "transliteration": "Bạn xác nhận giúp mình mốc thời gian nhé.",
       "category": "Work",
       "generated_at": "2026-11-15T21:39:10.218682"
+    },
+    {
+      "english": "I’d like to visit the market today.",
+      "vietnamese": "Tôi muốn thăm chợ hôm nay.",
+      "transliteration": "Toi muon tham cho hom nay.",
+      "category": "Travel",
+      "generated_at": "2026-11-15T23:56:12.361736"
+    },
+    {
+      "english": "Is this seat okay for me?",
+      "vietnamese": "Chỗ ngồi này có được không?",
+      "transliteration": "Cho ngoi nay co duoc khong?",
+      "category": "Travel",
+      "generated_at": "2026-11-15T23:56:12.361753"
+    },
+    {
+      "english": "How do I get to the pagoda?",
+      "vietnamese": "Làm sao để đến chùa gần đây?",
+      "transliteration": "Lam sao de den chua gan day?",
+      "category": "Travel",
+      "generated_at": "2026-11-15T23:56:12.361755"
+    },
+    {
+      "english": "Could you recommend a good restaurant?",
+      "vietnamese": "Bạn gợi ý giúp tôi nhà hàng ngon được không?",
+      "transliteration": "Ban goi y giup toi nha hang ngon duoc khong?",
+      "category": "Travel",
+      "generated_at": "2026-11-15T23:56:12.361756"
+    },
+    {
+      "english": "I love trying Vietnamese coffee here.",
+      "vietnamese": "Tôi thích uống cà phê Việt ở đây.",
+      "transliteration": "Toi thich uong ca phe Viet o day.",
+      "category": "Travel",
+      "generated_at": "2026-11-15T23:56:12.361757"
     }
   ],
-  "last_updated": "2026-11-15T21:39:10.218684"
+  "last_updated": "2026-11-15T23:56:12.361759"
 }
