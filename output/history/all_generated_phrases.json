@@ -25661,7 +25661,42 @@
       "transliteration": "noi lai lan nua, kien nhan hon",
       "category": "Perseverance",
       "generated_at": "2026-11-16T23:07:29.191711"
+    },
+    {
+      "english": "What do you recommend for first-timers?",
+      "vietnamese": "Bạn gợi ý gì cho người mới đến?",
+      "transliteration": "Bạn gợi ý gì cho người mới đến?",
+      "category": "Restaurant",
+      "generated_at": "2026-11-17T00:45:19.325068"
+    },
+    {
+      "english": "I’d like something savory and filling.",
+      "vietnamese": "Tôi muốn món mặn, ăn cho no.",
+      "transliteration": "Tôi muốn món mặn, ăn cho no.",
+      "category": "Restaurant",
+      "generated_at": "2026-11-17T00:45:19.325085"
+    },
+    {
+      "english": "Do you have fresh herbs with it?",
+      "vietnamese": "Có rau thơm tươi ăn kèm không?",
+      "transliteration": "Có rau thơm tươi ăn kèm không?",
+      "category": "Restaurant",
+      "generated_at": "2026-11-17T00:45:19.325087"
+    },
+    {
+      "english": "Can I add extra chili, please?",
+      "vietnamese": "Cho tôi thêm ớt được không?",
+      "transliteration": "Cho tôi thêm ớt được không?",
+      "category": "Restaurant",
+      "generated_at": "2026-11-17T00:45:19.325088"
+    },
+    {
+      "english": "Is this dish served hot or cold?",
+      "vietnamese": "Món này ăn nóng hay ăn nguội?",
+      "transliteration": "Món này ăn nóng hay ăn nguội?",
+      "category": "Restaurant",
+      "generated_at": "2026-11-17T00:45:19.325090"
     }
   ],
-  "last_updated": "2026-11-16T23:07:29.191714"
+  "last_updated": "2026-11-17T00:45:19.325092"
 }
