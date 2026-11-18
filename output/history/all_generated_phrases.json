@@ -25941,7 +25941,42 @@
       "transliteration": "đợi chút, tôi xem giờ",
       "category": "Time",
       "generated_at": "2026-11-18T05:02:06.847086"
+    },
+    {
+      "english": "The friendly dog, wags its tail.",
+      "vietnamese": "Con chó thân thiện, vẫy đuôi.",
+      "transliteration": "con chó thân thiện, vẫy đuôi",
+      "category": "Animals",
+      "generated_at": "2026-11-18T20:21:12.236165"
+    },
+    {
+      "english": "A striped zebra, steps across the road.",
+      "vietnamese": "Một con ngựa vằn, bước qua đường.",
+      "transliteration": "một con ngựa vằn, bước qua đường",
+      "category": "Animals",
+      "generated_at": "2026-11-18T20:21:12.236181"
+    },
+    {
+      "english": "The calm dolphin, swims near the boat.",
+      "vietnamese": "Cá heo bình tĩnh, bơi gần thuyền.",
+      "transliteration": "cá heo bình tĩnh, bơi gần thuyền",
+      "category": "Animals",
+      "generated_at": "2026-11-18T20:21:12.236182"
+    },
+    {
+      "english": "A sleepy cat, stretches by the door.",
+      "vietnamese": "Một con mèo ngái ngủ, duỗi người trước cửa.",
+      "transliteration": "một con mèo ngái ngủ, duỗi người trước cửa",
+      "category": "Animals",
+      "generated_at": "2026-11-18T20:21:12.236184"
+    },
+    {
+      "english": "The hungry wolf, searches for food.",
+      "vietnamese": "Con sói đói, đi tìm thức ăn.",
+      "transliteration": "con sói đói, đi tìm thức ăn",
+      "category": "Animals",
+      "generated_at": "2026-11-18T20:21:12.236185"
     }
   ],
-  "last_updated": "2026-11-18T05:02:06.847088"
+  "last_updated": "2026-11-18T20:21:12.236186"
 }
