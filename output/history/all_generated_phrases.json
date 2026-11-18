@@ -25836,7 +25836,42 @@
       "transliteration": "Cảm ơn bạn đã chia sẻ suy nghĩ.",
       "category": "Kindness",
       "generated_at": "2026-11-17T21:58:30.075581"
+    },
+    {
+      "english": "Turn left at the main road.",
+      "vietnamese": "Rẽ trái ở đường chính.",
+      "transliteration": "Rẽ trái ở đường chính.",
+      "category": "Directions",
+      "generated_at": "2026-11-17T23:52:00.175947"
+    },
+    {
+      "english": "Turn right at the corner shop.",
+      "vietnamese": "Rẽ phải ở cửa hàng góc phố.",
+      "transliteration": "Rẽ phải ở cửa hàng góc phố.",
+      "category": "Directions",
+      "generated_at": "2026-11-17T23:52:00.175962"
+    },
+    {
+      "english": "Go straight until the traffic light.",
+      "vietnamese": "Đi thẳng đến đèn giao thông.",
+      "transliteration": "Đi thẳng đến đèn giao thông.",
+      "category": "Directions",
+      "generated_at": "2026-11-17T23:52:00.175964"
+    },
+    {
+      "english": "Walk past the bookstore, then stop.",
+      "vietnamese": "Đi qua tiệm sách, rồi dừng lại.",
+      "transliteration": "Đi qua tiệm sách, rồi dừng lại.",
+      "category": "Directions",
+      "generated_at": "2026-11-17T23:52:00.175966"
+    },
+    {
+      "english": "Cross the street, be careful.",
+      "vietnamese": "Qua đường thôi, cẩn thận nhé.",
+      "transliteration": "Qua đường thôi, cẩn thận nhé.",
+      "category": "Directions",
+      "generated_at": "2026-11-17T23:52:00.175968"
     }
   ],
-  "last_updated": "2026-11-17T21:58:30.075583"
+  "last_updated": "2026-11-17T23:52:00.175970"
 }
