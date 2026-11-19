@@ -26081,7 +26081,42 @@
       "transliteration": "Hit vao hy vong, tho ra noi so.",
       "category": "Hope",
       "generated_at": "2026-11-19T01:51:37.695462"
+    },
+    {
+      "english": "Hello, excuse me, where is the station?",
+      "vietnamese": "Xin chào, cho tôi hỏi ga ở đâu ạ?",
+      "transliteration": "Xin chào, cho tôi hỏi ga ở đâu ạ?",
+      "category": "Basic Phrases",
+      "generated_at": "2026-11-19T04:57:07.114454"
+    },
+    {
+      "english": "How much is this, please, and why?",
+      "vietnamese": "Cái này bao nhiêu tiền vậy ạ?",
+      "transliteration": "Cái này bao nhiêu tiền vậy ạ?",
+      "category": "Basic Phrases",
+      "generated_at": "2026-11-19T04:57:07.114469"
+    },
+    {
+      "english": "Is there a restroom nearby, please?",
+      "vietnamese": "Nhà vệ sinh ở gần đây không ạ?",
+      "transliteration": "Nhà vệ sinh ở gần đây không ạ?",
+      "category": "Basic Phrases",
+      "generated_at": "2026-11-19T04:57:07.114470"
+    },
+    {
+      "english": "I would like a small water, please.",
+      "vietnamese": "Cho tôi xin một chai nước nhỏ.",
+      "transliteration": "Cho tôi xin một chai nước nhỏ.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-11-19T04:57:07.114471"
+    },
+    {
+      "english": "Do you accept card, or cash only?",
+      "vietnamese": "Chỗ anh",
+      "transliteration": "Chỗ anh/chị nhận thẻ hay chỉ tiền mặt?",
+      "category": "Basic Phrases",
+      "generated_at": "2026-11-19T04:57:07.114472"
     }
   ],
-  "last_updated": "2026-11-19T01:51:37.695464"
+  "last_updated": "2026-11-19T04:57:07.114473"
 }
