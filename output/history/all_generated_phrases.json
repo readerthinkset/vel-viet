@@ -26326,7 +26326,42 @@
       "transliteration": "Dung lo, sai roi se tot hon.",
       "category": "Education",
       "generated_at": "2026-11-20T19:36:31.681585"
+    },
+    {
+      "english": "Great work, you’re getting it now.",
+      "vietnamese": "Làm tốt lắm, bây giờ bạn hiểu rồi.",
+      "transliteration": "lam tot lam, bay gio ban hieu roi",
+      "category": "Success",
+      "generated_at": "2026-11-20T21:37:42.669362"
+    },
+    {
+      "english": "Nice, keep practicing, you’ll improve.",
+      "vietnamese": "Hay quá, cứ luyện tập, bạn sẽ tiến bộ.",
+      "transliteration": "hay qua, cu luyen tap, ban se tien bo",
+      "category": "Success",
+      "generated_at": "2026-11-20T21:37:42.669373"
+    },
+    {
+      "english": "Good job, that sounds natural.",
+      "vietnamese": "Làm tốt, câu này nghe tự nhiên.",
+      "transliteration": "lam tot, cau nay nghe tu nhien",
+      "category": "Success",
+      "generated_at": "2026-11-20T21:37:42.669375"
+    },
+    {
+      "english": "You’re on the right track today.",
+      "vietnamese": "Hôm nay bạn đi đúng hướng rồi.",
+      "transliteration": "hom nay ban di dung huong roi",
+      "category": "Success",
+      "generated_at": "2026-11-20T21:37:42.669376"
+    },
+    {
+      "english": "Excellent, you found the right meaning.",
+      "vietnamese": "Tuyệt vời, bạn tìm đúng ý rồi.",
+      "transliteration": "tuyet voi, ban tim dung y roi",
+      "category": "Success",
+      "generated_at": "2026-11-20T21:37:42.669377"
     }
   ],
-  "last_updated": "2026-11-20T19:36:31.681587"
+  "last_updated": "2026-11-20T21:37:42.669379"
 }
