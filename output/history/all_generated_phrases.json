@@ -26291,7 +26291,42 @@
       "transliteration": "dùng từ ngắn, nói nhanh dần",
       "category": "Strength",
       "generated_at": "2026-11-20T04:47:04.033127"
+    },
+    {
+      "english": "Start with one simple word.",
+      "vietnamese": "Bắt đầu với một từ đơn giản.",
+      "transliteration": "Bat dau voi mot tu don gian.",
+      "category": "Education",
+      "generated_at": "2026-11-20T19:36:31.681566"
+    },
+    {
+      "english": "Repeat slowly, then speed up.",
+      "vietnamese": "Nhắc lại chậm, rồi nhanh dần.",
+      "transliteration": "Nhac lai cham, roi nhanh dan.",
+      "category": "Education",
+      "generated_at": "2026-11-20T19:36:31.681580"
+    },
+    {
+      "english": "Let’s learn today, step by step.",
+      "vietnamese": "Học hôm nay, từng bước một.",
+      "transliteration": "Hoc hom nay, tung buoc mot.",
+      "category": "Education",
+      "generated_at": "2026-11-20T19:36:31.681582"
+    },
+    {
+      "english": "Listen first, then practice aloud.",
+      "vietnamese": "Nghe trước, rồi luyện nói to.",
+      "transliteration": "Nghe truoc, roi luyen noi to.",
+      "category": "Education",
+      "generated_at": "2026-11-20T19:36:31.681584"
+    },
+    {
+      "english": "Don’t worry, mistakes help you.",
+      "vietnamese": "Đừng lo, sai rồi sẽ tốt hơn.",
+      "transliteration": "Dung lo, sai roi se tot hon.",
+      "category": "Education",
+      "generated_at": "2026-11-20T19:36:31.681585"
     }
   ],
-  "last_updated": "2026-11-20T04:47:04.033129"
+  "last_updated": "2026-11-20T19:36:31.681587"
 }
