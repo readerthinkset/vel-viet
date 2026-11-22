@@ -26641,7 +26641,42 @@
       "transliteration": "Chon trai cay, an vat thong minh.",
       "category": "Health",
       "generated_at": "2026-11-22T03:56:50.805967"
+    },
+    {
+      "english": "Please help, I need a translator now.",
+      "vietnamese": "Làm ơn giúp tôi, tôi cần phiên dịch ngay.",
+      "transliteration": "Lam on giup toi, toi can phien dich ngay.",
+      "category": "Emergency",
+      "generated_at": "2026-11-22T19:00:38.821851"
+    },
+    {
+      "english": "Call an ambulance now, please. This urgent.",
+      "vietnamese": "Gọi xe cấp cứu ngay, làm ơn. Rất khẩn.",
+      "transliteration": "Goi xe cap cuu ngay, lam on. Rat khan.",
+      "category": "Emergency",
+      "generated_at": "2026-11-22T19:00:38.821862"
+    },
+    {
+      "english": "I think I got food poisoning. Help.",
+      "vietnamese": "Tôi nghĩ mình bị ngộ độc thức ăn. Cứu tôi.",
+      "transliteration": "Toi nghi minh bi ngo doc thuc an. Cuu toi.",
+      "category": "Emergency",
+      "generated_at": "2026-11-22T19:00:38.821864"
+    },
+    {
+      "english": "I have a severe headache. Something’s wrong.",
+      "vietnamese": "Tôi bị đau đầu dữ dội. Có chuyện rồi.",
+      "transliteration": "Toi bi dau dau du doi. Co chuyen roi.",
+      "category": "Emergency",
+      "generated_at": "2026-11-22T19:00:38.821866"
+    },
+    {
+      "english": "My leg is injured, it hurts badly.",
+      "vietnamese": "Chân tôi bị thương, đau lắm.",
+      "transliteration": "Chan toi bi thuong, dau lam.",
+      "category": "Emergency",
+      "generated_at": "2026-11-22T19:00:38.821867"
     }
   ],
-  "last_updated": "2026-11-22T03:56:50.805969"
+  "last_updated": "2026-11-22T19:00:38.821869"
 }
