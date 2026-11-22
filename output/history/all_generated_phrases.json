@@ -26571,7 +26571,42 @@
       "transliteration": "hỏi giá bao nhiêu, cho tôi nhá",
       "category": "Purpose",
       "generated_at": "2026-11-21T22:10:26.719863"
+    },
+    {
+      "english": "I’m smiling, for no reason at all.",
+      "vietnamese": "Tôi đang cười, không vì lý do nào.",
+      "transliteration": "Tôi đang cười, không vì lý do nào.",
+      "category": "Joy",
+      "generated_at": "2026-11-22T00:15:46.520332"
+    },
+    {
+      "english": "Joy pops up, when I hear music.",
+      "vietnamese": "Niềm vui bật lên khi tôi nghe nhạc.",
+      "transliteration": "Niềm vui bật lên khi tôi nghe nhạc.",
+      "category": "Joy",
+      "generated_at": "2026-11-22T00:15:46.520346"
+    },
+    {
+      "english": "A laugh slips out, and I blush.",
+      "vietnamese": "Một tiếng cười bật ra, tôi đỏ mặt.",
+      "transliteration": "Một tiếng cười bật ra, tôi đỏ mặt.",
+      "category": "Joy",
+      "generated_at": "2026-11-22T00:15:46.520348"
+    },
+    {
+      "english": "I feel light, like my worries left.",
+      "vietnamese": "Tôi thấy nhẹ lòng, vì lo lắng tan đi.",
+      "transliteration": "Tôi thấy nhẹ lòng, vì lo lắng tan đi.",
+      "category": "Joy",
+      "generated_at": "2026-11-22T00:15:46.520349"
+    },
+    {
+      "english": "My chest warms up, with good news.",
+      "vietnamese": "Ngực tôi ấm lên, vì tin tốt.",
+      "transliteration": "Ngực tôi ấm lên, vì tin tốt.",
+      "category": "Joy",
+      "generated_at": "2026-11-22T00:15:46.520353"
     }
   ],
-  "last_updated": "2026-11-21T22:10:26.719875"
+  "last_updated": "2026-11-22T00:15:46.520356"
 }
