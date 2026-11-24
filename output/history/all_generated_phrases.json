@@ -26991,7 +26991,42 @@
       "transliteration": "Tôi cười, và những lo lắng tan đi.",
       "category": "Happiness",
       "generated_at": "2026-11-24T07:30:16.355572"
+    },
+    {
+      "english": "Hello, how do I get there?",
+      "vietnamese": "Chào bạn, làm sao để tới đó?",
+      "transliteration": "Chào bạn, làm sao để tới đó?",
+      "category": "Basic Phrases",
+      "generated_at": "2026-11-24T21:54:50.168330"
+    },
+    {
+      "english": "Sorry, I’m lost, can you help?",
+      "vietnamese": "Xin lỗi, tôi bị lạc, bạn giúp tôi nhé.",
+      "transliteration": "Xin lỗi, tôi bị lạc, bạn giúp tôi nhé.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-11-24T21:54:50.168342"
+    },
+    {
+      "english": "Do you speak English, a bit?",
+      "vietnamese": "Bạn có nói tiếng Anh, một chút không?",
+      "transliteration": "Bạn có nói tiếng Anh, một chút không?",
+      "category": "Basic Phrases",
+      "generated_at": "2026-11-24T21:54:50.168344"
+    },
+    {
+      "english": "What time does it open?",
+      "vietnamese": "Nó mở cửa lúc mấy giờ vậy?",
+      "transliteration": "Nó mở cửa lúc mấy giờ vậy?",
+      "category": "Basic Phrases",
+      "generated_at": "2026-11-24T21:54:50.168346"
+    },
+    {
+      "english": "I’d like to buy this, please.",
+      "vietnamese": "Cho tôi mua cái này được không ạ?",
+      "transliteration": "Cho tôi mua cái này được không ạ?",
+      "category": "Basic Phrases",
+      "generated_at": "2026-11-24T21:54:50.168348"
     }
   ],
-  "last_updated": "2026-11-24T07:30:16.355574"
+  "last_updated": "2026-11-24T21:54:50.168350"
 }
