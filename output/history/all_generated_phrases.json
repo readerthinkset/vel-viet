@@ -27026,7 +27026,42 @@
       "transliteration": "Cho tôi mua cái này được không ạ?",
       "category": "Basic Phrases",
       "generated_at": "2026-11-24T21:54:50.168348"
+    },
+    {
+      "english": "One cup of tea, please.",
+      "vietnamese": "Một tách trà, làm ơn.",
+      "transliteration": "Một tách trà, làm ơn.",
+      "category": "Numbers",
+      "generated_at": "2026-11-24T23:20:46.782981"
+    },
+    {
+      "english": "Two bottles of water, please.",
+      "vietnamese": "Hai chai nước, làm ơn.",
+      "transliteration": "Hai chai nước, làm ơn.",
+      "category": "Numbers",
+      "generated_at": "2026-11-24T23:20:46.783000"
+    },
+    {
+      "english": "Three eggs, and I'm done.",
+      "vietnamese": "Ba quả trứng, vậy thôi.",
+      "transliteration": "Ba quả trứng, vậy thôi.",
+      "category": "Numbers",
+      "generated_at": "2026-11-24T23:20:46.783002"
+    },
+    {
+      "english": "Four chairs, please set them here.",
+      "vietnamese": "Bốn cái ghế, đặt ở đây nhé.",
+      "transliteration": "Bốn cái ghế, đặt ở đây nhé.",
+      "category": "Numbers",
+      "generated_at": "2026-11-24T23:20:46.783004"
+    },
+    {
+      "english": "Five minutes, I'll be there soon.",
+      "vietnamese": "Năm phút thôi, tôi tới ngay.",
+      "transliteration": "Năm phút thôi, tôi tới ngay.",
+      "category": "Numbers",
+      "generated_at": "2026-11-24T23:20:46.783005"
     }
   ],
-  "last_updated": "2026-11-24T21:54:50.168350"
+  "last_updated": "2026-11-24T23:20:46.783008"
 }
