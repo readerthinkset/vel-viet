@@ -26851,7 +26851,42 @@
       "transliteration": "Ban cho toi xem mau nay duoc khong?",
       "category": "Clothes",
       "generated_at": "2026-11-23T23:22:12.343428"
+    },
+    {
+      "english": "Listen, the song starts right now.",
+      "vietnamese": "Nghe nè, bài hát bắt đầu rồi đó.",
+      "transliteration": "Nghe nè, bai hat bat dau roi do",
+      "category": "Music",
+      "generated_at": "2026-11-24T01:22:36.743640"
+    },
+    {
+      "english": "That bassline hits hard, feel it.",
+      "vietnamese": "Bass vang mạnh ghê, cảm nhận đi.",
+      "transliteration": "Bass vang manh ghe, cam nhan di",
+      "category": "Music",
+      "generated_at": "2026-11-24T01:22:36.743656"
+    },
+    {
+      "english": "The drums roll, steady and calm.",
+      "vietnamese": "Trống gõ đều, êm và vững.",
+      "transliteration": "Trong go deu, em va vung",
+      "category": "Music",
+      "generated_at": "2026-11-24T01:22:36.743657"
+    },
+    {
+      "english": "I can hear the guitar clearly.",
+      "vietnamese": "Mình nghe guitar rõ ràng lắm.",
+      "transliteration": "Minh nghe guitar ro rang lam",
+      "category": "Music",
+      "generated_at": "2026-11-24T01:22:36.743658"
+    },
+    {
+      "english": "The piano notes sparkle, so bright.",
+      "vietnamese": "Phím đàn piano long lanh, sáng quá.",
+      "transliteration": "Phim dan piano long lanh, sang qua",
+      "category": "Music",
+      "generated_at": "2026-11-24T01:22:36.743659"
     }
   ],
-  "last_updated": "2026-11-23T23:22:12.343431"
+  "last_updated": "2026-11-24T01:22:36.743661"
 }
