@@ -27061,7 +27061,42 @@
       "transliteration": "Năm phút thôi, tôi tới ngay.",
       "category": "Numbers",
       "generated_at": "2026-11-24T23:20:46.783005"
+    },
+    {
+      "english": "Inhale slowly, relax your belly.",
+      "vietnamese": "Hít vào chậm, thả lỏng bụng.",
+      "transliteration": "Hit vao cham, tha long bung.",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-25T01:21:35.185921"
+    },
+    {
+      "english": "Exhale out, let the day soften.",
+      "vietnamese": "Thở ra, để ngày hôm nay mềm lại.",
+      "transliteration": "Tho ra, de ngay hom nay mem lai.",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-25T01:21:35.185933"
+    },
+    {
+      "english": "Notice sounds, without chasing them.",
+      "vietnamese": "Nhận ra âm thanh, đừng chạy theo.",
+      "transliteration": "Nhan ra am thanh, dung chay theo.",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-25T01:21:35.185934"
+    },
+    {
+      "english": "Feel your hands, warm and present.",
+      "vietnamese": "Cảm nhận bàn tay, ấm và hiện diện.",
+      "transliteration": "Cam nhan ban tay, am va hien dien.",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-25T01:21:35.185936"
+    },
+    {
+      "english": "Unclench your jaw, even slightly.",
+      "vietnamese": "Thả lỏng quai hàm, dù chỉ một chút.",
+      "transliteration": "Tha long quai ham, du chi mot chut.",
+      "category": "Mindfulness",
+      "generated_at": "2026-11-25T01:21:35.185937"
     }
   ],
-  "last_updated": "2026-11-24T23:20:46.783008"
+  "last_updated": "2026-11-25T01:21:35.185942"
 }
