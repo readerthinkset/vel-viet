@@ -27166,7 +27166,42 @@
       "transliteration": "cung chia nhau do an vat, roi cuoi nhe",
       "category": "Friendship",
       "generated_at": "2026-11-25T05:59:54.384720"
+    },
+    {
+      "english": "The sky is bright today, looks promising.",
+      "vietnamese": "Trời hôm nay sáng, có vẻ hứa hẹn.",
+      "transliteration": "Trời hôm nay sáng, có vẻ hứa hẹn.",
+      "category": "Weather",
+      "generated_at": "2026-11-25T21:01:57.917173"
+    },
+    {
+      "english": "It’s raining lightly, but not for long.",
+      "vietnamese": "Trời mưa nhẹ, nhưng chắc không lâu.",
+      "transliteration": "Trời mưa nhẹ, nhung chắc không lâu.",
+      "category": "Weather",
+      "generated_at": "2026-11-25T21:01:57.917189"
+    },
+    {
+      "english": "The rain suddenly stops, the streets dry.",
+      "vietnamese": "Mưa bỗng tạnh, đường phố khô lại.",
+      "transliteration": "Mưa bỗng tạnh, đường phố khô lại.",
+      "category": "Weather",
+      "generated_at": "2026-11-25T21:01:57.917191"
+    },
+    {
+      "english": "The clouds gather, and it feels windy.",
+      "vietnamese": "Mây kéo đến, gió cũng nổi lên.",
+      "transliteration": "Mây kéo đến, gió cũng nổi lên.",
+      "category": "Weather",
+      "generated_at": "2026-11-25T21:01:57.917192"
+    },
+    {
+      "english": "Strong wind blows, I should hold my hat.",
+      "vietnamese": "Gió mạnh thổi, tôi phải giữ mũ.",
+      "transliteration": "Gió mạnh thổi, tôi phải giữ mũ.",
+      "category": "Weather",
+      "generated_at": "2026-11-25T21:01:57.917193"
     }
   ],
-  "last_updated": "2026-11-25T05:59:54.384722"
+  "last_updated": "2026-11-25T21:01:57.917195"
 }
