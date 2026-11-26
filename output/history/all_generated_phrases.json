@@ -27376,7 +27376,42 @@
       "transliteration": "Làm tốt, bạn nhớ từ đó rồi.",
       "category": "Success",
       "generated_at": "2026-11-26T20:54:09.714590"
+    },
+    {
+      "english": "Red like fresh tomatoes, bright and juicy.",
+      "vietnamese": "Đỏ như cà chua chín, tươi và mọng.",
+      "transliteration": "Do nhu ca chua chin, tuoi va mong.",
+      "category": "Colors",
+      "generated_at": "2026-11-26T22:41:50.199522"
+    },
+    {
+      "english": "Orange feels friendly, like a warm sweater.",
+      "vietnamese": "Cam trông thân thiện, như áo len ấm.",
+      "transliteration": "Cam trong than thien, nhu ao len am.",
+      "category": "Colors",
+      "generated_at": "2026-11-26T22:41:50.199534"
+    },
+    {
+      "english": "Yellow brings energy, like morning sunlight.",
+      "vietnamese": "Vàng mang năng lượng, như nắng sớm.",
+      "transliteration": "Vang mang nang luong, nhu nang som.",
+      "category": "Colors",
+      "generated_at": "2026-11-26T22:41:50.199535"
+    },
+    {
+      "english": "Green feels cool, like fresh leaves.",
+      "vietnamese": "Xanh lá mát mẻ, như lá cây tươi.",
+      "transliteration": "Xanh la mat me, nhu la cay tuoi.",
+      "category": "Colors",
+      "generated_at": "2026-11-26T22:41:50.199536"
+    },
+    {
+      "english": "Blue is calm, like the quiet sea.",
+      "vietnamese": "Xanh dương yên bình, như biển lặng.",
+      "transliteration": "Xanh duong yen binh, nhu bien lang.",
+      "category": "Colors",
+      "generated_at": "2026-11-26T22:41:50.199537"
     }
   ],
-  "last_updated": "2026-11-26T20:54:09.714592"
+  "last_updated": "2026-11-26T22:41:50.199538"
 }
