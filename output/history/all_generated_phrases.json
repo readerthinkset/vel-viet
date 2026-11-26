@@ -27341,7 +27341,42 @@
       "transliteration": "Trán cô nhăn lại khi lo.",
       "category": "Body Parts",
       "generated_at": "2026-11-26T05:53:03.879111"
+    },
+    {
+      "english": "You’re improving, I can hear it.",
+      "vietnamese": "Bạn đang tiến bộ, tôi nghe thấy rồi.",
+      "transliteration": "Bạn đang tiến bộ, tôi nghe thấy rồi.",
+      "category": "Success",
+      "generated_at": "2026-11-26T20:54:09.714572"
+    },
+    {
+      "english": "Great focus, keep going with confidence.",
+      "vietnamese": "Tập trung tốt, cứ vững tin tiếp tục.",
+      "transliteration": "Tập trung tốt, cứ vững tin tiếp tục.",
+      "category": "Success",
+      "generated_at": "2026-11-26T20:54:09.714584"
+    },
+    {
+      "english": "Nice! Your pronunciation is getting clearer.",
+      "vietnamese": "Tuyệt! Phát âm của bạn rõ hơn rồi.",
+      "transliteration": "Tuyệt! Phát âm của bạn rõ hơn rồi.",
+      "category": "Success",
+      "generated_at": "2026-11-26T20:54:09.714586"
+    },
+    {
+      "english": "That’s it, say it smoothly now.",
+      "vietnamese": "Đúng rồi, nói mượt mà thôi.",
+      "transliteration": "Đúng rồi, nói muột mà thôi.",
+      "category": "Success",
+      "generated_at": "2026-11-26T20:54:09.714588"
+    },
+    {
+      "english": "Good work, you remembered that word.",
+      "vietnamese": "Làm tốt, bạn nhớ từ đó rồi.",
+      "transliteration": "Làm tốt, bạn nhớ từ đó rồi.",
+      "category": "Success",
+      "generated_at": "2026-11-26T20:54:09.714590"
     }
   ],
-  "last_updated": "2026-11-26T05:53:03.879114"
+  "last_updated": "2026-11-26T20:54:09.714592"
 }
