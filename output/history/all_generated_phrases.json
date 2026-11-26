@@ -27271,7 +27271,42 @@
       "transliteration": "Nhìn đường kẻ, đánh tự tin.",
       "category": "Sports",
       "generated_at": "2026-11-26T00:56:57.548538"
+    },
+    {
+      "english": "Can I check in now, please?",
+      "vietnamese": "Cho tôi làm thủ tục ngay được không?",
+      "transliteration": "Cho toi lam thu tuc ngay duoc khong?",
+      "category": "Travel",
+      "generated_at": "2026-11-26T02:45:05.741507"
+    },
+    {
+      "english": "Is breakfast included in the price?",
+      "vietnamese": "Bữa sáng có bao gồm trong giá không?",
+      "transliteration": "Bua sang co bao gom trong gia khong?",
+      "category": "Travel",
+      "generated_at": "2026-11-26T02:45:05.741522"
+    },
+    {
+      "english": "Where can I buy a SIM card?",
+      "vietnamese": "Tôi mua SIM ở đâu được?",
+      "transliteration": "Toi mua SIM o dau duoc?",
+      "category": "Travel",
+      "generated_at": "2026-11-26T02:45:05.741524"
+    },
+    {
+      "english": "What’s the closest pharmacy around here?",
+      "vietnamese": "Nhà thuốc gần đây nhất ở đâu?",
+      "transliteration": "Nha thuoc gan day nhat o dau?",
+      "category": "Travel",
+      "generated_at": "2026-11-26T02:45:05.741525"
+    },
+    {
+      "english": "Do you have drinking water available?",
+      "vietnamese": "Quý vị có nước uống không?",
+      "transliteration": "Quy vi co nuoc uong khong?",
+      "category": "Travel",
+      "generated_at": "2026-11-26T02:45:05.741526"
     }
   ],
-  "last_updated": "2026-11-26T00:56:57.548541"
+  "last_updated": "2026-11-26T02:45:05.741528"
 }
