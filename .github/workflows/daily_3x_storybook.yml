@@ -2,9 +2,9 @@ name: Velocity Vietnamese - Storybook Publish
 
 on:
   schedule:
-    - cron: '00:28 * * *'
-    - cron: '08:28 * * *'
-    - cron: '16:28 * * *'
+    - cron: '28 0 * * *'
+    - cron: '28 8 * * *'
+    - cron: '28 16 * * *'
   workflow_dispatch:
     inputs:
       category:
