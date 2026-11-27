@@ -27411,7 +27411,28 @@
       "transliteration": "Xanh duong yen binh, nhu bien lang.",
       "category": "Colors",
       "generated_at": "2026-11-26T22:41:50.199537"
+    },
+    {
+      "english": "Thank you for helping me today, sincerely.",
+      "vietnamese": "Cảm ơn bạn đã giúp mình hôm nay, thật lòng.",
+      "transliteration": "Cam on ban da giup minh hom nay, that long.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-27T11:59:24.890789"
+    },
+    {
+      "english": "I’m grateful for your kindness, truly.",
+      "vietnamese": "Mình biết ơn sự tử tế của bạn, thật lòng.",
+      "transliteration": "Minh biet on su tu te cua ban, that long.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-27T11:59:24.890821"
+    },
+    {
+      "english": "Thanks for your time, I appreciate it.",
+      "vietnamese": "Cảm ơn bạn vì đã dành thời gian, mình trân trọng.",
+      "transliteration": "Cam on ban vi da danh thoi gian, minh tran trong.",
+      "category": "Gratitude",
+      "generated_at": "2026-11-27T11:59:24.890824"
     }
   ],
-  "last_updated": "2026-11-26T22:41:50.199538"
+  "last_updated": "2026-11-27T11:59:24.890826"
 }
