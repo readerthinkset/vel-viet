@@ -27432,7 +27432,28 @@
       "transliteration": "Cam on ban vi da danh thoi gian, minh tran trong.",
       "category": "Gratitude",
       "generated_at": "2026-11-27T11:59:24.890824"
+    },
+    {
+      "english": "I’m calm now, everything feels steady.",
+      "vietnamese": "Bây giờ tôi bình tĩnh, mọi thứ ổn định.",
+      "transliteration": "Bây giờ tôi bình tĩnh, mọi thứ ổn định.",
+      "category": "Feelings",
+      "generated_at": "2026-11-27T19:16:51.261596"
+    },
+    {
+      "english": "Relief washes over me, it’s over.",
+      "vietnamese": "Sự nhẹ nhõm tràn qua tôi, xong rồi.",
+      "transliteration": "Sự nhẹ nhõm tràn qua tôi, xong rồi.",
+      "category": "Feelings",
+      "generated_at": "2026-11-27T19:16:51.261607"
+    },
+    {
+      "english": "I’m excited, I can’t wait for this.",
+      "vietnamese": "Tôi háo hức quá, không chờ được nữa.",
+      "transliteration": "Tôi háo hức quá, không chờ được nữa.",
+      "category": "Feelings",
+      "generated_at": "2026-11-27T19:16:51.261609"
     }
   ],
-  "last_updated": "2026-11-27T11:59:24.890826"
+  "last_updated": "2026-11-27T19:16:51.261611"
 }
