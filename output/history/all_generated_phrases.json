@@ -27453,7 +27453,28 @@
       "transliteration": "Tôi háo hức quá, không chờ được nữa.",
       "category": "Feelings",
       "generated_at": "2026-11-27T19:16:51.261609"
+    },
+    {
+      "english": "What’s the best dish here?",
+      "vietnamese": "Món nào ngon nhất ở đây ạ?",
+      "transliteration": "Món nào ngon nhất ở đây ạ?",
+      "category": "Restaurant",
+      "generated_at": "2026-11-28T08:12:06.500493"
+    },
+    {
+      "english": "How spicy is this, roughly?",
+      "vietnamese": "Món này cay cỡ nào vậy ạ?",
+      "transliteration": "Món này cay cỡ nào vậy ạ?",
+      "category": "Restaurant",
+      "generated_at": "2026-11-28T08:12:06.500506"
+    },
+    {
+      "english": "Do you have any mild options?",
+      "vietnamese": "Cho mình món ít cay được không ạ?",
+      "transliteration": "Cho mình món ít cay được không ạ?",
+      "category": "Restaurant",
+      "generated_at": "2026-11-28T08:12:06.500508"
     }
   ],
-  "last_updated": "2026-11-27T19:16:51.261611"
+  "last_updated": "2026-11-28T08:12:06.500511"
 }
